@@ -6,18 +6,10 @@
     <title>11ty Basic</title>
 </head>
 <body>
-    <header>
-        <img src="#" alt="logo">
-        <nav>nav bar</nav>
-        <input type="search">
-    </header>
+    {% include "_partials/header.html" %}
     <main>
         {{ content }}
     </main>
-    <footer>
-        <ul><li>social links</li></ul>
-        <a href="#">about</a>
-        <a href="#">mail</a>
-    </footer>
+    {% include "_partials/footer.html" %}
 </body>
 </html>
