@@ -1,0 +1,19 @@
+---
+title: Clear Stones
+who: 'Fis & Rob Thorne'
+image_upload: ""
+image: http://c1.staticflickr.com/5/4181/33670615854_c07bb98bb3_h.jpg
+blockquote: "It's hard to believe that Fis' debut album, 'The Blue Quicksand Is Going Now', came out almost two years ago. At the time, it felt as though ambient music was taking an interesting turn. Two years into the wake by Tim Hecker's landmark 'Virgins' LP, we began to hear wild vocal experimentation from the likes of Ian William Craig on the brilliant _Cradle for the Wanting_. Some of the mainstays of ambient returned to their acoustic roots: Max Richter and Grouper in particular releasing records of almost entirely written for piano. Meanwhile, there was also a progressive movement in vaporwave with 2814's _Atarashii Hi no Tanjou_, an album that established the genre as more than just a meme. "
+author: Georgie_McVicar
+---
+It's hard to believe that Fis' debut album, _The Blue Quicksand Is Going Now_, came out almost two years ago. At the time, it felt as though ambient music was taking an interesting turn. Two years into the wake left by Tim Hecker's landmark _Virgins_ LP, we heard wild vocal experimentation from the likes of Ian William Craig on the brilliant _Cradle for the Wanting_, and Pan were pushing their new age sound through Helm, M.E.S.H and others. Meanwhile, there was also a progressive movement in vaporwave with 2814's _Atarashii Hi no Tanjou_, an album that established the genre as more than a meme. 
+
+One of the funny things about this period of 'ambient' music was that so much of it seemed to completely undermine the genre's supposed purpose. Far from expressing ambience, these albums were chaotic and restless. But if it wasn't ambient, well, what was it? Anyone familiar with Fis knows that nature, and its destruction, feature heavily in his work. You can find electronic manipulations of (what sound like) wind, rain, running water and more in the rich landscapes he creates. But they're not field recordings or simple samples. These sounds are a far cry from the naturalistic psychedelia of the Gas project, for example. As we discussed in an [interview back in 2015](http://straylandings.co.uk/interviews/fis-interview-workings-of-nature), Fis aims to "replicate nature, not mimic it". 
+
+The somewhat hackneyed obsession with natural-artificial, electro-acoustic, organic-inorganic music can be clichéd. But on their new record, Fis and Rob Thorne present something that has a genuine uncanniness to it that is endlessly entertaining. Almost every track contains sounds that have my ears playing guessing games. You are continually led down garden paths, lulled into believing you understand the source of the noise. But before you get comfortable, the music trolls you; trans-mutating into an unrecognisable shape. Listen, for example, to the lead solo on 'Wooden Lung', what _is_ that? 
+
+Part of this uncanniness is down to the acoustic instrumentation itself. Māori sound artist Rob Thorne brings the instruments of taonga pūoro (literally: 'singing treasures'), including flutes, horns, percussion, and objects spun above the player’s head during performance. On 'Glurn Herrin', Thorne introduces the Pūtōrino: an instrument that is both flute and horn: both voices captured in one single take. The sonic mystery of _Clear Stones_ makes it a record that warrants several return visits, with deeper listens. The album closes with a breathless lonely flute that sounds like the cry of a dying elephant. 
+
+_Subtext Recordings will release Clear Stones on May 12th, 2017. Pre-order [here](https://fisrobthorne.bandcamp.com)._ 
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/321718777&color=040404&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>

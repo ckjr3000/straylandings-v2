@@ -1,0 +1,57 @@
+---
+title: Paint by Numbers
+who: Morton Subotnick
+image_upload: /assets/img/morton_subotnick (1).jpg
+image: https://c5.staticflickr.com/2/1581/26276339060_3e029a2f53_z.jpg
+blockquote: 'Electronic pioneer Morton Subotnik is a man who doesn’t need much introduction. We caught up with him a few days before his performance with Lillevan at Intonal Festival in Malmo. Morton spoke about the upcoming performance, as well as his history of working with visual artists, before moving on to how he’s using technology and what’s exciting him about music at the moment.    '
+author: Harry Murdoch
+---
+Morton Subotnick is one of those names that will always have a historic resonance. In 1962, along with Terry Riley, Pauline Oliveros and Steve Reich, Subotnick founded 'The San Francisco Tape Music Centre', a collective of musicians working with the medium of tape and improvisational electronic music. In particular, their legendary 'Sonics' concerts became a crucial point of reference for many working in the Avant-Garde. Perhaps most fruitfully, Subotnick (along with Donald Buchla) helped to create the Buchla 100: regarded by many as the first analogue synthesiser ever constructed. Shortly thereafter, his first record, _Silver Apples on the Moon_, became the first piece of electronic music ever commissioned by a record label. As such, his influence is truly immeasurable. 
+
+Despite a background in classical music, Subotnick has always been staunchly antithetical to traditional modes of music production. One of the important distinctions made between Buchla/Subotnick and Moog was their philosophy on the use of keyboards within this revolutionary music. As Subotnick tells us in _I Dream Of Wires_, "I said right from the get-go: I don't want a black & white keyboard, because I knew what that was going to be. If I had a keyboard, I was going to produce regular music and that's not what I wanted to do." But to concentrate simply on Subotnick's historical significance would be to ghettoise a great artist. Written in 1967, _Silver Apples_ indeed gave some their first taste of synthesized music, but the novelty and freshness that spawned that record continues galvanise musicians to this day. It is not simply an intriguing historical artefact, but an imaginative and entrancing work. 
+
+Tomorrow, Subotnick will be performing at Malmö's [Intonal Festival](http://www.intonalfestival.com/), along with video-artist Lillevan. Ahead of his performance, we decided to catch up with Subotnick to talk about his background in working with visual artists, his relationship to modern technology and pop music's avant-garde. 
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167369726&color=070707&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+
+**Hi Morton, so you’re playing with Lillevan in a few days at Intonal Festival in Malmo. Would you be able to tell me a bit about your collaboration with Lillevan, how that came about, and what the audience can expect?** 
+
+When I first started working with analog equipment back in the late 50s and early 60s, I had really intended my work to be for record. So I thought of my home studio as a place where the composer became like a painter. After working in my studio the artwork would end up, instead of on the wall, on someone’s record player. And that was the start of the whole thing. At the same time, I wondered what I’d do on the stage, because I’m not going to just sit and push buttons, nobody could see what I was doing! It was really just for records, just to listen to. So I teamed up with a painter friend of mine, Tony Martin, who was starting to do liquid projections and things like that. 
+
+The idea was that I would play in real time, aspects of what would eventually become a record, and he would paint with liquids in real time, as a kind of duet. And that was way back before rock’n’roll. And so after a while I stopped performing live, and then I started again about 15 years ago when there was more equipment and things like that, and Lillevan was brought in to do the visuals for the opera that I was doing in Berlin, and he really understood and we hit it off really well. So when I perform in public I try to do it with Lillevan almost all the time.
+ 
+**So do you think the visual component of the performance is a fundamental part of the show?**
+ 
+It is in a way, it’s like a collaboration work. So I can do the music without visuals and he can do the visuals without music, but together they form a kind of unity. It’s not integral, I would do what I do with or without him, but I’m influenced by him and he’s influenced by what I do because we’re there together. It’s really designed so that he’s doing the kind of thing that I’m doing visually over that period of time. It’s hard to describe, there’s no real model for it. 
+
+![Morton](https://c4.staticflickr.com/2/1681/26483197371_929509db01.jpg)
+
+**I noticed that SooJin Anjou will be playing some of your piano work, is this a project that you’ve been involved in?**
+ 
+Yeah, so that has electronics with it. It’s not a performance really on my part. I take the piano music and sort of do a subtle taping of it in one of the pieces. I take sound and move it around and change things.
+
+**You’re known for performing with a Buchla modular synthesizer. I’m interested in what other technologies you’re using and how you find they integrate with the Buchla.**
+ 
+It started when I was using just straight analog equipment and I couldn’t really do as much as I could do in the studio. I was recording and then overdubbing and pulling cables out and putting new cables in. So when I started doing it in public, I realized that I couldn’t just stop and re-patch everything, I was really limited in what I could do without a stage full of equipment, which I wouldn’t have been able to control anyway. That’s when I stopped playing in public for a while, but then when computers got fast enough and small enough, I began to work with different programs (Max and a few others). Finally, I ended up with Ableton, and what I do is I actually multiply the equipment. 
+
+I only have two oscillators, but by putting them in Ableton and multiplying them, and just copying and pasting and using plugins and thing like that, I have the equivalent of 6, 8 or 10 oscillators at a time. So I’m using Ableton to expand the whole use of analog equipment, plus samples and other things that I always did. I used to travel with big tape recorders and things like that, but Ableton just expands my equipment so I have a relatively small component but it’s got all kinds of stuff in it.
+ 
+**There’s been a bit of a surge, or maybe a return of use of modular synthesizers by modern artists. People like Alessandro Cortini, Kaitlyn Aurelia Amith and Charles Cohen are all using Buchlas, and then a lot of other people are using Eurorack synths. I wondered if that’s something you’ve been following?**
+ 
+Well I haven’t been following it, I’ve been placed in the middle of it (laughs). I come into it all the time. I’ve sort of been doing my own thing all my life and I get dragged, I shouldn’t say dragged, but I become aware of what’s going on when I get on the stage or when I meet people and things. I haven’t really followed it too well, I don’t know exactly what people are doing.
+
+![subotnick](https://c2.staticflickr.com/2/1574/26549441585_41fc236ba1_b.jpg)
+ 
+**I think for me it signals maybe a greater appetite generally for more experimental music. Some of the artists I mentioned earlier, and also people like Pauline Oliveros, who I believe you’re friends with, she’s appearing on a few lineups at the moment. Would you agree that there is a greater appetite for experimental music than there has been in the past?**
+ 
+Yeah I think so, it appears to be the case. I’m really surprised at how much interest there is. When we began, we were a small group of young musicians doing what seemed odd to a lot of people.  Some few years later, my Silver Apples became well known. But after a while, the world left me alone and I kept doing my thing, trying to finish what I started.  It didn’t bother me, I figured that I’m just doing it and that’s what I do, and gradually I began to see my name appear and I was invited to do things. Over the last 15, 20 years it’s really increased hugely. This movie came out, _I Dream Of Wires_, and they’re actually talking about doing a documentary on me at this point, so it has grown, and I don’t know what it means but it’s very nice to see. I’m really impressed with everything that’s going on, but I think what’s happening is that there’s more interest generally… 
+
+Let me put it this way: The pop world got it right from the beginning. I was visited by people from The Grateful Dead, things like that. They understood in their own way what was going on. They were interested, and the fine art world, my world of classical music wasn’t really very interested. They were doing instrumental music with electronics, and then, it sort of disappeared, you don’t see a lot of it. I think the avant garde grew out of, not fine art music, but pop music, they were influenced by pop music. And now you’re getting new genres every day, and it’s pretty exciting to see all that happening.
+ 
+**Absolutely. So outside of modular synthesis, what is exciting you about music at the moment?**
+ 
+I think what’s interesting to me is two things. One is the diversity of the new avant garde. There are several avant gardes now, but the new avant garde that I was just talking about, of young people who have come out of some combination of pop music, disco and all of those things. It keeps unfolding and you get an avant garde of an avant garde. It just keeps going, and what’s fascinating to me is how interested young people are in doing their own thing instead of copying and making something continue. It’s like it’s an explosion of creativity. That doesn’t mean that creativity is all wonderful and great and all that, but it’s nice to see people really trying to do new things.
+
+_You can catch Morton Subotnick at [Intonal festival](http://www.intonalfestival.com/) this Saturday._ 
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/214819933&color=000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>

@@ -1,0 +1,19 @@
+---
+title: Machine For Destroying Value
+who: Hence Therefore
+image_upload: ""
+blockquote: "If you'd asked me about dance music in Australia a few years ago, I'd probably have mumbled some nonsense about that kid who refused to take his sunglasses off during a news report after accidentally-on-purpose throwing a massive, massive house party. These days however, I've discovered some more nuanced examples to quote from. "
+author: Theo Darton-Moore
+image: https://c2.staticflickr.com/2/1552/24404277143_1b115abc50_b.jpg
+---
+If you'd asked me about dance music in Australia a few years ago, I'd probably have mumbled some nonsense about that kid who refused to take his sunglasses off during a news report after accidentally-on-purpose throwing a massive, massive house party. These days however, I've discovered some more nuanced examples to quote from. This is thanks largely to the guidance of one label, 3BS Records. Alongside supporting the projects of its founder, Jon Papert aka Mannheim Rocket, 3BS has also managed to cast a spotlight on a plethora of underrepresented talent in the region. It's latest muse comes in the form of Hence Therefore, project of Sydney based Simon Unwin.
+
+While 'Machine for Destroying Value' may only be the first release from the moniker, the depth of production makes it clear this is far from Unwin's first exploration into the world of electronic music. Listen to the crater dwelling atmospherics 'Cicada Death Roll' for example - there is a considered exactness to the tracks obscured bass rumbles and swelling chords. 'Kaputar Plateau' is approached with even greater levels of precision. The offering places dubbed-out percussion alongside rattling, paranoid atmospheres, a precedent set right from the outset of the release.
+
+Opener 'Anxiety Dream Terrain' shuffles forward lethargically, chords billowing forward like rolling clouds. As the track is gently filtered to silence, Unwin lays his clattering percussive elements bare, shuddering and distorted. Heavily processed drums are another hallmark retained throughout, as if heard underground, unnatural sonic artifacts echoing across the stereo field. Take 'North Pacific Gyre' or 'Hyperobject'. While the former's pointed rhythms step carefully between musty, funeral home organs and faintly menacing stabs, the latter slowly builds to a cacophony of shimmering metallic dub. As the release's closer it ends full of tension, leaving the listener suspended in thought.
+
+Aside from the release's success sonically, it is also nice to see Unwin using the platform as a vessel for political sentiment. The release's artwork depicts a giant coal mining machine. The irony, in Unwin's own words being that it is "mining a very commercially profitable commodity, but also destroying something more valuable at the same time." Hence the title, 'Machine For Destroying Value', taken from a Francis Spufford book about the Soviet Union. Tracks titles like 'North Pacific Gyre' conjure up similar notions of the destructive effects of capitalism, the ocean current being the largest site of man-made waste on the planet.
+
+I have often wondered about the capabilities dance and experimental music has in exploring themes of this nature, the absence of explicit lyrical content often making these ideas seem like they are tacked on after. This said, in the case of this release, the message seems clearly thought out, consistent and most importantly, in keeping with the stifling soundspaces which comprise it sonically. 
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3917224289/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://3bsrecords.bandcamp.com/album/machine-for-destroying-value">Machine For Destroying Value by Hence Therefore</a></iframe>

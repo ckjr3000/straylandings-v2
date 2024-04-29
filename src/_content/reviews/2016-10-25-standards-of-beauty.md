@@ -1,0 +1,17 @@
+---
+title: Standards Of Beauty
+who: Bookworms
+image_upload: ""
+blockquote: 'Brooklyn based Nik Dawson has seen releases on both sides of the Atlantic. Many will know him for his stomping L.I.E.S. 12"s, evoking sweat-soaked early hours on crammed dancefloors. He has also released taught 4/4 mindbenders with Danish label Nord Records and has a long-standing affiliation with Anòmia. The Barcelona based-label is run by Arnau Sala Saez, their wares including everything from cassettes and vinyls to shirts, posters and experimental films. '
+author: Theo Darton-Moore
+image: https://c2.staticflickr.com/6/5342/30499579026_c5c2412f76_z.jpg
+---
+Brooklyn based Nik Dawson has seen releases on both sides of the Atlantic. Many will know him for his stomping L.I.E.S. 12"s, evoking sweat-soaked early hours on crammed dancefloors. He has also released taught 4/4 mindbenders with Danish label Nord and has a long-standing affiliation with Anòmia Records. The Barcelona based-label is run by Arnau Sala Saez, their wares including everything from cassettes and vinyls to shirts, posters and experimental films. At the time operating as 'DJ' Bookworms, Dawson provided an early EP in their catalogue, returning this year to release 'Standards of Beauty'. 
+
+In many ways, the title sounds fairly unremarkable for a release in the abstract/electonic music sphere. In the accompanying text however, Dawson explains the reasoning behind it. "In my mind, ‘Standards of Beauty’ refers to the restrictiveness of Western/European standards of beauty and the alternative realities and narratives that exist either indifferent to or defiant of them. It refers to the feedback loops that occur between those standards and their counterpoints, where the standard's inverse is fetishised. I'm thinking of existence in a weird universe within all of that - being told I wasn't black or white enough pretty much my whole life. Where is the standard there?"
+
+Given the themes of battling for self-worth explored across Dawson's debut LP _Xenophobe_, it's little wonder Dawson has previously described the 'Standards of Beauty' EP as a "companion piece" to the album. Sonically, the release has both an isolated and unsettled feel to it, presenting four skin crawling technoid experiments that wouldn’t sound out of place on a Stroboscopic Artefacts or Cosmo Rhythmatic release. Take the restless granular march of '500 Wounds' or the title track's skittish modular hook. 'Patterned' on the other hand is almost comparable to the reductionist kick drum experiments of early Plastikman.
+
+Where _Xenophobe_ felt outward-facing and charmingly raw, 'Standards of Beauty' takes a more cautious, and in some ways more introspective approach. It is as if the EP slowly gathers confidence from the delicate, reserved synth abstractions of 'Divulge', through to its pulverising closer. Dawson has crafted a release which hones in on some of the more interesting sonic themes of his earlier work, simultaneously having the bravery to mark the release with confronting personal experiences. A release which deserves both attention and reflection, for both its sonic content and the discussions which accompany it. 
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/280788357&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>

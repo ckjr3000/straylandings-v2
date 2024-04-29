@@ -1,0 +1,17 @@
+---
+title: Moccasin Flowers
+who: Orla Wren
+image_upload: /assets/img/Moccasin Flowers frontnback.jpg
+image: http://i86.photobucket.com/albums/k114/georgemc25/Moccasin%20Flowers%20frontnback_zpsohpro64k.jpg
+blockquote: 'Orla Wren is the project of Tui Wren who, on his website, describes his sound as “combining the oldest, wonkiest and most organic of possible sound sources […] into melodies and textures of pinprick detail, revealing the antiquated isolation of the environments that have inspired them.”'
+author: Georgie_McVicar
+---
+Orla Wren is the project of Tui Wren who describes his sound as “combining the oldest, wonkiest and most organic of possible sound sources […] into melodies and textures of pinprick detail, revealing the antiquated isolation of the environments that have inspired them.” Indeed, his latest album, _Moccasin Flowers_ captures the autumnal climate, surrounding the listener in a litany of naturalistic found-sounds and melodic trinkets. But yet, no single instrument ever comes completely to the fore. Instead, all elements operate together in an intimate push-and-pull, as if each sound were part of the same family. In fact, the instrumentation covers an enormous range of timbres. Modular synthesisers, ukuleles, glockenspiels all make an appearance, and it’s this electroacoustic exploration that defines Wren’s sound. 
+
+The accompanying artwork for the album is immediately striking. Sara Galan merges the human body with living plant life. Tree roots and fruits intermix with hearts and limbs, giving a tactile, physical introduction to the record. The track names, too, follow suite. Titles such as ‘Weathered Wood, Pitted Stone’ or ‘Torn Bleeding’ sound as though they ought to belong to the songs of sentimental beardy folks singers. Yet upon listening, _Moccasin Flowers_ feels closer to Taylor Deupree’s minimal 12k label than an Alex James cheese festival. That’s because, unlike the seemingly neverending nausea of neo-folk acts, Orla Wren’s music has teeth. 
+
+  Sure, at the surface level, the scene depicted by _Moccasin Flowers_ is picturesque. Cellos, pianos and softly plucked acoustic guitars lull you into sedation. But to conceive of it as a record of serenity and peace would be a mistake. Listen beyond the veneer of tranquility and you can hear decay, rotting vegetation and the churn of bustling insects. There are background noises that creak with disquieting uncertainty, and frequencies of intense extremity. High-end pitches drive themselves into your eardrum, creating discordant juxtapositions of tone. In the same way that Animal Collective’s _Sung Tongs_ masked horror movie dread with sing-a-longs and childlike yelps, Wren offers a vision of nature that is all-encompassing.
+
+You can buy _Moccasin Flowers_ directly from his [website](https://orlawren.eu/moccasin-flowers/), and it is also worth mentioning that there is currently a half-price sale on all of his [Bandcamp releases](https://orlawrenmusic.bandcamp.com). 
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/162463049&color=999695&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>

@@ -1,0 +1,75 @@
+---
+title: Feeling Stateless
+who: AGF
+link: ""
+image: https://c1.staticflickr.com/5/4294/36064398265_4bf63b7cdc_b.jpg
+blockquote: Finnish artist Antye Greie Ripatti, better known as AGF, has chosen the title of ‘poemproducer’ for describing her work. Fusing themes of Westernisation and digital culture into her poetry and glitch-laced electronica into her productions, the tag doesn’t seem to do justice to the breadth of her output. Across her decade-spanning career, Ripatti has put over 20 releases to her name, and curated installation art at galleries across the globe.
+image_upload: ""
+author: Theo Darton-Moore
+---
+
+Finnish artist Antye Greie Ripatti, better known as AGF, has chosen the title of ‘poemproducer’ for describing her work. Fusing themes of Westernisation and digital culture into her poetry and glitch-laced electronica into her productions, the tag doesn’t seem to do justice to the breadth of her output. Across her decade-spanning career, Ripatti has put over 20 releases to her name, and curated installation art at galleries across the globe.
+
+Ripatti’s latest project is an LP entitled 'A Deep Mysterious Tone’, an album that recontextualises Japanese poems from female authors spanning back hundreds of years. The aim of the project in part is to retell a chapter of history from a female perspective - a chapter all too often ironed out of art history. We caught up with Ripatti in the build up to this release to find out about at this, and her other projects first hand.
+
+**So how have you been? What have you been up to recently?**
+
+Well today I’m preparing for a show at Berghain with Holly Herndon for this record release party which is pretty cool. I haven’t played live in quite some time and I want to change my live set a bit. I’m used to performing with a laptop but this time I think I’ll try playing with the iPad. I don’t know how it’s going to work in a club but I think it’s more intuitive as an instrument than the laptop. I’m also thinking of playing some really old tracks - something like my ‘best of’ I think (laughs).
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/109222714&color=a8a3a0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+
+**How did the contact with Holly first come about?**
+
+I didn’t really know her work until I saw someone wrote in one of my reviews something like, “everyone’s bigging up Holly Herndon but AGF has been doing this for 10 years” and I was like “who is that girl?” Then I dug a little deeper and I thought “yeah it sounds like a similar approach at times, I like that” - I felt like she was my younger sister or something. We started getting involved in the same Twitter conversations - we have a lot in common; we’re both fascinated by the Snowdon revelations, Government surveillance, Wikileaks, Whistleblowing etc. Then she surprisingly invited me to this show - It’ll be an exciting night, it’ll be a “show what ya got baby” kinda night (laughs).
+
+**And that’s just before the release of A Deep Mysterious Tone right? Can you tell a little bit about that?**
+
+Yeah so I’m interested in looking into the history of poetry from a female point of view. I think given that history is often talked about by men about men, it’s about time we started telling the other story as well. So I applied for a grant to do some poetry research, and I found the earliest female German poet ever recorded, from the 11th Century, as well as some more recent poets and cut their poems up with field recordings and noise and created this work called 'Gedichterbe’ in 2010. I got some really nice reactions from this and I really liked working in that way; I work so intensively with language and poetry in my own stuff anyway that I thought it would be nice to just look into different languages and cultures in the same way that I did with these German texts. So next I used the same technique with Finnish texts for 'Kuuntele’ in 2013; and my most recent record, 'A Deep Mysterious Tone’ is the same idea but with Japanese texts. It is becoming a series, digging into different languages from a feminist perspective. The next one is going to based on Russian texts.
+
+![qw](https://c1.staticflickr.com/5/4329/36024350526_76b9bfffc6_z.jpg)
+
+
+**Do you find there are certain creative freedoms that you can only access through working with other people’s texts in that way? For example with the Tujiko Noriko track there seems to be a lot expressed that you’d have difficulty saying in with music alone.**
+
+No it’s true – I probably wouldn’t have written that song by myself. Because I have this text which is like 100 years old I felt braver to use those words. Tujiko Noriko is singing it mainly, she’s singing ‘I am a new woman, I am the sun’ and it’s so touching. In a way it’s something so simple I would have never written it myself.
+
+But in terms of poetry, my work has a lot to do with my identity. I grew up in East Germany behind the wall and this has been one of the main themes in my solo work. Then through travelling the world I’ve acquired a Westernisation theme in my music, so from that point of view I’m on a personal level not so concerned about gender issues. I feel very confident about actually being a human. I’m not such a girl in a way - personally, you know? I am just insulted that things are not changing for my gender. So I do this activism not because I feel like a superwoman myself or something, I’m not that type. I don’t care personally so much about gender except for the fact I want a better life for my daughter and I want equality for my peers.
+
+In my work I’ve been more concerned about humanity and where my place is. For instance a regular topic of my work is the period after the wall came down in ‘89, which is around the same time the internet came about. For me that was kind of like my new country. I didn’t feel at home in this new Germany that came out of the fall of the wall. I didn’t feel I belonged there and it didn’t feel like my country, so for me it was always like I turned into a European citizen or a world citizen… Actually I would say that I feel stateless. Of course I am German and it’s my language and I love that language but I don’t feel at all connected to that country which is now Germany. Generally, nationality is overrated. I am pro-culture. I do think independently from nation, gender, race, religious beliefs; we need to develop new ethical sets of thinking and acting, and we need to unite to overthrow the dysfunctional forces at work.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/201522575&color=878787&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+
+I really feel like the Internet is an invisible web to be connected to what you choose to be connected to (which can of course also be very stupid and terrible) is a good thing. I grew up very restricted, without information, without truth, without transparency, without access to all kinds of things. Think North Korea, this is how I grew up – not as extreme but just about. For me that’s my theme; how much I enjoyed going into this new space which was the Internet and what became of it and where it is now. How Imperialism has been creeping into that space in the last 10 years… I’m concerned with machines and I love computers, my computer is my friend – that kind of stuff happens a lot in my work. It’s very personal poetry.
+
+I have a connection to code also – I have done a lot of music based on code language, I don’t know if you know that. Finding poetry in these things has been one of my big interests.
+
+**Do you record a lot of your own samples too?**
+
+Oh yeah - about 30% of my records are based in field recordings. I take a recorder around with me all the time. I’ve started using these recordings not so much as hardcore ‘sound art’ or whatever but to function in the same way that a kick drum might work in a club; using the environment I’m in to shape the music. I do this in an attempt to own the sound; so that I can say ‘this is my sound. I own that bass drum’ (laughs). 
+
+**How did the ‘V I S I B I L I T Y’ blog come about and your involvement with ‘female:pressure’?**
+
+I did an [article](https://medium.com/@poemproducer/some-things-just-must-be-said-simple-and-clear-there-is-a-lot-of-women-in-electronic-digital-d252f67a5b03) that gives quite a comprehensive explanation of my involvement with female:pressure and why I did that. I also did this ‘Nerdgirls’ mix of over 100 female pioneers in electronic music, which still seems to be important. I was doing some work in this small Estonian town just last week with a curator who I wrote a book with, and he had the idea to get a really young girl to interview me. She said that she was really influenced by that Nerdgirls mix and that made me so happy, I was like “that can happen!” 
+
+I guess I never really considered myself a Feminist until quite recently; I just thought ‘oh it will be fine’. But I lost my nerve a few years ago when I saw the lineup of this really big, publicly funded music festival that had just one woman on the entire bill. I was just like ‘what the fuck…’ This is taxed-money; contributed by women from society, and they make a festival with 99% guys? No way! So since then female:pressure has been collecting facts on labels and festivals and the first report was released in 2013. There was a public outcry on social media and the music press, and all the boys got defensive… it was quite interesting. Then in January Björk did that interview with Pitchfork saying how she felt as though she never got recognised as a producer, and that maybe the reason was that the public simply don’t see women in the studio. So I thought ‘hey let’s get some pictures together of women in studios for International Women’s Day’, and that’s how V I S I B I L I T Y came about.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/77513427&color=afadac&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+
+**It feels like the blog is the final nail in the coffin for promoters who say there simply aren’t enough female producers to book for festivals.**
+
+Yeah there’s really no excuse — it’s systematic. I get really aggressive about it, and I know that doesn’t make any friends. Even women on female:pressure were afraid to speak out with me because they thought they would get even fewer gigs than before, and they were scared, I understood that. But I was so pissed off I just thought, ‘I don’t need this. If they don’t book me, fuck them’. Now I’ve made more friends than enemies so that’s OK (laughs). I also wrote an email to all the curators, cultural organisers, and bookers that I know saying ‘listen: there’s no excuse anymore not to work gender-equal, 50/50. It is unacceptable to me that you don’t accept diversity’. 
+
+It’s not just electronic musicians, either – that’s what I am part of but it’s representative of all the other parts in society except for very hardcore jobs like being a nurse or something. Anything which has good pay and respect in society has women as underdogs, so they have to reinvent themselves every day. I find it interesting at the same time to look at all these different women and how they are doing this. Look at all those female grime MCs in the UK – RoxXxan or No Lay for instance. I’m listening to all of these women and how they find their voices in male dominated genres.
+
+I’ve been talking to people in architecture and they’ve been saying exactly the same thing – you could make the same blog about women in architecture. The men get the jobs and the women are doing the same jobs for less pay, or they’re not invited to conferences or don’t get the credits and so on. 
+
+**I suppose part of the reason why the blog is so effective is that the world of engineering and electronics itself is so male dominated, so it’s really powerful to see those stereotypes reversed.**
+
+Exactly - like most of the instruments, the software, the gear is all made by men. There is such an ancient history that goes behind why women aren’t as present in electronic music. The biggest argument I got from men about my stance was that ‘well, there are simply more men in the industry, why do you want 50/50?’ And I can see that the male white producer is scared and upset by this prospect, I get that. But I think it would be a great evolutionary step to put it this way and start from zero and see where this leads. As long as we keep telling the story the way it’s told now, it’s never going to fucking change.
+
+**Finally, what plans have you got for the rest of the year?**
+
+I’m working hard on my next solo record at the moment - I can’t say too much about it right now but I want it to be absolutely amazing… which is really hard because I have released so many albums and I’m trying to find a voice again and make something meaningful. I’m also working with a cultural organisation that I founded four years ago in Finland, and a media lab in this little village, and public sound workshops… I want to put out this message that although we live on the remote edge of the world, it’s still means we can be doing super-dope stuff here! We also invited artists over for a residency doing acoustic sculpture, installations, happenings, we made a protest boat trip with a local fisherman where we had the Japanese sound artists Ryoko Akama playing to the ocean to prevent the building a nuclear power plant. I’ve also been invited to do several sound camps with students and artists coming over, we made a sound app called ‘Sound Map Hailuoto’ which looks like a map of our island and you can listen to our island’s sonic environment, and we’ve also been developing sonic bikes with Kaffe Matthews for the tourists in the summer.
+
+You can strem AGF’s latest release, [‘A Deep Mysterious Tone’](https://agf-poemproducer.bandcamp.com/album/a-deep-mysterious-tone) below. Full release on June 6th.
+<iframe style="border: 0; width: 100%; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1871925107/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless>[A Deep Mysterious Tone by AGF & Various](http://agf-poemproducer.bandcamp.com/album/a-deep-mysterious-tone)</iframe>

@@ -1,0 +1,15 @@
+---
+title: In-Between Spaces
+who: 'Porya Hatami & Darren McClure'
+image_upload: /assets/img/in-between-spaces-cover.jpg
+image: http://i86.photobucket.com/albums/k114/georgemc25/in-between-spaces-cover_zpsvhx1kv0i.jpg
+blockquote: 'In-Between Spaces is the latest collaboration between Porya Hatami and Darren McClure. Hatami hails from Sanandaj, Iran and describes his work as “explor[ing] the balance between electronics and environmental sounds, utilizing processed acoustic and electronic sources and field recording.” McClure, by contrast, is based in Matsumoto, Japan, and describes his music as something that you can “zone out to and zone into.”'
+author: Georgie_McVicar
+---
+_In-Between Spaces_ is the latest collaboration between Porya Hatami and Darren McClure. Hatami hails from Sanandaj, Iran and describes his work as “explor[ing] the balance between electronics and environmental sounds, utilizing processed acoustic and electronic sources and field recordings.” McClure, by contrast, comes from Matsumoto, Japan, and describes his music as something that you can “zone out to and zone into.” But yet, both artists share a common love for the immersive quality of ambient music, and their attention to detail on _In-Between Spaces_ is largely unmatched. 
+
+It’s clear what McClure meant by ‘zoning in’ when listening to this record. Each track is a highly concentrated meditation on a small, fragmentary subtlety. In the same way that yoga instructors teach to focus on breathing to clear out all other stimuli, _In-Between Spaces_ hones in on microscopic detail to silence any surrounding noise. It brings to mind the reductionist philosophy of John Cage’s _4,33_; take away the _music_, and what do you have left? The name of the record, _In-Between Spaces_, seems to make sense in this context. It’s not the usual stars of the show — melody, beat, bass — that we’re looking out for here. Rather, it’s the peripheral, unintended features _between_ the rest that take centre stage. 
+
+It’s also worth mentioning that the artwork comes from Martin J Thompson, designer of the Stray Landings website and SM-LL label owner. The covering image looks as though we are examining a hair close up to the face, such that it goes out of focus and blurred. This too seems to fit with the in-between-y nature of the record; shifting attention away from the Gestalt and more towards its component parts. But to characterise this album as one that is completely obscured would be a mistake. Indeed, at times the sounds come through clear and distinct, like the breathtaking electric pianos that underpin ‘Shapes of the Field’. However, it’s important to note that these moments work precisely because they’re unexpected. Just a simple piano chord amidst an ocean of noise suddenly makes it sound so refreshing and vital. 
+
+<iframe style="border: 0; width: 100%; height: 307px;" src="http://bandcamp.com/EmbeddedPlayer/album=233432836/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="http://darrenmcclure.bandcamp.com/album/in-between-spaces">In-between Spaces by Porya Hatami & Darren McClure</a></iframe>

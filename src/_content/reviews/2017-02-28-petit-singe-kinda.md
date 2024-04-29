@@ -1,0 +1,19 @@
+---
+title: KIND A
+who: Petit Singe
+image_upload: ""
+image: https://c1.staticflickr.com/1/291/33048608355_1855812c8a_b.jpg
+blockquote: "Haunter Records have always had a no-nonsense feel to them. Fronted by Daniele Guerrini and Francesco Birsa Alessandri, the label seems to take every release as it comes. This is evident both from the formats they release on, jumping between cassettes, vinyls and CDs, and the styles they choose to host. Across their four year life span, Haunter have released everything from the warped lo-fi experiments of Somec through to the pummeling dungeon techno of Cage Suburbia's 'Argument' series."
+author: Theo Darton-Moore
+---
+Haunter Records have always had a no-nonsense feel to them. Fronted by Daniele Guerrini and Francesco Birsa Alessandri, the label seems to take every release as it comes. This is evident both from the formats they release on, jumping between cassettes, vinyls and CDs, and the styles they choose to host. Across their four year life span, Haunter have released everything from the warped lo-fi experiments of Somec through to the pummeling dungeon techno of Cage Suburbia's 'Argument' series. 
+
+Their shifting aesthetic is also a good example of this refusal to settle; the third of the aforementioned 'Argument' series features an [insert](https://haunterrecords.bandcamp.com/album/argument-03) which looks like a flyer you might find at an anarchist rally, while the sleeve for Weightausend's 'Meet Your Doom!' could make up an imaginary clan crest for a sci-fi strategy game. 
+
+The latest of their output is no different; this week Haunter released two 7"s in sync (sadly they don't come with the amazing two slogan-darbed football scarves mocked up on the Haunter Bandcamp [profiles](https://haunterrecords.bandcamp.com/album/petit-singe-kind-a)). The first is Weightausend's amphetamine-charged snare-orchestra, ['Went Berserk'](https://haunterrecords.bandcamp.com/album/weightausend-went-berserk), while the second is the thunderous 'KIND A' from Italian artist Hazina Francia, aka Petit Singe. Despite having a rather impressive catalogue of gigs on her resume, even playing Boiler Room Milan last year, Francia has only released one EP previously, the spindly, hollow-cheeked 'Tregua' cassette. 
+
+In comparison, 'KIND A' is a noisey, invasive affair. The title track shunts forward with broken-beat percussive assaults and snarling stabs of low-end. The track is interspersed with cinematic samples of a group timidly conversing with a booming robotic voice, until the inevitable "program malfunction" is declared, and the track descends into chaos. 'Thrillseeka' on the other hand sends electro-magnetic shockwaves across the dancefloor, stumbling drum tones and sharp buzzes of glitch acting like a vacuum, absorbing everything in their path.  The results are almost reminiscent of something you might find on Night Slugs, albeit drenched in heady, cinematic reverbs.
+
+The accompanying text to Francia's 'KIND A' states that this release provides a "sign of what’s to come in the very near future" - an exciting proposition given the impressive development between this release and her last. Whether this forthcoming material will be released via Haunter is unclear at this stage, but they've certainly found a good fit. Her sound possesses both a directness and a willingness to experiment, in a way which compliments much of the Haunter output. 
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/305407605&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>

@@ -1,0 +1,15 @@
+---
+title: Top Charted
+who: rkss
+image_upload: ""
+image: http://c1.staticflickr.com/5/4316/36006920685_c7df023b8e_h.jpg
+blockquote: 'On their Tunnel EP, Robin Buckley — better known as rkss — inverted the idea of ‘field recordings’ by sampling randomly generated YouTube videos. Rather than capturing non-musical sounds in a natural environment, Buckley surveyed a digital landscape: recording the unintended and extraneous noise from visual media. But despite its unorthodox construction, Tunnel still retained some elements of a traditional release. '
+author: Georgie_McVicar
+---
+On their _Tunnel_ EP, Robin Buckley — better known as rkss — inverted the idea of ‘field recordings’ by sampling randomly generated YouTube videos. Rather than capturing non-musical sounds in a natural environment, Buckley surveyed a digital landscape: recording the unintended and extraneous noise from visual media. But despite its unorthodox construction, _Tunnel_ still retained some elements of a traditional release. There were standout tracks, highlights and tracks you could dance to. The same went for 2015’s follow-up, _Cell_. Here, Buckley mashed together bits and pieces from abstract jams and reinserted them into a club-friendly context. But Buckley’s latest album, _Top Charted_, is of an entirely different enterprise.
+
+Techno, concrete and nocturnal ambience are nowhere to be found here. It sounds more like something from a 1960’s Sci Fi television programme, commissioned by the Radiophonic Workshop. Throughout the album’s journey, new textures pop in and out to say hello, as if the ident for a new alien character. Some are bold and colourful, others sound as if lifted straight from a “euphoric trance” sample pack. On ‘Stole Day White’, we hear a familiar EDM synth loop, but bit-crushed, tremolo-ed and filtered out of all recognition. This is Buckleys new source of experimentation. The album exists in this kind of nether-space, there to confound expectation and unsettle the listener. There are no track breaks, no drops, and no departure from its weird world. Befitting then, that like their previous albums, this is a release on cassette: that most otherworldly of formats.
+
+Reflecting on this new direction, Buckley has stated that he is “glad to be pushing into a direction which makes more sense to me”. This newfound enthusiasm feeds directly into the music: you can hear the care and love that has been put into these sonic oddities. Where to Now? therefore seems like an apt home for Buckley’s latest excursion: a label long committed to making electronic music fun again. Even the artwork tells this story, covered in garish beams of fluorescent pink light that look like some kind of radioactive rock candy. This is Buckley's pop record, their ‘chart-topper’, but not in any serious sense.
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=286423337/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://wheretonow.bandcamp.com/album/top-charted">Top Charted by rkss</a></iframe>

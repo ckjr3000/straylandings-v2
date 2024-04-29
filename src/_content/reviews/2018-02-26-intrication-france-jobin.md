@@ -1,0 +1,17 @@
+---
+title: Intrication
+who: France Jobin
+image_upload: ""
+image: https://c1.staticflickr.com/5/4668/40340210422_4e56601514_b.jpg
+blockquote: "France Jobin's latest work, Intrication, takes its cues from aspects of quantum theory I'm not going to pretend to understand with much coherence . In essence, the album looks at a process known as 'quantum entanglement'; when particles interact in such a way that the quantum state of each cannot be described without reference to the other. The album puts the tiniest of fragments under the microscope, revealing within them endless expanses of new territory."
+author: Theo Darton-Moore
+---
+France Jobin's latest work, _Intrication_, takes its cues from aspects of quantum theory I'm not going to pretend to understand with much coherence. In essence, the album looks at a process known as 'quantum entanglement'; when particles interact in such a way that the quantum state of each cannot be described without reference to the other. The album puts the tiniest fragments under the microscope, revealing within them kaleidoscopic expanses.
+
+Despite the fact _Intrication_ explores these scientific complexities, it could equally be replicating religious or near-death experiences. 'm' is a good example of this reverent quality; like an interlude from a cLOUDDEAD track stretched to the extreme. '03V' follows a similar mood, delicate sun-blushed washes of ambience lightly brushing past. Playing into France's concept for the album, this track forms part of a larger picture. The 'V' stands for 'vignette', and '01V' to '04V' are interspersed between the rest of the tracks, acting as a familiar motif throughout. 
+
+While these act as palette cleansing interludes, the tracks between cover more wide-ranging territory. One of the albums greatest nuances is the combination of natural and synthetic tones. Take 'graviton' for example, a glorious combination of warm, expansive dub-ambience and microcopic static pulses. Perhaps the crux of _Intrication_, 'e-', is another case in point. Delicate chimes ring across the stereo field, gentle reverberations rising and falling abruptly in the backdrop. These resonant twinkles are eventually met by undulating low-end structures, the chimes dissolving into itching twitches of static.
+
+It's fitting _Intrication_ sees its release on Material Object and Atom™'s 'No.' label. Throughout his own work Atom™ has explored similar mediations between the scientific and the psychedelic (take a listen to his mid-90s DATacide project for example). Speaking with France about her interpretation of quantum entanglement through the album, she discussed applying the same concept to the relationship between sound and our perception of it. At this point the question becomes almost a philosophical one; as we are presented with the possibility that each of our perceptions may differ, although still pertaining to the same 'real world' sound. Whatever our sensory differences might be however, there is a joyous sense of wonder and cosmic discovery to be found throughout _Intrication_; a considered tribute to the unknown. 
+
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=746690917/size=small/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless><a href="http://no-ware.bandcamp.com/album/intrication">Intrication by France Jobin</a></iframe>

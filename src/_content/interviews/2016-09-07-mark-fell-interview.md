@@ -1,0 +1,164 @@
+---
+title: Draw The Notes
+who: Mark Fell
+image_upload: ""
+image: https://c1.staticflickr.com/9/8282/29215356590_6dd4670457_b.jpg
+blockquote: You’d be forgiven for assuming there are several Mark Fell’s performing music, making films and exhibiting at galleries. There probably are other Mark Fell’s, but the one we spoke to is quite a prolific one, and quite hard to define too.
+author: Hortense_and_Harry
+---
+You’d be forgiven for assuming there are several Mark Fell’s performing music, making films and exhibiting at galleries. There probably are other Mark Fell’s, but the one we spoke to is quite a prolific one, and quite hard to define too. Across a variety of aliases and collaborations, he operates somewhere between dance music and the visual arts. From the almost-house of his Sensate Focus project and SND collaboration with Mat Steel, to his spatial sonic arrangements with FM synthesis pioneer John Chowning, the Sheffield based artist is forever blurring boundaries and raising questions. 
+
+With Adrian Sherwood at the controls in the background, we spoke to Mark at Terraforma Festival in Italy, the morning after a brutally loud performance as Sensate Focus. A look around the audience during the set showed half elated and the other half looking confused. We chatted about this project, as well as covering his compositional techniques, his collaborations, his recent engagement with radical feminism and finally, the influence that Sherwood’s own productions have had on him. 
+
+
+**So I thought I’d start off by asking about Sensate Focus as project. Could you tell us what distinguishes that from your other work.**
+ 
+Well, when I started doing it, I’d just done this track with Terre Thaemlitz (DJ Sprinkles), and I kind of liked the idea of doing a remix of it. So the first Sensate Focus thing is a remix, sort of, or a different version of the thing that me and Terre Thaemlitz did. At that time the key difference was that it would be all made in a timeline editing environment, like Logic or Pro Tools, all just using a cursor tool to draw notes in. So most of my work is kind of algorithmic systems in Max MSP but the Sensate Focus stuff was like, I can’t do anything algorithmic, I’ll just use the pencil tool to draw the notes in, and it was meant to sort of sound a bit like house music, or a bit more like club music as opposed to weird fragmented stuff. 
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/92038297&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+ 
+**Right, so everything we heard last night, each of those notes you’ve drawn in individually?**
+ 
+Well actually, the live version of this project has gone through a few different versions. So in the first version I took those patterns and then built a system to play the patterns in Max MSP. And then that version there is basically the patterns recreated in a grid in Max MSP. So it’s essentially like a grid of drum sounds and a keyboard sound as well. So there are no real algorithmic processes, but it’s on a grid rather than a timeline.
+ 
+**In terms of the performance last night, and I believe with other performances you do, in a way there almost isn’t a performance from you. With just the laptop and the enormous mixer, it’s quite cryptic what you’re doing. For you is this an intentional detachment from traditional live music or is it more pragmatic than that?**
+ 
+Well, what I don’t like is when performers really go over the top with gestures. If they want to do that, that’s fine, but I don’t like it. I went to see some classical music recently, and all the violinists were kind of moving their heads [gestures dramatically], and it seems totally unnecessary to me, all of this body language around it. And it’s the same with people stooped over laptops. That started happening in the late 1990s, people started stooping of laptops, and it was always some guy kind of going like that [does impression], and I just thought it looked so horrible, do you know what I mean?
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/105220028&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+ 
+**It’s more of a token performance, that kind of set.**
+ 
+Yeah, so I just decided not to do that. And then a lot of the music that I’m into, like I’m really into Indian Classical music, and if you look at the way that’s performed it’s often people that are very static. So there’s this really energetic thing with people just doing it [playing the music], while static, and I just prefer that. Also, I’m not interested in portraying ideas of having fun or anything, if you know what I mean. It might be fun, but that’s up to the audience to decide. I’m not going to start trying to convince them to be one-way or the other.
+ 
+**I suppose DJ Sprinkles does a similar thing, where she’ll stand behind the decks, play deep house for two hours and not really interact with the audience.**
+ 
+Yeah, but I think, cause me and Terre are quite good friends, I think that position is sort of, you know, he’s sort influenced me and into that position, and we’ve kind of got there together in a way. But definitely that’s influenced me as well, I think. 
+ 
+**So I wanted to know a bit more about your compositional process more broadly. Across the work I’ve heard, there’s quite a small pallet of sounds, and yet there’s this kind of constantly evolving music. I wanted to know where these sounds come from; if they’re samples, software, FM synthesis etc. and then whether it’s a challenge to use this very small palette of sounds to create stimulating music?**
+ 
+Well, different projects have different collections of sounds. Typically, what tends to happen is that there’s percussive stuff and a kind of chord type thing happening. With the early SND stuff it just became a rhythmic pattern and a core pattern. The kinds of sounds, like the _Multistability_ album I did on Raster Noton in 2009/10, that was again essentially two kinds of sounds: rhythmic sounds and pitched chorded sounds. And for that project for example, the drums sounds were like quite carefully chosen to refer to a specific moment in the development of club music. When house music first started happening in Britain, and in America, but the way I perceived it was that the early stuff still had this very kind of sharp kick drum sound, that was reminiscent of early 80s electronic music production. After that moment, it became a more deep, thuddier kind of 808, 909 sort of sound. 
+
+![er](https://c1.staticflickr.com/9/8202/29523147355_0b1eff3fd5_b.jpg)
+
+_Mark Fell and Mat Steel aka SND._
+
+For me that transition around 1986-87, from this is what a kick drum ought to sound like, to _this_ is what a kick drum ought to sound like; that kind of cultural conversation, for me is a really interesting thing. I guess I also just like those sounds. It was one of the sounds at that moment in time, just before the 808 took over. In the pitch sounds as well, that’s all FM synthesis, and it’s all four-operator FM synthesis that was on a unit by Yamaha called TX81Z and a DX100. All the pitch sounds are all derived from those presets that are just tweaked a little bit, and again they were all really important in the first developments in house and techno music. 
+
+There’s this track, 'Show me Love' by Robin S - it’s really famous and there’s a thing that goes [sings melody]. It’s a particular sound, I don’t know if you know it. It’s kind of a rounded, deep-ish sound. That sound originated on a DX100. So there’s like some earlier examples of it and this Robin S track was probably one of the most popular. But even today there are tracks that sill use that sound. It’s kind of tracing back the evolution of where that sound came from, where it started. It’s interesting. And I think on the DX100 it was called 'Jazz Org' or something, but it’s this really nice, round noise. And actually, is it Flanger? The group that were on last night?
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193937268&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+ 
+**Yeah that’s Atom TM and Burnt Friedman.**
+ 
+They were even referring to it as well.
+ 
+**Yeah I thought it sounded kind of similar to what you’re using in your set.**
+ 
+Yeah. So, yes I’m interested in the history of sounds. Their kind of cultural contexts and the iterations they’ve been through on various tracks. So it’s just that I like those sounds and it’s sort of a personal obsession I guess. But what’s happened over time is from working with just this kind of chord keyboard sound and rhythm. 
+
+The work I do now, that’s been abstracted out even further into very linear spectral textures, so the keyboard sound has just become this long linear spectrum, with percussive and rhythmic events around it. It’s essentially two different forms of construction: frequency construction and rhythmic or time construction. It sounds a bit nerdy actually, but that’s my obsession, that’s where my head’s at right now. 
+ 
+**And so what sort of tools are you using in the studio to end up with this music?**
+ 
+A lot of the time I use Max MSP, which I always use to generate rhythms. Like one thing I just did with… Do you know John Chowning, the guys that invented FM synthesis? He invented FM synthesis in the '60s and it got licensed by Yamaha and developed into DX7 keyboard and the TX81Z and the DX100 came from that. 
+
+So I met John Chowning, when I was at Stanford doing a show over there and asked him if he’d like to make a piece of work together, and he said yes. We just performed that piece in Berlin earlier this year. It was essentially FM synthesis textures done in Max MSP, so long kind of sustained FM synthesis stuff. It was played over eight speakers so it was spatially arranged. The rhythmic stuff was from a single speaker on stage, so there’s no spatial arrangement of the rhythmic stuff. So you’ve got these frequencies arranged in space, and rhythm that’s not arranged in space, but in time. 
+
+Sorry that did not answer your question… So the tools are either kind of synthesis algorithm that I develop in Max, or just keyboard sounds and then algorithmic processes that I’ve made in Max.
+ 
+**Am I right in thinking that you build your own hardware and software?**
+ 
+I don’t build hardware. I’ve never studied computer science, I never studied music. I don’t know anything about that. My kind of initial encounters with making electronic music were drum machines and old analog mono synths. If you got me a bit-modular synth I'd kind of more or less understand it, roughly, without having to read the manual, but it tends to be all done on computer. I learned Max just by using it.
+ 
+**I wanted to talk about your influences. In your show last night there were snippets of multiple kinds of dance music genres, primarily UK ones. I felt like I heard rhythms resembling garage or bassline maybe, dubstep, acid house, maybe footwork? Are these things that are directly influencing you and you insert them in your own music or do they just kind of come out of these algorithmic structures?**
+ 
+Well, first of all I don’t go out to clubs anymore. I do end up in clubs because I play there so I am sort of aware of what’s going on but I’m not like I was around 1995 for example when I would have known exactly what kind of record came out that year, who did what, what was the best sound… you know what I mean. I’m not obsessive about these things anymore. If you said, name the best footwork producer, I’d probably say something like RP Boo because he is the only name I know. 
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/157871538&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+
+It’s not something I’m heavily involved in, but nonetheless I experience it and I think there’s a lot of amazing dance music that is being made. So I’m more in the position now of someone on the outside. And even in the '90s, I was on the edge on that scene. I was going to clubs, and it was a big thing that I did all the time, and the music was completely important to me but I never took drugs so I was always stood at the edge, just observing and listening. I was always in this position that was a bit remote and analytical and I guess that shows in the music I make. 
+
+It’s not just normal dance music. I guess that position has stayed with me, and I’m probably more removed from those things. I think the music coming out of clubs is amazing. But I’m not in that anymore if you know what I mean. All the stuff that I make, none of it is a regular 4/4 tempo. Imagine a drum, it might have got 16 divisions in a loop… The stuff from last night might have 30 or 80.
+
+![fell](https://c1.staticflickr.com/9/8551/29504469385_a2cd7c6455_b.jpg)
+
+_Mark Fell at Terraforma 2016._
+ 
+**One of the things last night was that it was really hard to find where the bar starts or ends. At one point I was thinking… are they even any bars ?**
+ 
+Yeah it’s just one loop basically. If you listen to a lot of non-western music, it has that more kind of fluid time structure. Not just Indian music, but for example Australian aboriginal rhythmic music, the rhythmic structures are totally amazing. And not just this kind of regimented grid… I just get bored of that. 
+
+The software that I developed for last night’s performance, there’s a series of steps but each step can be a different kind of ratio to some sort of fundamental tempo. Each step can be faster or shorter but still related to a tempo. One bit can be a triplet for example and the next step isn’t. You get this really kind of weird outcome, it sounds great on hi-hats.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216580296&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+ 
+**I know when you’re patching in Max you can use randomness as a function to create random pitches or to choose which rhythmic structure you use. Do you use anything like that or is it more calculated?**
+ 
+Nothing from last night was random. It might be that, let’s say they are five options, five values, and I choose those randomly. But randomness, it’s not really that interesting I think. The only randomness was that I couldn’t remember what some of the things might have sounded like.
+
+**So I wanted to talk about your collaborations a bit. The recent ones I’m aware of include DJ Sprinkles, Gabor Lazar, and also the Okkyung Lee one that we saw at Café Oto. I wanted to know what motivates your collaborations and whether it’s different depending on the collaboration for example. I suppose everything DJ Sprinkles does is very embedded in their political believes whereas with Gabor Lazar it’s more about his production and sound design?**
+ 
+When I first started making music, it was always collective so I was always working with someone. It made it a bit easier and I was probably not as confident. It was hard work and just having someone to have a laugh with when you’re doing something makes it more fun. These days, I guess its just elements of Terre’s production that I like. I was around at his place in Tokyo and I said “let’s do this”… so that was just because we were at the same place at the same time. 
+
+Similarly with Gabor actually, I was in Budapest and he said let’s make a record together and I could see how that would work quite easily. It was like “I’ll just generate some rhythms and synchronise his sound to it etc.” Collaborations are good because one thing that’s unusual about the music industry is that collaboration is quite a common thing, whereas the fine art world, or the visual art world doesn’t necessarily allow that. You don’t get filmmakers collaborating in a new film that often for example. There’s one director most of the time. Music is good because it allows that, I guess it’s always interesting to see how your process fits with someone else’s process, and how your kind of aesthetic choices fits with someone else’s.
+ 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/203317348&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+
+**It seems like it’s more personal and out of circumstance, than a political motivation…**
+ 
+It’s hard for me to distinguish between the two really. I made a film about feminism recently. I made a collaborative piece with this guy Luke Fowler, a filmmaker. We both worked together on this documentary film about the history of feminist photography. We looked at this feminist photography project in the north of England, but one of the things that these women in the '80s would say is that you can’t divide the personal and the political… It’s a bit the same for me.
+ 
+**And I’m sure Terre Taemelitz would say the same…**
+ 
+Yes! So it’s difficult… politics kind of finds its way into everything I think.
+
+![o](https://c1.staticflickr.com/9/8420/29413338522_96bbb6e37f_z.jpg)
+
+_Mark Fell and DJ Sprinkles' Tony Benn sampling 'Fresh Insights EP 2'._
+ 
+**On that note, I understand that engaging with feminism through producing this film led you to invite a woman artist onstage instead of you. Could you explain a bit about that?**
+ 
+Yeah so what happened is that I’d just made this film, which was really controversial, working with these women who’re now in their 60s and 70s, who were doing this project in this radical sense in the early 1980s. So making the film involved meeting these people, and gaining their trust to some extend. I would say that I’ve always tried to avoid being misogynistic for example, but it’s never been a problem for me that if I turn up at a festival, it’s all guys. But after meeting these women, I realised that it was a problem… why is it all guys and what’s happening here? 
+
+Being friends with Terre, he’d be saying similar things and I just thought about how you wouldn’t accept a government that is all guys or a law firm that’s all guys so why is it alright in music? And this London based artist called Richard Sides made a film about me, Theo Burt, Lorenzo Senni And EVOL, so all four guys. He did a project at the ICA to invite us all to perform, and I refused to do it because I thought it was like some boys club, and I don’t want to be part of that. There’s a London based cellist called Lucy Railton and I asked her to perform my piece, and that’s all the story was. It was just a woman instead of me basically. And it’s not solving anything or something but it was designed to highlight the fact that there was some kind of thing going on there.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193058104&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+
+**It’s interesting to hear about your relationship with Terre… I imagine you agree with the politics but what does it mean for you the idea of not being present on social media or on Youtube, or on Soundcloud, not considering that music is a mass produced good, this kind of rhetoric…**
+ 
+Well I don’t do any social media, I don’t have Facebook, I don’t put anything on Youtube, Soundcloud... A promoter the other day was asking what Soundcloud thing I wanted to use and I said I don’t have Soundcloud. But if someone posted something by Terre he’ll pursue it and shut it down which is fair enough. I mean I think both Terre and I grew up at a time when electronic music was hard to find. It was a full time job to go to record shops and record fairs. It was a marginal activity, for kind of weird kids I guess. I’ll release things, for example, in limited forms that sell out instantly and are really hard to find just because it’s nice to make people work to actually get something. 
+
+The internet’s great and I wouldn’t go back to the pre-internet days, because that was horrible. It’s just great to be able to find stuff and do research and communicate and stuff. For me personally, because of the way I grew up it was like oh yeah there’s this limited edition record, there’s 200 copies of it, and my mission for the next six months was to find a copy of that record. I guess I just have fond memories of that. It was kind of quite good in a way. 
+
+A good example was Psychic TV. So one of Psychic TV’s records was released for one hour on Christmas eve, so you had to go into the record shop at this specific time, wait for the record to be put in the rack and then it was deleted an hour later… and I got one. I wish I had a well-defined reason for keeping stuff limited but I don’t, I just like it.
+ 
+**One of the final things I’d like to ask is about the Okkyung lee collaboration and how that came about?**
+ 
+Well Okkyung was doing a residency at Café Oto and I had done a thing at The Serpentine with her and Haroon Mirza, and we got on, and then she just invited me to do this thing at Café Oto. I’m not an improvising musician, I’m from a visual art background, and Okkyung said we’ll just turn up and see what happens and I was like no, we need to plan what I’m gonna do and what you’re gonna do. So I set up a few things, and some of them worked and some of them didn’t, but the one that was interesting is this piece where I play a rhythm on headphones that she wears, so she can hear it, but I can’t and the audience can’t hear it either.
+
+It’s a really simple rhythm, it’s just five steps, and each one is an integer multiple of a base value. It might be multiples of a thousand milliseconds, and so I might go like 3, 3, 3, 4, 2, 1 or something and you get a rhythm. But when you change one slider the whole lot changes because it all extends. The idea is that the musician follow it as accurately as possible and then when I change one slider they get stuck and you can hear them getting stuck and sort of falling over trying to find where the rhythm is again. That worked out quite well I think, she was really into it. She actually said later it was the hardest thing she’d ever played. She really felt she was playing for her life and was totally scared. 
+
+I think it’s really interesting to deconstruct people’s musical education and techniques. Since then I’ve done it with a violin player called Laura Cannell and a viola, and then with a pianist. It was full on grand piano and we did this experiment. It’s going to get released on this label Tapeworm, a cassette label. It should be out soon I think.
+ 
+**Well following from that, what can we expect from you for the next six months?**
+ 
+I’m doing loads of commissions. I haven’t released a solo records for a long time and I keep telling myself I want to do it. Every January I put aside four or five weeks to do a solo record and I just end up watching daytime TV. I’ve got a project in India where I’ve been invited to collaborate with some Indian musicians. But that won’t result in some sort of collective jam session. I want to actually learn Indian compositional techniques and just see where that goes. 
+
+Also I’ve been invited to Iran, to Teheran, to do a project over there, and I’ve got various exhibitions. I’m doing a project with Oren Ambarchi, Will Guthrie and this Egyptian Oud player at the ICA on the first of September. So I’ve got loads happening, plus residencies as well, so I’ve not really got time to do a solo record, but I really need to do one soon, it feels like I’m ready to do one.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/11294561&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
+ 
+**Great! I think that’s everything, unless you want to add anything?**
+ 
+Also I wanted to say that Adrian Sherwood was a massive influence on me. When I was into electronic music when I was a kid his work around 1985-ish was completely amazing.
+ 
+**He always did kind of dub and reggae stuff but at that point was he doing post punk things as well?**
+ 
+Well there was a phase around this group Tackhead, that was Keith Leblanc and he released a solo album called Major Malfunction, which Adrian Sherwood produced, and then there was this group Mark Steward and the Mafia… It was this big mix of people that all seemed to merge in different forms.
+
+I was trying to explain to someone this morning that if there was a Nobel prize for music production, he should win it. His work is totally amazing… I was sat next to him for breakfast and I was too scared to go and say hello. He’s totally brilliant and probably the two or three people that I would say were most important in my career in terms of influence.
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/206473553&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
+ 
+ 

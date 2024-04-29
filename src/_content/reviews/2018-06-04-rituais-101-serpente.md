@@ -1,0 +1,17 @@
+---
+title: Rituais 101
+who: Serpente
+image_upload: ""
+image: https://c1.staticflickr.com/1/971/27393705457_4b9048f1ff_b.jpg
+blockquote: "A new project, Serpente, has formed for the release of a stunning new cassette from Bruno Silva, perhaps best known for his work under the Ondness moniker. Silva himself has been working in the Portugese underground for over a decade, under a flurry of different names, including Sabre and Osso. I first became aware of his music through the recent compilation on Alien Jams, 'Nervous System'. His contribution, 'Maria No Raver', is a mind-bending mash-up of amen breaks and percussive loops. It sounds like samples play on top of one another without a care for form, repetition, structure, or any other staples of conventional music. But somehow, it works."
+author: Georgie_McVicar
+---
+A new project, Serpente, has formed for the release of a stunning new cassette from Bruno Silva, perhaps best known for his work under the Ondness moniker. Silva himself has been working in the Portugese underground for over a decade, under a flurry of different names, including Sabre and Osso. I first became aware of his music through the recent compilation on Alien Jams, _[Nervous System](https://alienjams.bandcamp.com/album/v-a-nervous-system)_. His contribution, 'Maria No Raver', is a mind-bending mash-up of amen breaks and percussive loops. It sounds like samples play on top of one another without a care for form, repetition, structure, or any other staples of conventional music. But somehow, it works.
+
+It's funny how the mind can find patterns within chaos. It's almost like a kind of safety latch for the brain: a disorderly world may be more than the human mind can bear, thus we are condemned to find structure, even when there is none. Psychologists call this 'pareidolia', the phenomenon of deducing familiar shapes from random stimuli. Because of pareidolia, we see elephants in the clouds, Elvis in our coffee, and Jesus in our toast. This extends to sound too. The perception of 'back-masking' or hearing voices in air conditioners are also a product of this phenomenon. 
+
+Any musician who has worked with sampling knows this weird _trompe-l'oreille_. Loop a sound, any sound, for long enough, and you start to hear its internal rhythm. Steve Reich explored this with 'It's Gonna Rain' and 'Come Out'. After enough repetitions, an unmusical sound becomes as rhythmical as a samba band. There are beats, stresses and even groove. This latest release from Silva on [Tormenta Electrica](https://soundcloud.com/tormenta-electrica-records/sets/serpente-rituais-101) also seems to make work of this. Just listen to the lumbering mechanics of 'Sangue de Galo' or 'Sob a Palha'. It's a dizzying experience trying to catch the first beat, you are wrong-footed with every bar.  It's an auditory illusion, but one that you can (almost) dance to. 
+
+There are also some clearer reference points, such as the broken-techno pulse of 'Venda de Altar'. And then there's 'Fio Obeah', made with an assemblage of 808s and the opening snare fill of reggae tracks. This is an astonishing debut release for a project, every track on here has something interesting to show. I'm already hooked. 
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1782427952/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://serpente101.bandcamp.com/album/rituais-101">Rituais 101 by Serpente</a></iframe>

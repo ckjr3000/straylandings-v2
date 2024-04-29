@@ -1,0 +1,15 @@
+---
+title: Premiere
+who: Yves de Mey on Composer Built
+image_upload: ""
+image: https://c1.staticflickr.com/2/1867/29923792617_1fa00601ec_k.jpg
+blockquote: "An intriguing new compilation has been announced, taking the natural resonances of custom-built stones to create music. The stones, which don't look dissimilar to the 'Arrival' spaceships, are at once objects of primordiality and futurism. The idea of making music from stones is so pre-historic that it is almost unsettling. This is a depiction of music at its origins: centuries before instrument crafting, millennia before recorded sound. Yet the stones used on this album have been made with laser precision, cut within a hair's breadth margin to optimise the acoustic resonance of the stone-object. "
+author: Georgie_McVicar
+---
+An intriguing new compilation has been announced, taking the natural resonances of custom-built stones to create music. The stones, which don't look dissimilar to the [_Arrival_ spaceships](https://www.hollywoodreporter.com/behind-screen/arrival-production-designer-reveals-how-create-an-new-type-flying-saucer-945155), are at once objects of primordiality and futurism. The idea of making music from stones is so pre-historic that it is almost unsettling. This is a depiction of music at its origins: centuries before instrument crafting, millennia before recorded sound. Yet the stones used on this album have been cut with laser precision within a hair's breadth margin, to optimise the acoustic resonances of the object. Consequently, the sounds are strangely exotic, bursting with a riveting modernity. 
+
+This sense of modernity is bolstered by the artists featured on the record, all of whom operate at the cutting edge of contemporary music. The album comes bundled with a sound stone sample pack containing audio samples of the Halliday/Fessmann sound stone, as used on this album by the other artists. The album consists of nine experimental interpretations by a star-studded line up, featuring Jasmine Guffond, Paul Jebanasam, Afonso Ferreira, Tomonari Nozaki, James Leyland Kirby, Steven M Halliday, Monty Adkins, Yves De Mey and Rutger Zuydervelt. 
+
+_Sound and Stone_ forms the final phase of Steven M Halliday's two-year research project into the Fessmann sound stones at the University of Huddersfield. You can hear the full _Sound and Stone_ project on 26th October with Composer Built. Below, stream the mind-bending contribution from Yves de Mey as an exclusive for Stray Landings. You can also head over to [the Composer Built Bandcamp](https://composerbuilt.bandcamp.com/releases) to listen to other excerpts from Machinefabriek and Jasmine Guffond. 
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/503895738%3Fsecret_token%3Ds-7pwdm&color=%23848484&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

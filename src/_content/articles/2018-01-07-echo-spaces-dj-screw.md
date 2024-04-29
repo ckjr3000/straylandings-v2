@@ -1,0 +1,46 @@
+---
+title: Echo Spaces
+who: DJ Screw
+image_upload: ""
+blockquote: |
+  When the parents of Robert Earl Davis Junior, aka DJ Screw, bought him his first decks at the age of 10 it was the beginning of a journey which would see him go from local treasure to almost mythic status. "Whenever you want to find Screw, just go in his room and he'll be on the turntables" his brother Charles Davis once commented on his teenage years.
+author: Theo Darton-Moore and Robert Heath
+image: https://c1.staticflickr.com/5/4679/27680511339_063f543522_b.jpg
+---
+When the parents of Robert Earl Davis Junior, aka DJ Screw, bought him his first decks at the age of 10 it was the beginning of a journey which would see him go from local treasure to almost mythic status. "Whenever you want to find Screw, just go in his room and he'll be on the turntables" his brother Charles Davis once commented on his teenage years. 'Chopped and screwed', the style which he pioneered, saw Screw slowing down hip-hop records to sluggish speeds, perfectly matching the laid-back, codeine sipping lifestyle of the Houston hip-hop scene at the time. Today you will find Screw's influence reach from the likes of Frank Ocean, Drake, T-Pain and A$AP Rocky, to The Knife, Clouddead, Balam Acab and Oneohtrix Point Never. 
+
+Screw was born in Smithville, Texas, moving according to his parents' work. They settled in Houston; a city with which he would become inextricable. Rumours abound when it comes to DJ Screw, from homespun truths to the more flagrant. Some say his moniker was born of how he would scratch records he disliked with a screw, while others say the name came from the fact Houston crews began using screws to adjust boomboxes to play mixtapes slower. Screw also trained as a pianist, and some have gone so far as to suggest he could play Chopin compositions by ear.
+
+As his popularity grew, Screw became a founding member of Screwed Up Click, attracting local rappers who would freestyle over his dense, funked-out recasts of classics by Tupac and Dr Dre. Perhaps the most striking thing about his tapes was that many were custom made according to the wants of different fans, with people travelling from around Houston to deliver tracklists to Screw's house which he would in turn mix for them. His former girlfriend Nicole Williams recalled how his popularity grew to the point where Screw had to put a gate at the end of his property, enforcing opening hours so he wouldn't be stuck selling tapes all day. This interest ultimately grew to the point where Screw opened his own store, Screwed Up Records and Tapes, which still exists today.
+
+Screw died of an overdose of codeine and other drugs at his home studio in 2000, aged just 29. Many of his friends have lamented the portrayal of this in the media, speaking of a man with a big heart, whose boundless work ethic played as much of a role in his passing as substance abuse. It has been alleged one of Screw's tapes sold over 50,000 copies, and the number he produced is nearly always estimated at over 1,000. Aside from the importance of his sound, the tale of the chopped and screwed scene is also one of a community banding together, selling tapes door-to-door, outside the influence of major labels. 
+
+Considering the number of tapes Screw produced across his lifetime, it seems somewhat ineffectual to try and commemorate his influence with just two or three tapes,  but here are a few of our favourites.
+
+###1 Bigtyme Vol. II: All Screwed Up (1995)
+
+<iframe width="100%" height="100" src="https://www.youtube.com/embed/2QHUKoPpof4?rel=0&controls=0&showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+In 1995, when _All Screwed Up_ was released, Screw had become something of a legendary figure for aspiring rappers, producers and DJs in Houston. The chopped and screwed style, which Screw had almost singlehandedly pioneered, had come to dominate Houston’s neighbourhoods on both Screw’s native south side and the rival north side, and had begun to make a nationwide impact too.
+
+_All Screwed Up_ was one of Screw’s few mixtapes distributed via a label – Houston’s Bigtyme Records – rather than self-released, although stylistically it is hard to discern much difference from those self-released tapes (see _Codeine Fiend_ below). Containing tracks from only a handful of artists, all from Texas, like many of Screw’s releases it includes an introduction from the man himself, in which he warns that “these haters ain’t gonna like this”. If they didn't, it would have been their loss, as _All Screwed Up_ showcases Screw at the height of his powers and evidences his many talents – as a selector, remixer, and turntablist. 
+
+The mixtape’s highpoint comes as Screw drops The Art of Noise’s haunting synthpop classic (and proto-dubstep roller) ‘Moments in Love’ into the mix alongside UGK’s ‘Something Good’. Screw takes the UGK original, built around a simple sample from The Isley Brothers' carefree ‘Summer Breeze’, and brews up something exquisite and narcotic, stripping away layers of the track’s bravado and extracting its sedative and plaintive undertones. 
+
+It takes boldness to develop and perfect a technique in a manner as idiosyncratic as Screw did, and this confidence manifested itself both in his willingness to dismantle and repurpose the music he enjoyed, and in his inspired selections drawn from beyond the confines of Southern rap. 
+
+###2 Don't Make Dollars Don't Make Sense (1995)
+
+<iframe width="100%" height="100" src="https://www.youtube.com/embed/CRY-ik0rKfw?controls=0&showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+This tape stuck with me for the fact it begins by turning Tupac's 'Dear Mama' into something like a drunken late night answer machine message, complete with slurred proclamations of adoration from the mothers of Screwed Up Click, before scratching out the original. Screw's love of all things Tupac is no secret, and this tape makes a good example: near enough every couple of tracks is sandwiched with something by the West Coast rapper. Screw's taste was more diverse than some give him credit for; you can find tracks by Miles Davis and even Phil Collins in some of his other tapes. _Don't Make Dollars Don't Make Sense_ is a great example of a straight hip-hop, R&B and g-funk tracked Screw mix however, turning his masterful scratching skills to everything from A Tribe Called Quest and 2 Live Crew to Aaliyah and Mary J. Blige. 
+
+Reportedly, this was a personalised tape for Screwed Up Click member Lil' Keke, gifted by Screw. Keke was a close friend of Screw, gaining recognition for his '97 track 'Southside' and receiving a Lifetime Achievement Award from Barack Obama in 2016 for his community service efforts in Houston.
+
+###3 Codeine Fiend (1995)
+
+<iframe width="100%" height="100" src="https://www.youtube.com/embed/2eE3yZ8QYTY?rel=0&controls=0&showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+Much has been written about Screw’s music capturing something of the experience of a codeine induced stupor; although the centrality of codeine to Screw’s music and to the Houston scene has arguably been overstated, with marijuana playing an equally important role in the development of the music. Whatever the substance of choice, Houston rapper Mike D, who appears on _Codeine Fiend_, claimed that the states the two drugs induce are “everything” to the chopped and screwed sound. Screw took an ostensibly playful and trivial behaviour – messing with the pitch control on a turntable, something any adolescent with a pair of decks will have done – and persisted with it to create something transformative. On Screw's tapes lyrics are drawn into sharper focus by being slowed down – a necessary aid to comprehension in the catatonic state brought on by heavy sizzup, weed, and alcohol consumption – and their narrative is foregrounded. Not only this, but is as if syrup has been poured into the turntables, clogging up the mechanical parts, a sonic equivalent to the experience of walking underwater, heavy limbs meeting gloopy, aqueous resistance.
+
+Unlike _All Screwed Up_, on _Codeine Fiend_, the 49th release in Screw’s self-released ‘Screwtape’ series (which continues to be added to posthumously), Screw draws on gangsta rap and hip-hop from across the US, including West Coast rappers such as Eazy-E (the second side opens with Screw paying tribute to the recently deceased NWA member), Tupac and C-Bo, alongside East Siders Biggie and Slick Rick, with even the Midwest represented by Da Brat (of Joliet, Illinois). The mixtape’s fantastic opening, however, sees Screw keeping it local, as he takes 4 Deep’s already languid ‘Rollin 4 Deep’ (another Houston track based on an Isley Brothers sample) and decelerates it until it feels like a lysergic daydream, albeit one replete with a healthy dose of chopping and scratching. Listening to tracks like this today, one can discern the wider influence the chopped and screwed style would have on experimental hip-hop in the Clouddead or Anticon Records mould.

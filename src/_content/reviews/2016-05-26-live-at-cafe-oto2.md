@@ -1,0 +1,15 @@
+---
+title: Live at Café OTO
+who: Laraaji
+image_upload: ""
+image: https://c8.staticflickr.com/8/7464/27202444231_aba2821acd_b.jpg
+blockquote: I often wonder if we review too much music from Cafe OTO at Stray Landings. Tucked away in a dusty Dalston sidestreet, exactly how important can this dingy dwelling be? Well, their steadfast booking policy has a standard that is basically unmatched anywhere else in London.
+author: Stray Landings
+---
+I often wonder if we review too much music from Café OTO at Stray Landings. Tucked away in a dusty Dalston sidestreet, exactly how important can this dingy dwelling be? Well, their steadfast booking policy has a standard that is basically unmatched anywhere else in London. Here, and nowhere else, you can find both genre-defining pioneers and left-field newcomers. This has therefore cemented OTO as an institution of London’s live music landscape, and ought to be cherished as such. This year will see performances from David Toop, Ian William Craig, Morton Feldman, Magma and Peder Mannerfelt. And this week, ambient legend Laraaji boarded the stage with a range of zithers, gongs and whirly tubes. 
+
+Both the recorded and live component of Laraaji's music centres on one thing: meditation. His performance began, appropriately enough, in silence. For 15 long minutes, the audience held their breath as Laraaji tuned his zithers with painstaking accuracy. After some palette-cleansing gong drones to set the tone, he began his journey through _The Dance_, his most celebrated piece. His compositions in general are meant to be trips: heady and intoxicating pieces crafted to spiral the listener into vanishing vastness. _The Dance_ works especially well in this regard, comprised of intricate polyrhythms on two micro-tuned zithers. As he laps along medieval scales, new layers of tone are added on top of one another. With each towering crescendo, the mood is lifted to ever dizzying heights. The disorienting effect is like a psychic vertigo, leaving the audience giddy and high. 
+
+_The Dance_ is the piece of music that brought Laraaji to the public eye. During Brian Eno's late 70s heyday, it was this work that was featured as the third instalment of his legendary _Ambient Series_. Unlike the records that came before it, _Music for Airports_ and Harold Budd's _The Plateaux of Mirror_, this was a record truly alive with vitality. Even now, the fresh vibrancy of those recordings comes through. If you can stomach the billowing clouds of orange and the new-age natter about ‘energies’ and ‘radiance’ - which are integral to Laraaji's performances - you can find ambient music that achieves a rare combination of mystery and fun. "Happy eternity to you" he said, before his unexpected and humorous encore of "This Little Light of Mine".  
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/tMBNKmZgs_Y?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>

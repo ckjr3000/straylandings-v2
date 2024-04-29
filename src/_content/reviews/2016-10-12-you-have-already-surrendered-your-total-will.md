@@ -1,0 +1,15 @@
+---
+title: You Have Already Surrendered Your Total Will
+who: Anthony Child
+image_upload: ""
+image: http://c1.staticflickr.com/6/5342/30063723376_4b5e01a1f2_b.jpg
+blockquote: 'It should come as no surprise that Anthony Child — better known as Surgeon — makes music beyond the confines of his trademark industrial techno. Child can now boast over two decades of honing his craft for the dance floor and this has made him a rightful heir to acclaimed status. But once you open for Lady Gaga, where can you go from there? Nowhere. Exactly. So where most would ride a glorious wave of techno super-stardom, Child has begun to explore the other corners of his creative imagination. '
+author: Georgie_McVicar
+---
+It should come as no surprise that Anthony Child — better known as Surgeon — makes music beyond the confines of his trademark industrial techno. Child can now boast over two decades of honing his craft and this has made him a rightful heir to acclaimed status. But once you open for Lady Gaga, where can you go from there? Nowhere. Exactly. So where most would ride a glorious wave of techno super-stardom, Child has begun to explore the other corners of his creative imagination. 
+
+Under his birth name, a series of oddities and collectibles can be found. Last year, he released an ambient album recorded in the Maui Jungle. Here, Child wired the humid air and deep colours of the environment into thick modular synthesis. Earlier this year, Child collaborated on a improvisational album with weirdo outfit GNOD: Salford’s answer to Can. The record itself released as a fundraiser to repair the roof of Islington Mill. This if anything should demonstrate Child's distancing from the dance floor. In an interview with The Quietus, he explained: "To be honest, I'm much more at home [in Islington Mill] than in a nightclub..."
+
+This new EP, a cassette limited to just 100 copies, reveals Child's inner hippie. The title track presents a stodgy synth raga nearing 20 minutes in length. Even by Child’s standards, it is maximal in its minimalism. Too aggressive as background music, too stark as a focal point. It exists in some curious netherworld. It’s like the sound of a synthesiser left over night, humming in its idleness. As each repetition of its warbling sequence passes, the sludge seeps deeper into your cranial nerves. As Rrose put in a one line review: “It feels like this music has been injected directly into my mind..."
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3457348785/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://frequencydomain.bandcamp.com/album/you-have-already-surrendered-your-total-will">You Have Already Surrendered Your Total Will by Anthony Child</a></iframe>

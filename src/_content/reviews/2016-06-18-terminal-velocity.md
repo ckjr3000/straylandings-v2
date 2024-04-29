@@ -1,0 +1,19 @@
+---
+title: Terminal Velocity
+who: Lars Lundehave Hansen
+image_upload: ""
+blockquote: "The topic of Stockholm's EMS studio has come up a few times this year. They helped curate this year's Intonal Festival in Sweden and I also spent time discussing the uniqueness of the space in an interview with Raster-Noton artist, Kyoka who attended sessions there in the creation of her 'SH' EP. A month or so ago the name came up again when I was presented with this rather intriguing selection of organically-textured electronics from Copenhagen based sound-artist, Lars Lundehave Hansen."
+author: Theo Darton-Moore
+image: https://c2.staticflickr.com/8/7491/27453800980_e650392872_b.jpg
+---
+The topic of Stockholm's EMS studio has come up a few times this year. They helped curate this year's Intonal Festival in Sweden and I also spent time discussing the uniqueness of the space in an interview with Raster-Noton artist, [Kyoka](http://straylandings.co.uk/interviews/noise-between-machines-kyoka-interview) who attended sessions there in the creation of her 'SH' EP. A month or so ago the name came up again when I was presented with this rather intriguing selection of organically-textured electronics from Copenhagen based sound-artist, Lars Lundehave Hansen. _Terminal Velocity_ is Hansen's debut album (under his birth name at least), and was recorded at the EMS studio across mid-to-late 2014. 
+
+Asking Hansen about the impact working at the studio had on the overall sound of the release, he stated it was the "ability to work at a place that lets you focus so much" that was most defining of the experience, spending three months in Stockholm where he "didn't have to think of anything else but how to go about making music." Quizzed further he revealed: "I wasn't even required to actually make a record, only to focus on my work and to explore and expand the fields and limits of my musical approach."
+
+Looking over Hansen's CV, the number of exhibition spaces he has worked in is rather high, and this should come as no surprise given the gallery-friendly soundscapes presented across _Terminal Velocity_. Take 'Muted Enthusiasm' for example. Warbling dial-up hum and slowly crescendo-ing arctic drones weave between one another, calling to mind the meditative tonal experiments of an artist like Biosphere. Across 'Burst' super-stretched choral motifs and pressure-blasts of noise grapple against one another fiercely.
+
+Considering the album is 21 tracks long with offerings barely ever reaching the three minute mark, the intensity Hansen manages to reach from track to track is really rather impressive. At moments _Terminal Velocity_ calls to mind Jed Kerzel's soundtrack to angst-ridden John Bunting biopic _Snowtown_, so forceful are its narratives. Take 'Disadvantage Point' for example, shuddering amp-driven chords and screeching harmonics hurtle alongside one another like two burning meteors flying through space.  'Life Explodes' on the other hand flirts with Sunn O))) style doom metal, gritten chords slamming down in an impenetrable wall. An almost identical riff is played in a notably more subdued fashion a few tracks later, 'Not Everything Is Going To Be All Right' closing the LP with discordant modular abstractions.
+
+Having not heard a great deal from Hansen prior to _Terminal Velocity_, the album makes a rather sizeable first blip on my radar for the artist. It also begs the question; if this is Hansen's debut, what giddy height might a second album reach?
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228206283&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>

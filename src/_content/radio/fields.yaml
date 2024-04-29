@@ -1,0 +1,29 @@
+type: date
+_entries_label: Radio
+
+fields:
+    who:
+        display: Who
+        required: false
+    image_upload:
+        display: Image upload. Dimensions 640x400
+        type: file
+        destination: assets/img/
+        allowed: ['jpg', 'png']
+    image:
+        display: Image Link
+        type: textarea
+        height: 100
+    blockquote:
+        display: Extract
+        required: true
+        type: textarea
+        height: 150
+    content:
+        display: Content
+        required: true
+        type: markitup
+    author:
+        display: Words by
+        required: true
+        type: users
