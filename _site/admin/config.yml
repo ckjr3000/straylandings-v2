@@ -1,0 +1,78 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/assets/img"
+public_folder: "/assets/img"
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "src/_content/articles"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Who", name: "who", widget: "string" }
+      - { label: "Featured Image", name: "image_upload", widget: "image" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Blockquote", name: "blockquote", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "interviews"
+    label: "Interviews"
+    folder: "src/_content/interviews"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Who", name: "who", widget: "string" }
+      - { label: "Featured Image", name: "image_upload", widget: "image" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Blockquote", name: "blockquote", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "mixes"
+    label: "Mixes"
+    folder: "src/_content/interviews"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Who", name: "who", widget: "string" }
+      - { label: "Featured Image", name: "image_upload", widget: "image" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Blockquote", name: "blockquote", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "news"
+    label: "News"
+    folder: "src/_content/interviews"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Who", name: "who", widget: "string" }
+      - { label: "Featured Image", name: "image_upload", widget: "image" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Blockquote", name: "blockquote", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "radio"
+    label: "Radio"
+    folder: "src/_content/radio"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Who", name: "who", widget: "string" }
+      - { label: "Featured Image", name: "image_upload", widget: "image" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Blockquote", name: "blockquote", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "reviews"
+    label: "Reviews"
+    folder: "src/_content/reviews"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Who", name: "who", widget: "string" }
+      - { label: "Featured Image", name: "image_upload", widget: "image" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Blockquote", name: "blockquote", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

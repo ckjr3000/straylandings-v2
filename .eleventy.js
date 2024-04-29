@@ -1,9 +1,9 @@
 const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("assets/img");
-    eleventyConfig.addPassthroughCopy("assets/css");
-    eleventyConfig.addPassthroughCopy("admin");
+    eleventyConfig.addPassthroughCopy("src/assets/img");
+    eleventyConfig.addPassthroughCopy("src/assets/css");
+    eleventyConfig.addPassthroughCopy("src/admin/config.yml");
 
       // Format date 
       eleventyConfig.addFilter("postDate", (dateObj) => {
