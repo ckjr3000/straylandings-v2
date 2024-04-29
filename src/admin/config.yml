@@ -1,7 +1,5 @@
 backend:
   name: git-gateway
-  repo: ckjr3000/straylandings-v2
-  branch: master
 media_folder: "public/assets/img"
 public_folder: "/assets/img"
 collections:
