@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <title>Straylandings</title>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="/assets/css/header.css">
+<header>
+    <nav>
+        <div class="logo">
+            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
+        </div>
+        
+        <div class="nav-menu">
+            <a href="#">articles</a>
+            <a href="#">reviews</a>
+            <a href="#">interviews</a>
+            <a href="#">podcasts</a>
+            <a href="#">releases</a>
+            <input type="search">
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum id ante et pretium. Maecenas aliquam ex sit amet ante efficitur, non blandit enim iaculis. Nunc dapibus tortor in ipsum mollis, id ullamcorper justo consequat. Proin feugiat tellus et lectus imperdiet, facilisis pulvinar nisl blandit. Duis ac urna quis augue feugiat dignissim nec vel lectus. Aenean rutrum arcu eget condimentum efficitur. Duis at dolor dictum, mattis velit sit amet, faucibus quam. Maecenas convallis arcu sed dictum convallis. Morbi pretium lectus finibus nunc sollicitudin malesuada.</p>
+<p>Suspendisse in massa ac massa gravida aliquet. Quisque suscipit, neque ac tempor pellentesque, enim arcu dignissim nisi, sit amet malesuada lorem diam at nibh. Pellentesque varius sapien nulla, eu porttitor diam placerat non. Nulla facilisi. Mauris porta volutpat tellus, aliquet maximus lectus faucibus eget. In id volutpat ipsum. Mauris malesuada nec est eget porttitor. Praesent vehicula purus maximus velit volutpat euismod. Nunc pellentesque fringilla tellus, nec euismod felis ornare eu.</p>
+<p>Aliquam in venenatis felis, quis porta ipsum. Morbi ac congue enim, id tristique elit. Nunc id dolor in lorem aliquet pretium. In nec eros nec lacus tempus suscipit. Vivamus non nisi vel leo bibendum suscipit. Vestibulum nunc tellus, scelerisque quis tristique nec, viverra in lectus. Sed gravida venenatis augue, nec mollis diam suscipit id. Nullam varius tellus ac nulla eleifend, quis scelerisque nisi dapibus. Mauris et felis hendrerit, faucibus lorem in, ullamcorper augue. Curabitur sed nisl sit amet nibh tristique volutpat. Aliquam imperdiet tortor mauris, ac dictum nisl blandit ac. Suspendisse et dapibus augue, vel tincidunt turpis. Ut sapien dui, consectetur sed mattis at, accumsan eget urna.</p>
+<p>Nam accumsan molestie gravida. Nam elementum, sapien ut gravida dapibus, mi lectus condimentum sapien, in aliquam sapien nunc sed enim. Suspendisse varius libero ut urna dignissim feugiat. Donec convallis sem quam, vitae ornare libero volutpat vitae. Maecenas ac velit eget ante luctus blandit. Quisque bibendum justo elit, vitae volutpat nulla fringilla in. Donec vitae consequat quam.</p>
+<p>Quisque sit amet finibus justo. Donec sed ex a tortor tempus placerat eu non dolor. Vivamus pellentesque nibh nec ex finibus mollis. Vivamus vel tortor vulputate arcu condimentum tincidunt non eget enim. Etiam eget bibendum mi. Sed vehicula enim quis ultrices ultrices. Proin mattis lorem non enim porttitor, at tristique purus placerat. Nullam volutpat malesuada faucibus. Donec volutpat tempus est, vel venenatis urna ultricies fermentum. Maecenas blandit sodales mollis. Cras semper, leo non euismod hendrerit, justo nibh convallis mauris, quis consequat felis massa in metus. Donec convallis sem sed hendrerit mattis. Sed porttitor elit quis lacus tincidunt interdum. Sed ac bibendum est.</p>
+
+    </main>
+    <link rel="stylesheet" href="/assets/css/footer.css">
+<footer>
+    <nav>
+        <div class="social">
+            <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>
+            <a href="https://twitter.com/straylandings" target="_blank">twitter</a>
+            <a href="https://www.instagram.com/straylandings/" target="_blank">instagram</a>
+            <a href="https://soundcloud.com/stray-landings" target="_blank">soundcloud</a>
+        </div>
+        <div class="contact">
+            <a href="#">about</a>
+            <a href="mailto:straylandings@hotmail.co.uk?Subject=">mail</a>
+        </div>
+    </nav>
+</footer>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", (user) => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+                });
+            }
+            });
+        }
+    </script>
+</body>
+</html>
