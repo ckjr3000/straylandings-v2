@@ -1,13 +1,40 @@
 ---
 layout: default.html
 ---
-<div id="hero-section">
-    {% for post in collections.all limit:1 %}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-    {% endfor %}
-</div>
+    {% assign reversedPosts = collections.all | reverse %}
+        {% for post in reversedPosts limit:1 %}
+            <section class="latest">
+                <!-- main image -->
+                <figure>
+                    <a href="{{ post.url }}">
+                        <img src="{{ post.data.image_upload }} | {{post.data.image}}" alt="{{ post.data.title }}">
+                    </a>
+                </figure> 
+                <div class="latest-aside">
+                    <aside>
+                        <!-- title and author -->
+                        <h1><a href=""></a></h1>
+                        <!-- blockquotes with different trucate values based on screen size -->
+                        <p class="blockquote blockquote-desktop"></p>
+                        <p class="blockquote blockquote-mobile"></p>
+                        <div class="fb-share-button"></div>
+                    </aside>
+                </div>
+                <div class="bottom">
+                    <!-- date -->
+                    <p class="small"></p>
+                    <!-- author, link to author profile  -->
+                    <p><a href=""></a></p>
+                    <!-- read more button -->
+                    <div class="button">
+                        <a href="{{ post.url }}">read more</a>
+                    </div>
+                </div>
+            </section>
+        {%- endfor -%}
 <ul>
-    {% for post in collections.all limit:20 %}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% for post in reversedPosts | limit:20 %}
+        <li>{{ post.tags }}</li>
+        <!-- <li><a href="{{ post.url }}">{{ post.data.title }}</a></li> -->
     {% endfor %}
 </ul>
