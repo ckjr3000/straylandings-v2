@@ -3,38 +3,88 @@ layout: default.html
 eleventyExcludeFromCollections: true
 ---
     {% assign reversedPosts = collections.all | reverse %}
+        <!-- featured post section -->
         {% for post in reversedPosts limit:1 %}
             <section class="latest">
-                <!-- main image -->
                 <figure>
                     <a href="{{ post.url }}">
-                        <img src="{{ post.data.image_upload }}" alt="{{ post.data.title }}">
+                        {% if post.image_url %}
+                            <img src="{{ post.data.image_upload }}" alt="{{ post.data.title }}">
+                        {% else %}
+                            <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+                        {% endif %}
                     </a>
                 </figure> 
                 <div class="latest-aside">
                     <aside>
-                        <!-- title and author -->
-                        <h1><a href=""></a></h1>
-                        <!-- blockquotes with different trucate values based on screen size -->
-                        <p class="blockquote blockquote-desktop"></p>
-                        <p class="blockquote blockquote-mobile"></p>
+                        <h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
+                        <p class="blockquote blockquote-desktop">{{ post.data.blockquote | truncate: 300 }}</p>
+                        <p class="blockquote blockquote-mobile">{{ post.data.blockquote | truncate: 100 }}</p>
                         <div class="fb-share-button"></div>
                     </aside>
                 </div>
                 <div class="bottom">
-                    <!-- date -->
-                    <p class="small"></p>
-                    <!-- author, link to author profile  -->
+                    <p class="small">{{ post.date | postDate }}</p>
+                    <!-- need to set up users, loop through authors to make this bit -->
                     <p><a href=""></a></p>
-                    <!-- read more button -->
                     <div class="button">
                         <a href="{{ post.url }}">read more</a>
                     </div>
                 </div>
             </section>
         {%- endfor -%}
-<ul>
-    {% for post in reversedPosts limit:20 %}
-            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-    {% endfor %}
-</ul>
+
+        <!-- recent posts -->
+        <section class="recent">
+            {% for post in reversedPosts limit:20 %}
+                <div class="single">
+                    <aside class="date">
+                        <p class="small">
+                            {{ post.date | postDate }}<span class="cat"><a href="{{ post.url }}">{{ post.url }}</a></span>
+                        </p>
+                    </aside>
+                    <a href="{{ post.url }}">
+                        <figure>
+                            {% if post.data.image_upload %}
+                                <img src="{{ post.data.image_upload }}" alt="{{ post.data.title }}">
+                            {% else %}
+                                <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+                            {% endif %}
+                            <div class="overlay-circle"></div>
+                        </figure> 
+                        <aside class="details">
+                            <h2>
+                                {{ post.data.title }}
+                                {% if post.data.who %}
+                                <br>{{ post.data.who }}
+                                {% endif %}
+                            </h2>
+                        </aside>
+                    </a>
+                </div>
+            {% endfor %}
+        </section>    
+        
+        <!-- older -->
+        <section class="older">
+            {% for post in reversedPosts offset:20 limit:20 %}
+                <div class="single">
+                    <figure>
+                        <a href="{{ post.url }}">
+                            {% if post.data.image_upload %}
+                                <img src="{{ post.data.image_upload }}" alt="{{ post.data.title }}">
+                            {% else %}
+                                <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+                            {% endif %}
+                            <div class="overlay"></div>
+                            <h2>
+                                {{ post.data.title }}
+                                {% if post.data.who %}
+                                <br>{{ post.data.who }}
+                                {% endif %}
+                            </h2>
+                        </a>
+                    </figure>
+                </div>
+            {% endfor %}
+        </section>
