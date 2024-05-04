@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>It's hard to paint an accurate picture of Christoph de Babalon. Not least because almost all of his press photos are shot in grainy black &amp; white. The late John Peel placed one of de Babalon's earliest releases,  <em>I Own Death EP</em>, in his 1994 end-of-year list. Two years later, de Babalon was taken under the wing of Digital Hardcore Recordings (DHR), a fringe label that specialised in some of the harshest and most abrasive contributions to music in recent memory. It was here that he first caught wider public attention.</p>
 <p>His debut on the label, <em>If You’re Into It, I’m Out Of It</em> is something of an unsung classic.   The album's high contrast artwork and ironic title capture of the mood of the time. On the one hand, it is cold and maths-y, like the Neo-Noir psychologism of Aronofsky’s <em>Pi</em> or Lynch’s <em>Eraserhead</em>. But it is also carries a certain swagger, an adolescent anti-everything nihilism. Thom Yorke even described the record as “the most menacing album I own”. de Babalon also consequently went on to support Radiohead on their 2001 <em>Amnesiac</em> tour.</p>
@@ -57,8 +55,7 @@
 <p><em>Short Eternities</em> is out now on <a href="https://lovelove.greedbag.com/buy/short-eternities/">Love Love Records</a>.</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/109631873&color=8a8a8a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The work of the Oliver Peryman, better known by his Fis moniker, never ceases to evade description. With a rich background in D&amp;B and techno, there are undeniable tendencies towards beat-oriented music present in the sound. However, to only focus on these would be to misdescribe Fis entirely. There is something more mystical and elemental at work throughout his work, and his music takes clear inspirational cues from nature.</p>
 <p>However, unlike  the field recordings of say, Wolfgang Voigt or Fennesz, Peryman’s work doesn’t so much replicate nature, as mimic it. The naturalistic motifs are there, but re-realised through computer-mediated software and hyperengineered effects. His latest album, <em>The Blue Quicksand is Going Now</em> brings this phenomenon to the fore, twisting and contorting textures in novel and innovative ways. We hear flutters of tremolo that sound like a flock of birds taking flight, gravely subs that lap around the stereo field like a diving whale and the thick churning of dense undergrowth. It’s a complex and considered record, and one that cannot be fully absorbed with just surface listening. In light of this release, we decided to catch up with Peryman to talk nation, permaculture and Alice Coltrane.</p>
@@ -59,8 +57,7 @@
 <p><em>'The Blue Quicksand Is Going Now' will be released on June 29th'</em></p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/106399343&color=a4a4a4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

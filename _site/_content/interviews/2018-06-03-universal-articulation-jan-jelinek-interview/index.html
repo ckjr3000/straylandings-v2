@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The work of Jan Jelinek has always been about finding beauty in microscopic details. His most frequently referenced work, <em>Loop-Finding-Jazz-Records</em>, was about fragmenting jazz samples into humid microhouse loops, charged with depth and hypnotic appeal. Most recently he released <em>Zwischen</em>, a study on the sounds we make between words: mutters, false starts and intakes of breath. The album was originally produced as a radio play and takes its source material from interviews with a diverse range of subjects. Indeed, it's not often you find Lady Gaga on the same album as Karlheinz Stockhausen...</p>
 <p>The album comes courtesy of Faitiche, a label Jelinek has run since 2008. He first released a series of recordings by the mysterious 'Ursula Bogner', often thought to be Jelinek himself working under a pseudonym. Indeed, the label's title, qualified as: &quot;a combination of facts and fetishes, [that] makes it obvious that the two have a common element of fabrication&quot;, might suggest there is some element of artistic license at play here.</p>
@@ -56,8 +54,7 @@
 <p>It's hard to believe, but Autumn is tenth label anniversary, so I’m planning an extra vinyl reissue of the first release - <em>Ursula Bogner: Recordings 1969-1988</em>. For spring next year, my collaboration with Japanese drone musician Asuna is going to be released. Besides that I’m hoping to release an album by two young producers from Canada - but it is still in process, so please understand, that I can’t tell you more right now...</p>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/403101057&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

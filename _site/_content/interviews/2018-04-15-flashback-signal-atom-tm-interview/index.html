@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Uwe Schmidt has many alternate identities. So much so, there are projects I've come across without even knowing it's him. There's been latino fusion covers as Señor Coconut, psychotropic ambient oddities with Tetsu Inoue as DATacide, glossy downtempo lounge musing as Erik Satin and countless others. Currently, he is best known as Atom™, a name under which he has consolidated his archive.</p>
 <p>Schmidt grew up in Frankfurt, Germany, entering the world of music in the early 1980s, switching from drum kit to drum machine after hearing a Linn Drum on the radio for the first time. Producing work influenced by the emerging techno and trance scenes, he developed a partnership with Peter Kuhlmann (better known as Pete Namlook), putting out early works on the legendary FAX (or FAX +49-69/450464 for the pedants among you).</p>
@@ -92,8 +90,7 @@
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262197826&color=%23343c3c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

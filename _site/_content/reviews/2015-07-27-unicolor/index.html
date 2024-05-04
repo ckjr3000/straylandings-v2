@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Brewer Street car park is becoming something of an unlikely institution in the world of audiovisual arts. Yes, largely as you might expect the building is just a car park, however the top floor plays host to a rotating series of exhibitions, free and completely open to the public. Across May Ryoji Ikeda held his 'Supersymmetry' installation there, drawing on his work as a resident at the European Organization for Nuclear Research (CERN) in 2014 to present an audiovisual interpretation of a theory attempting to explain why particles have mass. For the past month, it has been the turn of one of Ikeda's closest connections in electronic music and another musician drawing similar influence from science and mathematics to take over the space, Raster Noton founder Carsten Nicolai.</p>
 <p>Nicolai is no stranger to audiovisual installation work, previously displaying pieces at the Tate Modern in London, the Neue Nationalgalerie in Berlin, and Haus Konstruktiv in Zurich just to name a few. His exhibition on Brewer Street features two separate installations - 'Bausatz-Noto' (1998) and 'Unicolor' (2014). The former sees four turntables playing together with a series of interchangeable records. Each is cut with a different locked groove, allowing for a mesh of warped grooves and avant-garde timbres to be played continuously in different speeds and combinations. The piece finds a fitting home at Brewer Street - the purpose of the experiment in part being to allow people of all ages, from musical and non-musical backgrounds to participate in the creation process.</p>
@@ -37,8 +35,7 @@
 <iframe src="https://player.vimeo.com/video/104910449?color=ffffff&title=0&byline=0&portrait=0" width="550" height="310" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

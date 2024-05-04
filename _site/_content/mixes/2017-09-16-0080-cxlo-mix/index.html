@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>I first came across the work of Chlo Edwards, aka CXLO watching her perform at a Conditional night in Manor House's New River Studios. Her sound is intriguing; in many ways dense and chaotic, yet in other ways incredibly high-sheen and polished.</p>
 <p>Another intriguing thing about CXLO is that it has remained an entirely live project so far - she has performed in venues around the UK but is yet to see a release. Recently, she played at the ICA in London, for an EAVI gig. &quot;Adam Parkinson [Dane Law] asked me to DJ and said I could get weird&quot; she begins when asked about the show. &quot;As it was in a gallery I felt it was a good space to experiment using other peoples songs. At some points I had four songs playing, stretched to their extremes. I was just processing the textures and blending them together. I was also controlling all the panning as I wanted it to feel like the audience were inside it.&quot;</p>
@@ -49,8 +47,7 @@ Slavish Armani - The Water Awaits You <br>
 Loto Retina - Forme 3 <br></p>
 <iframe width="100%" height="100" src="https://www.mixcloud.com/widget/iframe/?light=1&feed=%2Fstraylandings%2F0080-cxlo%2F" frameborder="0" ></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

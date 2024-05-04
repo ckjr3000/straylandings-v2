@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Over their now decade long existence, London based Combat Recordings have always managed to keep their output staggeringly consistent. Founded in 2004 by Singaporean DJ &amp; producer Stormfield, Combat focuses on dark industrial soundscapes and brutally twisted noise, amalgamating dubstep, techno, breakbeat and anything else which can be twisted into line with the Combat school of thought. </p>
 <p>The imprint's roster is testament to this, and with the release of their latest compilation celebrating their ten year anniversary, we decided to invite the album's contributors to quiz Stormfield on the history of the label, audiovisual shows and how ego effects creativity. </p>
@@ -110,8 +108,7 @@
 <p><em>For more details on on the compilation you can visit <a href="http://www.combatrecordings.com/">www.combatrecordings.com</a>. Tickets for the launch party at Power Lunches on November 8th are available here: <a href="http://www.residentadvisor.net/event.aspx?643007">http://www.residentadvisor.net/event.aspx?643007</a></em></p>
 <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/54357823&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%" height="450" frameborder="no"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

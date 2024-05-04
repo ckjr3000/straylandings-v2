@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Despite releasing albums since the early-2000s and working with everyone from Blixa Bargeld to Iggy Pop, Carsten Nicolai, aka Alva Noto, has been at pains not to term himself a musician. I remember watching a panel discussion where he mused that despite releasing over ten albums, he barely owned a single instrument. Instead he chooses to work with scientific tools: oscillators, waveform generators and basic audio processors. Rather than thinking in terms of tempo, time-signatures and harmonies, it’s a question of grid sizes, frequencies and oscillation speeds.</p>
 <p>Carsten was born in 1965 in the former German Democratic Republic (GDR), growing up in Karl-Marx-Stadt – now Chemnitz – before moving to Dresden to study landscape architecture, a subject that still interests him and which perhaps explains his mathematical approach to composition. He also explored visual art, which led him to begin experimenting with sound, with a particular focus on rhythm and the extreme ends of the frequency spectrum. Carsten’s releases feature bass frequencies so low they are felt physically rather than heard on the scales we have become accustomed to. Similarly, his music frequently includes piercing high-end tones; 14kHz is a particular favourite of his – the test tone emitted by East German TV sets during intervals between programmes.</p>
@@ -113,8 +111,7 @@
 <p><em>'Glass' is <a href="https://boomkat.com/products/glass-a195dde5-6810-4148-8382-6def218da337">available now</a> on 12&quot; vinyl.</em></p>
 <iframe src="https://player.vimeo.com/video/191205737?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

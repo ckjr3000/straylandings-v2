@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>This July saw the third edition of Terraforma Festival, the now annual weekend of electronic music taking place in the grounds of the beautiful Villa Arconati, just north of Milan. This venue played host to around twenty acts on two distinct stages over the weekend. Also hosted were a few hundred campers, and what felt like an equal share of attendees coming just for individual days. Low capacity, picturesque venues, clean design aesthetic, vast space and minimal security gave the festival a relaxed atmosphere that felt, for the most part, pleasingly detached from the sponsored sheen of many other festivals.</p>
 <p>Terraforma's ethos is unapologetically flamboyant. Their website reads like a pamphlet you might have collected from the Isle of White Festival in 1969:</p>
@@ -40,8 +38,7 @@
 <p>The setting, design and music policy made Terraforma a pleasure to attend, and we left with that ever-exciting list of musicians to look up. It’s a shame then, that it misses the mark on some crucial principles. That said, we wouldn’t hesitate to go again and would certainly recommend it to anyone with an interest in experimental electronic music. Terraforma certainly feels like it has the potential to be politically radical if it’s a bit better thought out and its principles are properly enacted. Here’s hoping that next year we can have just as much fun, but sip an affordable drink out of a reusable cup and not be dancing to so many white men.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

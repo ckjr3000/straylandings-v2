@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Turkish vinyl-only label Vent have always inhabited the darker end of the electronic music spectrum. Their latest release however, the <em>Your Secret Face</em> LP by Vent founder Tolga Baklacıoğlu and vocalist Dee Grinski, delves into realms of unyielding nihilism and misanthropy.</p>
 <p><em>Your Secret Face</em> is an album dispatched from crumbling power station cooling towers; each sound is caked with concrete, shrouded in a mesh of whirring mechanical sounds. It calls to mind acts like Puce Mary or Pan Daijing, not least for its tenacious vocal outcries. Although recording more straightforward new wave pop under her own name, Moscow-based artist Grinski has plenty of experience taking more unorthodox approaches as one half of Russian doom/noise poetry outfit Manunkind.</p>
@@ -34,8 +32,7 @@
 <p>Stream 'Hissiyat' below, and head over to the <a href="https://www.facebook.com/VENT.vinyl/">Vent Facebook</a> for more details on the release.</p>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/416543619%3Fsecret_token%3Ds-6nZyd&color=%2344444c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

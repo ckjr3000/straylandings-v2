@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The thirteenth mix in our series comes from Henry Goury-Laffont, aka HGLDT. Having taken a short hiatus from his production duties, Goury-Laffont has come back into focus, providing the eighth release for Alps based label Fullfridge. Set for release on the 13th November, the EP is entitled ‘Reflections On The Void’ and will feature two original tracks from HGLDT, alongside a remix as is customary for Fullfridge releases.</p>
 <p>Goury-Laffont’s contribution to our mix series is slightly different from the usual offering, consisting of just over half an hour of exclusively unreleased HGLDT tracks. Aside from the two components of Goury-Laffont’s Fullfridge release, <em>FightFlight</em> &amp; <em>Lights</em>, the other tracks remain unsigned for now.</p>
@@ -50,8 +48,7 @@
 <p><a href="itpc://straylandings.jellycast.com/podcast/feed/2">Subscribe in iTunes</a></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

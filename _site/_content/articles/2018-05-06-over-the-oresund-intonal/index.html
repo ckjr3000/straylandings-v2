@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photos by Curt Lundberg.</em></p>
 <p>Malmö lies on the Swedish side of the Øresund bridge, which runs from Copenhagen in Denmark. My first impression was how tranquil and clean Malmö is, a far cry from the purposeful bustle of a city like London or Stockholm. The people here are relaxed and inquisitive, with a dry sense of humour not dissimilar to that of their neighbouring Danes.</p>
@@ -50,8 +48,7 @@
 <p>This didn’t cloud enjoyment too much though, and at Intonal you have the feeling of being welcomed into something intimate and almost cooperative feeling. In essence, there feels less of a removal between artist and audience at Intonal. Perhaps this is the direction we are heading in as more and more people seem to be developing their own involvement in electronic music. Other festivals could take note of this welcome change.</p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/zDvbg2z7760" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

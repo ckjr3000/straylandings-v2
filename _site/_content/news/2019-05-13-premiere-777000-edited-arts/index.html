@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The relatively young experimental platform, <a href="https://www.edited-arts.co.uk/">Edited Arts</a>, was born out of a friendship between two students and has had an impressive journey so far, establishing itself as a progressive event organiser and filmmaker. Since its conception about two years ago, the organisation has matured and grown in many ways. Instead of throwing house parties, it regularly organises live events at London’s booming venue, The Glove That Fits. Instead of curating a DIY multimedia exhibition at the abandoned police station, it assists in the event programming at the Royal Albert Hall. Instead of filming a graduate art show, it collaborates on a documentary with Resident Advisor. Now, it’s also set to conquer another height and become a label.</p>
 <p>The name 'Edited Arts' refers to the process of continuing to work on something that seems finished, editing it and saving it as a new file. It’s about the process of constant improvement and advancement through building on what’s already there. As such, the platform aims to upgrade the current concept of audiovisual performance by paying special attention to the set design during its events. Similarly, for its very first release, the platform turns to what it already has – a community of long-time collaborators – and comes up with a tracklist full of adventurous talent, enhanced by some really noticeable newcomers.</p>
@@ -34,8 +32,7 @@
 <p>Listen below and look out for a full compilation released on Wednesday, May 15th via <a href="https://soundcloud.com/editedarts">Soundcloud</a> and <a href="https://editedarts.bandcamp.com/">Bandcamp</a> with a visual stream available on <a href="http://bit.ly/editedextendvid">Youtube</a>. All the profits will be donated to Young Minds, a charity fighting for children and young people’s mental health.</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620150064&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

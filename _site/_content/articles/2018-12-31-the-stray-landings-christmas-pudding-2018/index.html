@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>We often find the year’s closing article to be the hardest to write. More than a time of retrospective reflection, December has become a month of binge-listening, trying desperately to catch up with the ‘big records’ of the year. The problem with running a music blog is that it assumes a degree of musical omnipotence. If a music blog has any purpose in 2018, it is to provide a platform for artists that is distinct from that of the mainstream media. This requires an appreciation both of the year’s media-adorned artists and those criminally overlooked.</p>
 <p>But the truth is we don’t want to only listen to music from the present. A lot of what we listened to in 2018 came from reissues, old records, genres we never ‘got’ before. Spotify reveals Vikingur Olaffsson’s 2018 performances of Bach’s piano works as top of one of our most played this year: new interpretations of music over 300 years old. We’ve otherwise been revisiting early Tom Waits and Art Blakey records, and other music from years gone by, electronic or otherwise. This isn't because new music is lacklustre or that old music is better. Sometimes taste, fleeting and contingent as it is, is just like that sometimes. This is no bad thing either. After all, those who do not learn from music history are doomed to repeat it.</p>
@@ -45,8 +43,7 @@
 <p>Find a playlist of just some of the music we have enjoyed below, and have a happy new year.</p>
 <iframe src="https://open.spotify.com/embed/user/l1qt73tvj4sttcnkh2azulsya/playlist/4A5nn7XB8N7rbcvAjKVEwt" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

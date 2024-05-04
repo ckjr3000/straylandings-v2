@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Founded in 1999, Berlin’s CTM festival has become a benchmark for underground experimental music festivals. The festival — formerly Club TransMediale — has an enormous scope, describing itself as a place for “adventurous music and related visual arts”. Anything within that bracket is to be expected. Stretching out over 9-days, with 15 venues and 173 acts, it can be dizzying trying to see even a fraction of the events being held. There are exhibitions of light, sound, DJ sets, interactive workshops and talks. Given this, any review of the festival is going to be only part of the story, but here are a few of our highlights.</p>
 <p>Last month, we spoke to this year’s CTM curator, Rabih Beaini. The underlying theme of the festival this time round, he told us, was ‘New Geographies’. “The main focus is how things communicate from one place to another in the world, and how the transformation of many traditional practices are interpreted today and projected into the future.” This is immediately clear from the festivals central exhibition: Seismographic Sounds. Here, multimedia artworks presented a range of perspectives on music today. One billboard read: “‘Gangnam Style’ by South Korean rapper Psy was a first step. Future hit songs and underground trends will come from Africa, Asia and Latin America. Produced and financed locally, without the support of Euro-American agents.”</p>
@@ -47,8 +45,7 @@
 <em>Still Be Here</em>, Haus der Kulturen der Welt (HKW) // Photo by Camille Blake</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

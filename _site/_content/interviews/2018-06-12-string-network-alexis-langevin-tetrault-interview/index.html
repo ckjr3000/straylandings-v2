@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Myriam Boucher.</em></p>
 <p><em>Interférences</em> is a tangled mesh of hooks, elasticated webbing and personal attachments. The contraption was originally developed by Alexis Langevin-Tétrault, in an attempt to introduce some physicality to performing electronic music, equating its increasingly untamable web of cords to the metaphor of an online social network. As it grows beyond the borders of its owners expectations and intentions, it becomes increasingly difficult to control and make sense of.</p>
@@ -74,8 +72,7 @@
 <p>For sure, there's some help from the government too if you want funding to travel or something. I guess there's money in art there which helps artists create new things. The government in Canada give you just enough funding so you can do what you want to do, but it's not that much that you don't feel you have to do anything... It's just enough that you can do what you need to do to present your project in front of people. The help is there - if you're really looking for it, you'll find it.</p>
 <div style="padding:73.17% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/229006642?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

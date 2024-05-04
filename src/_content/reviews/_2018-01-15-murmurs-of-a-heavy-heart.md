@@ -5,6 +5,7 @@ image_upload: ""
 blockquote: blah
 author: Georgie_McVicar
 image: https://c1.staticflickr.com/5/4604/24841782157_1e440659a9_b.jpg
+eleventyExcludeFromCollections: true
 ---
 # One might even argue that this is a collection of love songs. The track names themselves seem to suggest it as least, leaving clues to a punctilious lover, someone to struggle with, and washing the dirt of loneliness. But more than this, Nuances has brightened the colour of his sound. This time round, Nuances sounds more confident, more optimistic. The album closes in a sudden cut of sound, as if someone had plugged the plug. But this does not suggest an ending so much as an intermission. There is clearly more to the Nuances project yet to come. 
 

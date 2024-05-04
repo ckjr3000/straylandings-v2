@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Hamburg’s Helena Hauff, resident DJ at the city’s legendary Golden Pudel club, has made her first forays as a musician over the past couple of years, releasing on acclaimed labels such as Werk Discs &amp; PAN, transferring the raw, hypnotic power of her DJ sets into primal analogue workouts that fall anywhere on a spectrum from acid house to electro and from techno to industrial.</p>
 <p>After beginning DJing in Hamburg a few years ago, Hauff has built an international reputation for herself, known for playing an extensive variety of music that goes beyond the polished sound of most house and techno and which draws upon a whole history of electronic dance music, with her sets often tracing a path between the fringes of that history.  As well as working as a solo musician, Hauff has released music as one half of Black Sites, a collaboration with fellow Golden Pudel resident F#x; and performs live as one half of Hypnobeat, a group that dates back to the early eighties and which was rebooted in recent years by founding member James Dean Brown who was so taken by Hauff’s Werk Discs release that he asked her to join the project. Hauff has both a solo release and a Black Sites release coming up on Panzerkreuz, an offshoot of longstanding Dutch label Bunker Records, and there are plans afoot for the release of new Hypnobeat live recordings.</p>
@@ -65,8 +63,7 @@
 <p>Helena Hauff’s <em>Return to Disorder</em> is available now on Panzerkreuz Records, as is Black Sites vs. Ghetto Gem’s <em>Panzerkreuz 1029</em>.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Wang Fujui &amp; Lu Yi.</em></p>
 <p>I'm told by musicians working in Taiwan's capital, Taipei, that the experimental music scene there is small enough that you could know pretty much everyone involved in just a few days. Lucia H Chung, curator of Music Hackspace's Taiwanese residency, told me that she didn't even know there was an experimental scene until she left the city, so covert are its operations. Yet the artists that have come from the city present a diverse range of burgeoning styles. From the chaotic city-scape grooves of Meuko! Meuko! to the sonic spiritualism of Sheryl Cheung, Taiwan today is a microcosm of innovation. To conclude our focus on Taiwanese experimental music this summer, we've listed 5 of our favourite experimental artists from the country that are working today.</p>
@@ -53,8 +51,7 @@ TNUA, so many new artists from Taiwan will have learnt sound techniques and theo
 <p><em>Catch Wang Fujui, Lu Yi, Meuko!Meuko!, Tzu Ni and LTY this weekend at Somerset House as the final show in the Music Hackspace residency. Details can be found <a href="http://musichackspace.org/events/taiwanese-experimental-music-wang-fujui-lu-yi-meuko-meuko-tzu-ni-lty/">here</a>.</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

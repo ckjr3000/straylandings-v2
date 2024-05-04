@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>I first encountered Manchester's Henrietta Smith-Rolla, aka Afrodeutsche, DJing at London's Somerset House. She was playing at an event themed around algorithmic parties, virtual dancefloors and the interplay between London and Manchester's nightlife. Her set delivered an amphetamine-charged hour of thudding breaks and heady, space-station psychedelia, playful, yet well in tune with the gig's future-focused approach.</p>
 <p>Since then, it appears she has been rather busy. Her debut album, <em>Break Before Make</em>, saw its release at the end of last month on Skam, an enterprise which has been similarly forward-looking, ever since its establishment in 1990. Releasing works by a young Sean Booth and Rob Brown, now better known together as Autechre, as well as the likes of Boards of Canada, Freeform and Jega, Skam have championed artists with an ear for the unconventional.</p>
@@ -36,8 +34,7 @@
 <p>The Afrodeutsche project grew from a search for Smith-Rolla's biological father, in which she discovered her Ghanaian roots also included German and Russian heritage. As far as I can tell, <em>Break Before Make</em> marks her first dispatch from the alias, yet it's clear the album was born from years of honing her craft – that point where technical nous becomes mere intuition. She performs live regularly, and this album could equally be one of those sessions, unpacking ideas carefully and exploring their range with unrestricted imagination.</p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/TgzO1BsXLfI?rel=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Ambient is something we cover quite a bit at Stray Landings, yet often it comes packaged as part of something wider; an interlude alongside more beatific music or an aside to a more aggressive central project. London based Alex Ives, aka Specimens however seems to be fully committed to the genre.</p>
 <p>Following his debut cassette, 'II', on Shimmering Moods Records in 2015, Ives released the <em>Sculptures</em> LP last year, a conflicted, tension-fraught journey through warped orchestral timbres and manipulated field records.</p>
@@ -49,8 +47,7 @@ Thee Oh Sees - Nervous Tech (Nah John) [Castle Face] <br>
 Klein - Marks Of Worship [Howling Own Records] <br></p>
 <iframe width="100%" height="100" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fstraylandings%2F0077-specimens%2F&light=1" frameborder="0"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

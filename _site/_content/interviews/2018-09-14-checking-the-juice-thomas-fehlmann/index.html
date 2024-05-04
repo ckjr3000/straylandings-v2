@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Max Zerrahn.</em></p>
 <p>Thomas Fehlmann is many things: synthesiser-cum-trumpeter for early post-punk band Palais Schaumburg, minimal techno pioneer with the likes of Juan Atkins and Mortiz von Oswald, and of course a member of the Orb. But Fehlmann’s solo work is sadly less well known, although to my mind the strongest of all his output.</p>
@@ -72,8 +70,7 @@
 <p><em>'Los Lagos' is out now on <a href="https://kompakt.fm/releases/thomas_fehlmann_los_lagos">Kompakt</a>.</em></p>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=359330282/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/artwork=small/track=3237116835/transparent=true/" seamless><a href="http://thomasfehlmann.bandcamp.com/album/los-lagos">Los Lagos by Thomas Fehlmann</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

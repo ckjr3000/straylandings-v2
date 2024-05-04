@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Ryuichi Sakamoto and Carsten Nicolai, aka Alva Noto, first met around 1997. It was something of a chance meeting, while Nicolai was on his first trip to Japan. Following an initial remix from Nicolai, the collaboration lead from to album after album – in total, they have written five LPs together, and toured extensively. Their work came to a halt between 2011 and 2015, in part due to Sakamoto's battle with cancer, but also as they felt their collaboration creatively exhausted.</p>
 <p>Fast forward to 2016 and they were united once again, enjoying the shine of having composed the soundtrack to BAFTA-winning survival epic, <em>The Revenant</em>. The reunion marked a clear departure from their previous work sonically, and in <a href="http://straylandings.co.uk/interviews/test-channel-alva-noto-interview">an interview</a> earlier this year, Nicolai revealed that they had decided to &quot;step into completely new territory&quot;. Subsequently, they produced <em>Glass</em>, recorded in Philip Johnson's Glass House. The album is largely improvised, Sakamoto and Nicolai more or less trading places as Nicolai experimented with traditional instruments while Sakamoto took control of electronics, using contact mics to harness the natural reverberations of the structure.</p>
@@ -37,8 +35,7 @@
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/191205737?color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

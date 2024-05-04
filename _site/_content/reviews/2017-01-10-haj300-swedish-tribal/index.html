@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>&quot;I wanted to take over the world with my music&quot;, reads an extract from an interview with Katja Lindeberg in 2015. Just over a year elapsed before her debut release, 'Swedish Tribal', arrived under the alias HAJ300, yet it would seem the crosshairs of world domination are finally well and truly aligned.</p>
 <p>Despite the fact this makes up her first release under the moniker, it would be misleading to present the EURO2000 released cassette as Lindeberg's first foray in electronic music. She is a founding member of the Stockholm based female and transgender collective Drömfakulteten, who are well-versed in live, improvisational electronics.</p>
@@ -36,8 +34,7 @@
 <p>If I'm being honest, I'm surprised this release hasn't garnered more attention. Lindeberg has tapped into an area which feels rather uncharted to me, her mastery of live electronics pushing the release into a space shared by few. This may be the first we've heard from the HAJ300 moniker, but I have every confidence it won't be the last. The tanks are on the lawn.</p>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2825833563/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://euro2000.bandcamp.com/album/swedish-tribal">SWEDISH TRIBAL by HAJ300</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

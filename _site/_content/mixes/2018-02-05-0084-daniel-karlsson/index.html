@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>My first encounter Daniel M Karlsson came  through his release on <a href="http://shop.conditional.club/album/expanding-and-overwriting">Conditional</a> last year, <em>Expanding &amp; Overwriting</em>. This is an explosive album, bursting with dazzling pyrotechnics of sound design. Karlsson's music is part of a lineage of new music made with code. Many contemporary producers, in an act of anarchistic reclaiming of technology, have disposed of hardware, VSTs and plug-ins to get at the very building-blocks of computer processing.</p>
 <p>I first saw 'live-coding' in Tokyo in 2014, at the 'Beyond Code' evening with Yu Miyashita and Akihiro Kubota in SuperDeluxe. When I returned, it seemed to be everywhere. It's an exciting new format for electronic music in that it attempts to demolish the stereotype of laptop-producers. The argument has long been that performing live on a laptop takes away everything that is interesting about live music. There is really no 'performance' to speak of and the source of the sounds are blocked (literally) by the back of a laptop screen. For all the audience knows, the producers might as well be playing songs off iTunes and checking emails. Sometimes they probably were.</p>
@@ -46,8 +44,7 @@
 <iframe src="https://drive.google.com/file/d/16bdTtD4oMKffdEWDOwPr_pdH-oMNsp5Q/preview"
 width="100%" height="480" allow="autoplay"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

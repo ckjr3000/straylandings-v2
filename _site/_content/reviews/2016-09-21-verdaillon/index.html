@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Following an invitation to play Les Orgues festival, drone outfit Saåad gained access to the Puget organ of Church of Notre-Dame de la Dalbade. This organ, a Frankenstein creation of added features and rebuilt tidbits, functions as the centrepiece of their latest work, <em>Verdaillon</em>. Although designed to play French 19th and 20th century classical, Saåad carry this instrument, with its creaking tones and blaring resonances, into the 21st.</p>
 <p>Saåad’s back catalogue is unapologetically gloomy and mournful. Descending from Toulouse, the duo specialise in billowing clouds of sound that engulf the listener. They also employ intriguing techniques to experiment with space. Most notably, their last record, <em>Deep/Float</em>, took inspiration from a series of experiments in which the duo played three giant horns against a cliffside in the Alps. This fixation on natural spaces follows right through their work, from muggy caves to frozen mountains and misty forests.</p>
@@ -35,8 +33,7 @@
 <p>Listen to <em>Verdaillon</em> in full <a href="https://saaad.bandcamp.com/album/verdaillon">here</a>.</p>
 <iframe src="https://player.vimeo.com/video/101911599?color=ffffff&title=0&byline=0&portrait=0" width="100%" height = "400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

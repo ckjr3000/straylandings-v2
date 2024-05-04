@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Ahmed El Ghazoly, aka ZULI, meets me in a cafe during Unsound. His new album, and debut LP, <em>Terminal</em> was to be released in November on Lee Gamble’s label UIQ. Judging from his publicity photos, I imagined to be meeting someone serious, frowned, if not a little intimidating. But I couldn’t be more wrong about what he’s like. El Ghazoly struck me as a soft-spoken and courteous collocutor, who soon began asking questions in return and on my attempt to draw the attention back to him, noted that “we are only halfway through the salads”.</p>
 <p>In Cairo, he’s known as one of the leaders of the underground music scene. The club VENT he was running with the group of friends was responsible for bringing international DJs to the city, as well as introducing Egyptian DJs to the world. The cultural exchange is present in his music too: his set at Unsound was a mix of techno and jungle, while <em>Terminal</em> blends genres like breakbeat, hip hop, trap and ambient to a somewhat deconstructed effect. “Many of us who don't fit into any one specific group identity feel sidelined at best”, writes El Ghazoly in the album’s description. Growing up in the UK and now living in Egypt, he speaks up about the exoticism of Eastern music and culture, which pigeonholes people into the roles he doesn’t want to play.</p>
@@ -95,8 +93,7 @@
 <p><em>'Terminal' is out now on <a href="https://u-i-q.org">UIQ</a>.</em></p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/533926830&color=%23646458&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

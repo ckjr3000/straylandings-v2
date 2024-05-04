@@ -7,6 +7,7 @@ blockquote: |
   
   xxx
 author: Stray Landings
+eleventyExcludeFromCollections: true
 ---
 In case you hadn't noticed, Stray Landings is taking a little break for summer. We will be back some time in September, when we will respond to emails/messages and so on. 
 

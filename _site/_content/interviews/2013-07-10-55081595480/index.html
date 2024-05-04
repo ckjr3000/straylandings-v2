@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Having begun his career in the early 1990s releasing both under his own name and under monikers such as Planetary Assault Systems and L.B Dub Corp, Luke Slater is a name that holds some serious sway in the UK techno scene. Having released on labels such as Ostgut Ton, Figure and Novamute, Slater also runs the stellar Mote-Evolver imprint, a label which our regular readers will probably be more than familiar with.</p>
 <p>With an appearance at Fabric due on the 13th alongside Stroboscopic Artefacts’ Lucy, we were given the opportunity to have a brief chat with Mr. Slater about his upcoming gig, what makes a good remix, and how to remain relevant after over twenty years of producing and DJing.</p>
@@ -41,8 +39,7 @@
 <p>Catch Luke Slater performing alongside Lucy &amp; Terry Francis in fabric’s room two in the <a href="http://www.residentadvisor.net/event.aspx?489882">13th July</a></p>
 <iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F55091415" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

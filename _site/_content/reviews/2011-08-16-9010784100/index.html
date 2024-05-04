@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Writing a review of a festival from an objective perspective can pose quite a challenge, not least because each musical encounter is so heavily imbued with personal and external events (and often experienced through a lens of intoxication); but also due to the sheer impossibility of taking everything in and seeing and doing everything that’s on offer. To write purely about the music from a detached viewpoint and nothing else would be a disservice to All Tomorrow’s Parties, and I must acknowledge that the music is only one of the things that makes the weekend at Butlins so thoroughly entertaining. Chalet parties, the excellent waterpark, amusement arcades, the beach and the peculiar sight of watching Ariel Pink and others wandering around a kitsch British seaside resort all set the ATP experience apart from most festivals (honourable mentions to Bloc, Bangface etc.), and the intimate atmosphere is something I’ve yet to find replicated elsewhere.</p>
 <p>The Butlins resort did seem slightly emptier than usual, and there were rumours that as much as a third of the tickets remained unsold. However, the line-up was one of the festival’s strongest; and there was no shortage of musical clashes, not to mention the intriguing cinema programme, which included oddball Japanese horror; some excellent documentaries from the Sublime Frequencies label, who also had several artists performing live; and a fascinating and hypnotic four hour ‘History of Sound Art’ installation.</p>
@@ -45,8 +43,7 @@
 <p>Avey Tare described the weekend as ‘pretty cool’ – and I’m inclined to agree.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

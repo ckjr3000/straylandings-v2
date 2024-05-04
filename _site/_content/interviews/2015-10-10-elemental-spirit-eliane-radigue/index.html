@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Few artists working today can claim to have been as innovative as Éliane Radigue. Born in 1932, she became engaged in the vibrant Parisian avant-garde that was so eminent during the 50s, working under Pierre Schaeffer and Pierre Henry, founders of musique concrète. As her sound developed, she specialised in the use of feedback and drones, moving gradually away from the chaotic stylings of Schaeffer and Henry. Almost all of her work in creating these drones has been written for a piece of analogue obscurity; the ARP 2500 synthesiser, a huge piece of hardware that is capable of bellowing rumbles of enormous depth.</p>
 <p>In the 1970s, she shared a studio with Laurie Spiegel at New York University to expand her sound. Her focus on reductionism began to align her more closely to the minimalist tradition that was encircling NYC at the time. After 1975 she began to incorporate the practice of meditation and Tibetan Buddhism into her work, which are now completely inseparable from her music. For a few years, she put her music on hold, choosing instead to retreat and study Buddhism. After returning from her studies, she continued to write several masterworks infused by her newly found Buddhist influence, including <em>Trilogie de la Mort</em>, a rumination on death, life and rebirth in the Tibetan tradition.</p>
@@ -56,8 +54,7 @@ With my very best,</em></p>
 <p><em>Special thanks to Elsa Hewitt for translation.</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

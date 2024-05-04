@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Iranian artist Ata Ebtekar, aka Sote has had quite a year. In June, Opal Tapes hosted his <em>Hardcore Sounds from Tehran</em> LP, providing a snapshot of his incendiary, hyper-digitized live shows. Around the same time, Shapednoise fronted label Repitch released a 10&quot; featuring two breakneck hardcore tracks, which have been hibernating on Ebtekar's DAT tapes since the 1990s. Recently, he also released 'Hyper Urban 20 30', a Ge-stell released EP dedicated to the Iranian musicians he has encountered working on SET Festival in his home city, Tehran.</p>
 <p>SET began two years ago when Ebtekar relocated back to Iran from the U.S, providing an outlet for Iranian electronic musicians to perform their work live, simultaneously encouraging more people to become engaged with the scene. SET has subsequently gained international attention and the annual festival is also subsidised with one off events across the year.</p>
@@ -85,8 +83,7 @@
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/227449508&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe> 
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>You might know London-based Jimmy Billingham better as HOLOVR (or for his other Holo-related activities). His 2014 LP for Opal Tapes, <em>Holo Earth</em>, straddled something between the forest-hallucinogens of Oneohtrix Point Never and the foggy rave-pastiche of someone like Lee Gamble or Lowtec. 8-bit kicks, swirling arpeggios and warped breakbeats collided to create a dream-like experience - euphoric techno lost at sea, dizzy and confused.</p>
 <p>Recently however, Billingham has been exploring other avenues. Most recently he contributed to SM-LL's 'Batch' series under the moniker Ex Geo. 'Batch 0005' takes the form of a lathe-cut 12&quot; presenting a more streamlined and delicate approach to production than his usual space-gazing material. Melodic motifs are left to stand on their own here, as Billingham reduces his tonal palette down to the bare essentials.</p>
@@ -62,8 +60,7 @@
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/310794250&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

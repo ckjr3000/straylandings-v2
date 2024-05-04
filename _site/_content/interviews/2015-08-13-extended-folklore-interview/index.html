@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Over the past few years, Barcelona based Adriana Lopez has become one of the defining acts of the Spanish techno scene. Having developed her skills as a DJ back in Colombia where she was raised, Lopez took influence from the early Detroit &amp; UK techno scenes, moving to Spain in 2002 where her work began to make a significant impression.</p>
 <p>Over 10 years on from her relocation and Lopez is one of Barcelona's most acclaimed artists, not least for her skills as a DJ but also as a producer and curator of her label, Grey Report. Founded as a platform for her own smoke-laced warehouse jams, Grey Report has grown to feature collaborations with some of Lopez's closest affiliates, including NX1 and Developer.</p>
@@ -52,8 +50,7 @@
 <p>There are some new releases that will be out soon.  My first solo EP on Grey Report, “Anonymity Of Grey”, scheduled for September;  a Modularz split release coming out in November and the sixth Grey Report release for the end of the year.  I’m also recording new material for a Spanish label that should be out in 2016.  About the upcoming dates, as you mentioned, I’ll be playing at Festival Forte in Coimbra in August.  The festival is organized by Soniculture and they already booked me some months ago to play at Lux in Lisbon and Gare in Porto.  Those gigs were great so I’m looking forward to Forte, not just to playing there but to seeing Robert Henke’s audiovisual installation and Front 242 live.  Besides Festival Forte, I have other confirmed dates in Germany, Argentina, Canada, Spain, The Netherlands and more T.B.A. for the rest of the year.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208570830&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

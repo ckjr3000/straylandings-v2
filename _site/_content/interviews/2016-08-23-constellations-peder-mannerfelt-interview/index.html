@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Although I might not have clocked the name until years later, my first exposure to Peder Mannerfelt would have been six or seven years ago, listening to the glacial electro-pop of fellow Swede, Fever Ray. As well as helping produce some of her most notable tracks, Mannerfelt has also worked with artists like Glasser, and even swung a credit on Britney Spears' 'Toxic' while working as a runner for producers Bloodshy &amp; Avant.</p>
 <p>These days however, the Stockholm based artist is well-established in his own right. His raw, psychedelia-laced take on electronic music has seen him release everywhere from Avian to London-run We Can Elude Control. Last year Mannerfelt released <em>The Swedish Congo Record</em> ‎through Yves De Mey and Peter Van Hoesen's Archives Intérieures, recreating tracks from the Armand Denis recorded  <em>The Belgian Congo Records</em> using only synthesisers. For his latest project, Mannerfelt sought to do the exact opposite. <em>Controlling Body</em>, produced alongside New York residing Glasser is constructed almost entirely from samples, moving into notably more pop-friendly territory.</p>
@@ -91,8 +89,7 @@
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/275266162&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

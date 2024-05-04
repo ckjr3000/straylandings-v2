@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>I’ve rarely heard a label with a name more fitting than ‘Alien Jams’. Headed by Chloe Frieda, Alien Jams (AJ) showcases sounds that are warped and mangled, as if corrupted in transmission from an extraterrestrial broadcaster. Indeed, the label began as radio, with Frieda’s <a href="https://www.nts.live/shows/alien-jams">fortnightly show</a> on NTS. But unlike a lot of the worst excesses of sci-fi electronics, this is music you can actually <em>jam</em> to. Music for the dancefloor, even if that dancefloor is on another planet.</p>
 <p>In Bellingham, a city 90 miles north of Seattle, she first began broadcasting with an interest in post-punk. This is somewhat unsurprising to me. After all, post-punk was a genre that thrived primarily through the encoded format of radio. Shows like the legendary John Peel Sessions circulated these sounds via the airwaves, at a time when no record label would touch them. For many, radio was the main organ of cultural circulation. It's no coincidence that Joy Division's breakthrough single, 'Transmission', took the format as its subject matter. Even if intended ironically, 'Transmission' captured something quintessential about radio's rapturous effects. Beaming through the air, radio waves electrify listeners in a way no other format can: galvanising generations into collective frenzy.</p>
@@ -52,8 +50,7 @@ In a spirit similar to the BBC Radiophonic Workshop, the sounds here are more li
 <iframe style="border: 0; width: 100%; height: 373px;" src="https://bandcamp.com/EmbeddedPlayer/album=3203504884/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless><a href="http://alienjams.bandcamp.com/album/v-a-nervous-system">V/A- Nervous System by Alien Jams</a></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

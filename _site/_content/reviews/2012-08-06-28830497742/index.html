@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Wizard Sleeve, a multimedia arts company made up of 8 DJ’s, 2 VJ’s, 1 artist and a cunning entrepreneurial spirit, may leave you wondering what they have up their Sleeve next. The collective run a fortnightly show on Surrey’s KaneFM, Nottingham’s RogueFM, regular UStream house party’s (with their own custom built system) and a website/blog.</p>
 <p>With bass, beats and boat feet, Wizard Sleeve bring us their first release: ‘Beat Emporium Vol. 1.’ Coinciding with the launch of their new website, the Wizards offer us a welcome diversity of music from accomplished beat makers within the electronic/dance music field. Made up of friends, music undergraduates and the collective’s musical family, the love is not only felt within the music but between the producers themselves.</p>
@@ -38,8 +36,7 @@
 <p>Download the full compilation <a href="http://wizardsleevecollective.bandcamp.com/album/wizard-sleeve-beat-emporium-vol-1">here</a>, or visit their <a href="http://www.wizardsleeve.co.uk/">website</a> for more updates.</p>
 <iframe frameborder="no" height="166" scrolling="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F54127459&amp;show_artwork=true" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

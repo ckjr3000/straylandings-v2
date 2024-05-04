@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Paul Kulon.</em></p>
 <p>The central part of Krakow is surrounded by a strip of woody park, where orange leaves crunch underneath the feet. The first edition of Unsound took place here in 2003, soon after the city was selected as one of the European Capitals of Culture — an honourable title given by EU that celebrated its contribution to the world’s heritage. The culture of Eastern Europe has become somewhat fashionable over the last couple of years. From Rubchinskiy to Bassiani, the so-called New East has been making waves in Western press, although many still find it's surprising that Unsound, an event often dubbed as the most important affair in the avant-garde calendar, is located in an inconspicuous city in the south of Poland.</p>
@@ -45,8 +43,7 @@
 <p>Since its first edition in 2003, the festival has grown a lot: from a small basement with just over 100 people to hosting a couple thousands in multiple locations. Nevertheless, it kept a feel of community. Mat and Gosia were seen at most of the events, even at 2am at Szpitalna 1, ensuring me that it’s still a project that is genuinely cared for. While some artists were clearly invited to lure people in, it was done with an aim of introducing new things to the audiences that may not have been exposed to them otherwise. Unsound is a place to go to be blown away, but it’s best to keep an open mind because you never know where you’ll find your new favourite artist.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

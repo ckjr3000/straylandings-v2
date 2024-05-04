@@ -5,6 +5,7 @@ image_upload: ""
 image: http://c1.staticflickr.com/5/4315/35620442930_d001559837_b.jpg
 blockquote: 'Klink! - an onomatopoetic word in Swedish that describes the sound of two metallic objects hitting each other, or the sound of a knife that strikes a glass to get the attention at a dinner party.'
 author: Georgie_McVicar
+eleventyExcludeFromCollections: true
 ---
 _Photo by Riccardo Fantoni_
 

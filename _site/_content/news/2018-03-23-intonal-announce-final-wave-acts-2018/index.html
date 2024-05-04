@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Malmö-based experimental music festival Intonal continues to push the boundaries of expectation with the announcement of the final wave of acts for this year’s edition in late April.</p>
 <p>Deena Abdelwahed, who released the beguiling fusion of futurist club music and Middle Eastern tonalities ‘Klabb’ on French label Infiné last year, will perform on Friday 27 April at Inkonst. Additionally, Austrian avant-guitarist Fennesz, Morphine label boss Rabih Beaini and Jamaican dancehall duo Equiknoxx will also be joining the bill for Intonal, which runs from 25 to 30 April. Comprising Gavsborg and Time Cow, plus collaborators such as Shanique Marie, Bobby Blackbird and Kemikal Splash, Equiknoxx released the <em>Colon Man</em> LP late last year, a convention-defying exploration into stuttered bass-heavy dancehall. The group’s distinctly leftfield electronic take on a range of Caribbean styles has seen them booked at festivals such as Unsound and attracted remix treatment from Hardwax founder Mark Ernestus.</p>
@@ -34,8 +32,7 @@
 <p>For tickets or learn more about the festival, visit the <a href="http://www.intonalfestival.com/">Intonal website</a>.</p>
 <iframe width="100%" height="345" src="https://www.youtube.com/embed/xBcX2lDXCo4?rel=0&controls=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

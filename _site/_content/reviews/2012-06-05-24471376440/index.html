@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Member of the Southampton dance music diaspora SO15 and friend of the blog, Joe Sanchez has been plugging out tunes for a while now. Now producing under the name Kam Moda, Joe’s tunes have shifted well and truly towards the techno end of the spectrum. This is a good thing.</p>
 <p>'Swan' has some seriously subtle progression going for it. An intro that lulls you into a warm bed of spacey dub-techno quickly gives way to a tight, propulsive flex. Kam Moda's unconventionally produced hits keep the track danceable until it recedes back into the roomy atmosphere of the intro. All in all 'Swan' is a creative track, It doesn't cut corners or whore itself out to the gun fingers. Instead it keeps its dance-floor credentials while making headway through a variety of unexpected sounds.</p>
@@ -34,8 +32,7 @@
 <p>You can also catch Joe and the rest of the SO15 crew at their regular room 2 takeover of Southampton’s NoLogo night.</p>
 <iframe frameborder="no" height="166" scrolling="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F34734411&show_artwork=true" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

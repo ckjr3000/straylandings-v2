@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Once describing his sound as 'live concrète', Palermo born artist Valerio Tricoli uses reel-to-reel tape recorders and a host of effects to collage sound manipulations on the fly. Releasing on labels such as Bill Kouligas' PAN, Entr'acte and Bowindo, the results conjure themes of space and mysticism, making it hard to tell whether his work would be best suited 300 in the past, or 300 years in the future. Mid-last-year for example he released <em>Clonic Earth</em>, a work of epic scale exploring some rather lofty existential and metaphysical ideas; fractured UFO modulations intercept with sunken choral timbres and his own faded spoken word, making for some powerful moments.</p>
 <p>Tricoli is also no stranger to collaboration. He was a founding member of avante-rock group 3/4HadBeenEliminated, additionally having released collaborative offerings with the likes of Thomas Ankersmit, Antoine Chennex and Hanno Leichtmann on the beautifully muddled 'The Future of Discipline'.</p>
@@ -79,8 +77,7 @@
 <p>Do you know Pan Daijing? I’m doing something with Werner Dafeldecker and her. It’s called The Speaker and it’s going to be a live performance with multiple channels - three to eight depending on the size of the room. Mostly, electronics (me and Werner) and spoken words (Pan). It’s going to be a live performance and a radio thing. The first gig is going to be in Berlin in September, it’s not finished but I like it already.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/264618306&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

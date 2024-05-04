@@ -6,6 +6,7 @@ blockquote: |
   "Individual instances of subjective, conscious experience" reads the Wiki definition of qualia. In Latin, the term translates as something like "what sort" or "of what kind", tying into the idea that we could all have different experiences of what we refer to as the same thing. For example, what you perceive as blue, might be the same as what I experience as red even though we refer to them with the same language. Pop-philosophy aside, the latest release from Jonathan Baruc, aka 'Death Qualia' plays on themes we can probably all recognise as related to the eternal abyss.
 author: Theo Darton-Moore
 image: https://c1.staticflickr.com/1/644/33328277041_6886c34acd_b.jpg
+eleventyExcludeFromCollections: true
 ---
 "Individual instances of subjective, conscious experience" reads the Wiki definition of qualia. In Latin, the term translates as something like "what sort" or "of what kind", tying into the idea that we could all have different experiences of what we refer to as the same thing. For example, what you perceive as blue, might be the same as what I experience as red even though we refer to them with the same language. Pop-philosophy aside, the latest release from Jonathan Baruc, aka 'Death Qualia' plays on themes we can probably all recognise as related to the eternal abyss.
 

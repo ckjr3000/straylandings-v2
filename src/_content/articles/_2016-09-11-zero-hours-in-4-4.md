@@ -5,6 +5,7 @@ blockquote: |
   |
     The Left/Electronic Scenes
 author: Stray Landings
+eleventyExcludeFromCollections: true
 ---
 A few years ago, Rolling Stone magazine came under fire after the announcement that founder Jann Wenner's 22 year old son would be taking the reins of rollingstone.com despite having worked for the website for just six months previously. Unsurprisingly, this was widely seen for what it was, a blatant case of nepotism and family favouritism. [is this related to 0-hours?] In the Guardian this week, Deborah Orr bravely defended zero-hours contracts, claiming that "job security can be a kind of burden, a brake on the nurturing of hopes and the following of dreams." Anyone who has worked a zero-hours contract within the arts knows that the complete opposite is true. 
 

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Rumour has it Seth Troxler was knocked off his no.1 spot on Resident Advisor’s annual DJ chart this year, triggering uproar at the RA offices. As an act of peaceful protest, they declined to publish their end of year list until Troxler reaches his rightful spot once more.</p>
 <p>In 2017, end-of-year lists <em>do</em> seem a little passe. Experience of music today just doesn’t lend itself to indexes and checklists. In the age of the internet, music can come at you from all directions: from trending social media to Bandcamp obscurities. As a consequence, we are often rewarded with unexpected listening experiences. Genres you once hated with burning fervour now have a certain charm. Maybe you have been too close-minded to appreciate the nuances of Ukranian hardstyle. In the right context, novel music can leave you spinning off into a new world of interest, like a dreidel ricocheting from a table leg.</p>
@@ -54,8 +52,7 @@
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/403907111%3Fsecret_token%3Ds-aFp5Y&color=%236c6c6c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

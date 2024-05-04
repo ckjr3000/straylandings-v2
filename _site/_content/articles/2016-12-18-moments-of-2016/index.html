@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>2016 has unanimously been agreed to have been a bit of a stinker (at least by all the right people, the Nigels might beg to differ) with further unpleasantries around the corner. Given this it seems trite to give a rundown of all that has blighted this year and argue that solace can be found in music and musical communities. Of course music can provide an escape from the horrors of the times, but it ought to challenge them and visualise an alternative too.</p>
 <p>Anyway, there are reasons to be cheerful. Two nefarious organisations that really stunk things up last year (both covered obsessively by Vice magazine) have had the wind taken out of their sails somewhat. PC Music and ISIS are both waning in influence. Meanwhile, although the consensus in clubland still seems to be that lo-fi house and Dixon are where the party is at — they really, really are not — there are encouraging signs that it’s once again becoming a bit less stale. So join us in examining the last 12 months of electronic music, and in 2017, remember to say it loud: <a href="https://www.youtube.com/watch?v=uWs1-2foKoo">we don’t need this fascist groove thang</a>.</p>
@@ -86,8 +84,7 @@
 <p><em>Hortense Maignien</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

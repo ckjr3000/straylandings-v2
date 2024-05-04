@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>A new project, Serpente, has formed for the release of a stunning new cassette from Bruno Silva, perhaps best known for his work under the Ondness moniker. Silva himself has been working in the Portugese underground for over a decade, under a flurry of different names, including Sabre and Osso. I first became aware of his music through the recent compilation on Alien Jams, <em><a href="https://alienjams.bandcamp.com/album/v-a-nervous-system">Nervous System</a></em>. His contribution, 'Maria No Raver', is a mind-bending mash-up of amen breaks and percussive loops. It sounds like samples play on top of one another without a care for form, repetition, structure, or any other staples of conventional music. But somehow, it works.</p>
 <p>It's funny how the mind can find patterns within chaos. It's almost like a kind of safety latch for the brain: a disorderly world may be more than the human mind can bear, thus we are condemned to find structure, even when there is none. Psychologists call this 'pareidolia', the phenomenon of deducing familiar shapes from random stimuli. Because of pareidolia, we see elephants in the clouds, Elvis in our coffee, and Jesus in our toast. This extends to sound too. The perception of 'back-masking' or hearing voices in air conditioners are also a product of this phenomenon.</p>
@@ -35,8 +33,7 @@
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1782427952/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://serpente101.bandcamp.com/album/rituais-101">Rituais 101 by Serpente</a></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Breakcore is one of those genres that you're not really supposed to like. At its most extreme, a breakcore track is a parade of production pyrotechnics and hall-of-mirrors sound transmogrification: a playground for the ear. It's main goal is one of spectacle, to the awe the listener with complexity. At the time of its development, many jungle-heads unfairly chastised breakcore for supposedly removing sounds (like the amen break) from their original context and placing them in a chin-strokey, undanceable performative extravaganza.</p>
 <p>Breakcore has therefore been often dismissed as a joke. But it’s one of the few genres that includes humour as one of its central themes. Simon Reynolds once wrote that Drill &amp; Bass (a genre often paired with breakcore) might be better named <em>Droll &amp; Bass</em>. Aphex Twin, Squarepusher and µ-Ziq all seemed to carry their British wit with them into the music they made. Consequently, the music was whimsical and fun, from Aphex's contorted face to Squarepusher's easily misheard lyrics on '<a href="https://www.youtube.com/watch?v=13HM-bmKW2U">Red Hot Car</a>'.</p>
@@ -48,8 +46,7 @@ Puzzelweasel - FODHØVL<br>
 Venetian Snares - Epidermis<br></p>
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fstraylandings%2F0092-calum-gunn%2F" frameborder="0" ></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

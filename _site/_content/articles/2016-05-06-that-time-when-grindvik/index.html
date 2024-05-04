@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Pär Grindvik is a true veteran of the Swedish techno scene. As a producer, he has remained a consistent contributor since the early 2000s, delving deep into genre's mind-bending, early-hours extremities. Grindvik's label Stockholm LTD has been of equal importance since its founding in 2002, featuring everyone from André Kronert to Pfirter and Jeroen Search.</p>
 <p>Although largely an outlet for bugged-out 6am thumpers, the imprint has also hosted some significantly more avante-garde musings, a personal favourite being last year's split between Grindvik and fellow Swede Peder Mannerfelt, 'Corded'. The record explored a combination of crushing static, mine-shaft rhythms and Lovecraftian drones, the two artists complementing each other perfectly.</p>
@@ -50,8 +48,7 @@
 <p><em>Isle Of Real is available for pre-order via decks.de, <a href="http://www.decks.de/t/par_grindvik-isle_of_real_lp/c73-03">here</a>.</em></p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261323791&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

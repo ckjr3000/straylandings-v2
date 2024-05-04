@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>For almost two decades, Detroit Underground (DU) have been rewiring the circuitry of electronic music. A true multidisciplinary project, graphic design and electronic hardware are at the heart of the DU enterprise. Look, for example, at their interactive website, or their circuit-bending modular synth units. There's a sense in which defining DU as but a record label would be a mischaracterisation. It's a broader project, tying together disparate elements of art and technology.</p>
 <p>I first became aware of DU with the release of <em>Drudged Torn Routine</em>, a record of staggering complexity from Stray Landings affiliate, Yaporigami. Any further investigation through the DU back-catalogue reveals a daunting monolith of painstakingly curated music. One common thread that seems to run through DU is that it brings artists away from their comfort zone and into new experimental territory. You can find Kyle Hall doing glitch or a concept album from Oscar Mullero. This is the nether-zone that DU creates — pulling artists into deeper water to bring out their most exciting work.</p>
@@ -35,8 +33,7 @@
 <p><em>“...They shared the smoke, passing it from one mouth to the next. Flicked the bloodstained filter into damp grass and pulled away. Headlights shimmering through fog, grinding gravel, the whirring end of a cassette tape, whispering woods. There is nothing safer than a coat of pine...”</em></p>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3878324915/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://detund.bandcamp.com/album/oscillator-breach">Oscillator Breach by Chris Randall</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

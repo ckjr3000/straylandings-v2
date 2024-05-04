@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>One of the first times I met Maria w Horn, I noticed a sticker on her laptop from the UK anarchist group Class War, with the slogan ‘We Found New Homes for the Rich’ imposed on a picture of a graveyard. Curious, I asked whether Class War had formed a new sect in Sweden. Mats Erlandsson, also in the room, responded: ‘class war is everywhere’. Since then, Horn has produced a flurry of projects, including a cassette with Conditional (‘Excitation - Frustration - Excitation’), an audiovisual piece of synchronised sound and lights (‘Interlocked Cycles’), a string quartet piece inspired by black metal (‘Epistasis’), and a choreographed Tesla-coil performance at Norbergfestival (‘Alternating Currents’). It seems that as well as class war, Maria w Horn is also everywhere.</p>
 <p>Her new album, <em>Kontrapoetik</em>, goes right back to her roots, featuring sound sources, texts and even pressed flowers from her home region of Ångermanland. The area is interesting for several reasons. It’s known in part for its strong labour movement, with a long history of strikes and socialist organising. But before that, it was also the site of Sweden's largest documented execution of women accused of witchcraft, in the form of burnings and decapitations. Since the 1970s, the area has seen a rapid de-population and disintegration of the welfare state. This turbulent history has formed a character profile of Ångermanland as a — <em>forgive me</em> — anger-man-land: a place of frustrated workers rights, misogynist killings and economic desolation.</p>
@@ -76,8 +74,7 @@ I guess it's a generational divide, as well as a theoretical approach that is ea
 <p><em>'Kontrapoetik' is out now on <a href="https://portals-editions.bandcamp.com/album/maria-w-horn-kontrapoetik">Portals Editions / XKatedral</a>.</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

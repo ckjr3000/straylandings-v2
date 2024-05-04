@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The latest to merge from the nascent π Electronics roster is Damcase (real name Dimitris Damaskos). 2016 saw a bumper year for Damaskos, with three vinyl releases including one on Bas Mooy's prolific Mord imprint and the legendary Bunker Records. Much of Damaskos' brand of techno brings to mind the heydey of DIY bedroom electronics. Listen, for example, to the full-throttle pelt of his <a href="https://www.youtube.com/watch?v=TNV02u9ZJNk">Bunker release</a>. There is a clear slapdash approach to these productions. They feel as though they have been made on-the-spot and in-the-moment. Everything is simply pushed to the max: subtlety is auxiliary. This gives them an immense projection velocity; one that cannot be matched by over-considered productions.</p>
 <p>This latest release on π is particularly nasty. Each basslines is a little snot-nosed bastard. Like some pissed-off pitbull, they snarl and bare their teeth. The release is also electrified by sharp static that snaps out in random bursts like a live wire. By the end, everything is caked in a blanket of noise, almost too harsh for the human ear. Totally anti-social, totally obnoxious and totally gripping. This is a release strongly recommended to annoy neighbours, parents and, well... basically everyone.</p>
@@ -34,8 +32,7 @@
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/331072780%3Fsecret_token%3Ds-rEyWK&color=8a8886&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

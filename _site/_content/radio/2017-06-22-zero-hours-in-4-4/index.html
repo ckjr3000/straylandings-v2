@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Last year, professional cretin Deborah Orr of the Guardian bravely defended zero-hours contracts, claiming that, &quot;job security can be a kind of burden, a brake on the nurturing of hopes and the following of dreams.&quot; This is part and parcel of the Thatcherite dream, that the casualisation of work contracts will bring with it a kind of cultural Renaissance of free agents and entrepreneurs.</p>
 <p>But anyone who has tried working in music knows that this dream is a sham. Wages in real terms have fallen by 10.4% since 2007 (more than any other European country besides Greece). Moreover, self-employment has risen by 45% since 2001, with the average income of a self-employed person at around £12,500 per annum (about half the average national wage). The current Tory government proudly announce that employment has risen. It hasn't - the unemployment is hidden within precarious work and zero hours contracts.</p>
@@ -43,8 +41,7 @@
 </ol>
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2FResonance%2Fstray-landings-22nd-june-2017%2F" frameborder="0" ></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

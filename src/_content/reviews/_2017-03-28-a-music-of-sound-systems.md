@@ -5,6 +5,7 @@ image_upload: ""
 blockquote: "A Music Of Sound Systems is a little different from what I've become used to from Matt Spendlove, aka Spatial. I was first introduced to his work through the jaunty, disco-fuzz EP he contributed to West Norwood Cassette Library in 2013. In contrast, this latest release, which makes up his debut LP is all about reduction, texture and inescapably physical low-end frequencies. "
 author: Theo Darton-Moore
 image: https://c1.staticflickr.com/3/2841/33370054190_b0b032dd84_z.jpg
+eleventyExcludeFromCollections: true
 ---
 _A Music Of Sound Systems_ is a little different from what I've come to expect from Matt Spendlove, aka Spatial. I was first introduced to his work through the jaunty, disco-fuzz EP he contributed to West Norwood Cassette Library in 2013. In contrast, this latest release, which makes up his debut LP is all about reduction, texture and inescapably physical low-end frequencies.
 

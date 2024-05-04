@@ -3,38 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The Swedish cassette label XKatedral have announced three new releases, featuring work from Zach Rowden, Mats Erlandsson and Daniel M Karlsson. The label, headed by Maria W Horn and Kali Malone, is known for a peculiarly modern brand of Gothic drone. Last year, they released a similar trilogy of cassettes which you can read more about <a href="http://straylandings.co.uk/news/xkatedral-announce-new-cassette-trilogy">here</a>. Sonically, where many drone musicians shy away from traditional instrumentation, XKatedral have forged a unique identity by reclaiming these instruments for the present. You can hear a church organ through a distortion pedal, or a guitar time-stretched into infinity.</p>
 <p>These latest releases continue in this tradition. In Erlandsson's <em>4-track guitar music</em>, melodic motifs are overlaid one-another into a canonical structure, creating a continuous growth of tones. Once recorded, the music was re-amplified in the former machine hall of Ställbergs Gruva, a disbanded Swedish iron mine. In Zach Rowden's <em>TASKED</em>, the contrabass is given a brutal makeover through the use of intense feedback and harmonic resonating. Finally, Daniel M Karlsson's <em>A loss of self</em>, features a theoretically infinite cycle of sinewave drones in just intonation. In a move that betokens Karlsson's love for open source, he has also made the code for this music freely available via his website which can be downloaded, modified, and listened to using the open-source program SuperCollider <a href="danielmkarlsson.github.io">here</a>.</p>
 <p>Listen below to a premiere of ‘Fog Area’ from the Zach Rowden cassette. If you’re in Stockholm, there is also a launch party <a href="https://www.facebook.com/events/177847963148036/">this evening</a> at Fylkingen featuring performances by JH1.FS3, Mats Erlandsson, Sorrowing Christ, Händer Som Vårdar, Zach Rowden, Elena Wolay, and an exhibition by Free The Land.</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/537719337&color=%231d1d1d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

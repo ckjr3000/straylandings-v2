@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Martin Delaney.</em></p>
 <p>Renick Bell is a US-born computer musician, researcher and teacher. Before getting interested in electronic music through drum n bass in the 90s, he was was playing guitar in screamo bands and this influence can be heard in the turbulence of his releases. The abstract and dense compositions of his have been released on the forward-thinking label UIQ owned by Lee Gamble. This August also saw a release of Bell’s first solo LP on Seagrave, a label featuring some of the most exciting current names in the scene such as rkss and Graham Dunning.</p>
@@ -77,8 +75,7 @@
 <p>I think if you really want good sound, invest in good speakers. That’s what really changes the sound. Really good speakers in a nice room and a digital file can sound much better than vinyl on bad speakers in a bad room. There’s no question. You are really going to notice the sound from the speakers in the room, more than from the vinyl, and in fact vinyl is degrading the sound. Some people like the quality of that degradation. Sometimes they have a certain nostalgia for that sound, but it is a degradation, especially when the music is produced digitally. When you go from digital to vinyl, you are definitely losing things. So you might like the quality of that, but if you want to hear music as it was composed, vinyl is not the way I think.</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/468793371&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

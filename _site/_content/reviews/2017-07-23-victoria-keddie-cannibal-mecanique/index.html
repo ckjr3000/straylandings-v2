@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>In its original form, <em>Cannibal Mécanique</em> has been around since 2014. Constructed by multimedia artist Victoria Keddie, the piece began life as a data-moshed, psychedelic amalgamation of electronic music, choreography and lo-fi VHS visual manipulations performed at New York's Museum of Art &amp; Design.</p>
 <p>Recently, Angus Tarnawsky's In Context Music imprint took it upon themselves to issue a reworked version of the audio components of <em>Cannibal Mécanique</em> on a limited series of 7&quot; lathe records. ICM saw a bit of a hiatus cross 2016, so it's great to see them back in force, releasing five new works of consistently high quality across this year.</p>
@@ -35,8 +33,7 @@
 <p>In its lathe cut form at least, <em>Cannibal Mécanique</em> calls to mind Francis Ford Coppola's wire-tap thriller, <em>The Conversation</em> for me.  Not least for the static-laced, in-and-out-of-focus feel it maintains, but also for the fact both sides build to disconcerting climaxes, leaving the listener unnerved and disoriented.</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128609343&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

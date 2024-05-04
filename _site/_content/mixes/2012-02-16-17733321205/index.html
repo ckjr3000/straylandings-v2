@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>After a little hiatus from our podcast series, we’re back with one of our best so far, courtesy of DJ &amp; Producer Kane Aris aka Aubyn. For those of you still unfamiliar, Aubyn has played both our previous Stray Landings nights, as well as donating ‘OCD’ to our Residual Rifts Compilation. Based in Brighton Aubyn focuses his production on organic sounding House &amp; Garage, often comprised largely of his own home recorded samples.</p>
 <p>Taking a cross-section of alternative dance music, Aubyn’s mix blends deep contemplative House with skippy Garage &amp; Techno. Tucked in amongst names such as Synkro, Gerry Read, Actress and C.R.S.T you can also catch a few soundcloud exclusives. We especially recommend you listen out for Aubyn’s Panda Bear remix, currently available exclusively to this mix.</p>
@@ -57,8 +55,7 @@
 <p><a href="itpc://straylandings.jellycast.com/podcast/feed/2">Subscribe in iTunes</a></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

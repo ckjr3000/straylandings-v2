@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>It's been thirty years since Berlin Atonal truly began. Walking from the U-Bahn to my hostel I pass SO36; the indigenous home to the festival during the '80s. Considering it's the club where it all started where acts like Test Dept, Psychic TV and Einstürzende Neubauten gave incendary performances during their most pioneering moments, it doesn't look like much. It's cartoonish blue sign looks faintly ridiculous sandwiched between shops and severely underwhelming in the face of Atonal's new setting on Köpenicker Straße - a colossal building used as a heating generator prior to the collapse of the Berlin Wall. The literally named 'Kraftwerk' (power plant) has housed Atonal since its rejuvenation in 2013, yet the industrial, DIY ethos of SO36 felt as foundational as ever at this year's Atonal.</p>
 <p>Stepping into Kraftwerk's cavernous main hall we were greeted by Chor Der Kulturen Der Welt, a panorama of choral vocals echoing around the concrete chamber. As the first act to perform, the group showcased the space perfectly, small ensembles of vocalists poised at different points around the upper hall, voices crossing one another in a disorienting barrage of call and response.</p>
@@ -49,8 +47,7 @@
 <p><img src="https://c2.staticflickr.com/6/5775/20744911728_687a89e4b8_b.jpg" alt="end"></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

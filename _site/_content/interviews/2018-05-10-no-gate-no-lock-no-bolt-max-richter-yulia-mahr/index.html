@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Mike Terry.</em></p>
 <p>Tonight will see the opening of 'Sound and Visions', a weekend of concerts and screenings curated by Max Richter and Yulia Mahr. Held within London's colossal Barbican Centre, the weekend will host an eclectic program of 18 audiovisual events. Music and film are given equal weight over the next few days. There are scheduled performances from Richter himself, as well as Colin Stetson, The London Syrian Ensemble, and a performance of Bach pieces by Víkingur Ólafsson. But there is also a broad range of cinematic highlights, with projections of Maya Deren, a documentary on Meredith Monk and even soundtrack work from Grouper.</p>
@@ -56,8 +54,7 @@
 <p><em>Find out more about the festival <a href="https://www.barbican.org.uk/whats-on/2018/series/sounds-and-visions-curated-by-max-richter-and-yulia-mahr">here</a>. Today also sees the release of expanded new editions of ‘The Blue Notebooks’ by Max Richter, in celebration of its 15th anniversary, pre-order <a href="https://dg.lnk.to/Richter-TheBlueNotebooks">here</a>.</em></p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/GUQefIM0O84" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

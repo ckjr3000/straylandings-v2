@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>SIREN exists to challenge and re-define current preconceptions within dance music, whilst bringing to the fore those underrepresented in the scene. Over the past few years, the collective have thrown queer parties, run radio shows, workshops and published a zine. Their next UK party is <a href="https://www.facebook.com/events/152179485315331/">RECURSION</a>, a collaboration with Bristol’s 'Intervention' on the 27th of May in South London. In preparation for the show, we invited the members of SIREN to contribute to our That Time When series, looking at the shows and events that influenced the formation of the collective.</p>
 <p>###1. (Jay D) SIREN WAREHOUSE _  June 2016</p>
@@ -48,8 +46,7 @@
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FNTSRadio%2Fsiren-w-peach-18th-may-2017%2F&hide_cover=1&light=1" frameborder="0"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>You could probably write a multi-volume book just on Iannis Xenakis' wartime experience, so I'll try to keep this as concise as possible. Born in Romania in 1922 to Greek parents, Xenakis was an architect, engineer and composer. He was also among the 20th Century's most forward-thinking.</p>
 <p>His disciplines were often interlinked. Xenakis created compositions for different spaces and designed spaces for specific compositions. In 1977 he also created the UPIC, a programme which could, &quot;translate graphic images into musical results&quot;. With this tool, Xenakis would use his architectural drawings as the basis of some of his compositions.</p>
@@ -46,8 +44,7 @@
 <p><em>Pléiades</em> stands out among Xenakis’ discography for me. Written entirely for percussive instruments, Xenakis began to experiment with spatialisation - even positioning performers amongst the audience. He also had a special instrument commissioned for the piece, Sixxen, which is made up of 19 aluminium or steel and bronze bars and played with hammers. Sonically, <em>Pléiades</em> is a teeming forest of dense polyrhythms and booming subatomic hits. At times Xenakis’ drums trickle like light rainfall, at others barraging the listener with ferocity, like being caught in the eye of the storm.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

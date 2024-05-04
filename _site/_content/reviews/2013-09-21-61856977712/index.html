@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><img src="http://farm3.staticflickr.com/2813/9840920784_a8ca26814c_t.jpg" alt="Wasteland"></p>
 <p><strong>Label:</strong> <a href="http://www.icarus.fm/">Icarus Records</a><br>
@@ -41,8 +39,7 @@
 <p>If Dadub were to release on Raster-Noton, _Wasteland _might be something comparable to how it would sound; emotive and texturally rich, yet also with a strong emphasis on synthesis and icy electronics. The progression from <em>Intangible States</em> to <em>Wasteland</em> is pretty impressive to say the least, even given the two year gap between the releases. Ecker &amp; Meulyzer are clearly a pair able to dissect their own work, slowly honing their vision without the need to rely on current trends.</p>
 <iframe frameborder="no" height="400" scrolling="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F8622425" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

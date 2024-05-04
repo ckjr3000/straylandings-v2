@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Danish artist Aske Zidore has a rich and varied history. He has worked alongside Dean Blunt, played in dreamland synth-pop band 'Gooms', and developed a 'choir machine' for Denmark's Ribe Cathedral. Earlier this year, he released his first solo album under the pseudonym 'An Gella', entitled <em>Perma</em>.</p>
 <p>The LP is a stunningly unrestricted amalgamation of different tonalities; fragmented and then reassembled with true craftsmanship. There's not many releases you'll find Spanish guitar noodlings, choral ambience and a glitched out abstraction of the 'before the drop' sample from 'RIP Groove' all within a few tracks of one another.</p>
@@ -34,8 +32,7 @@
 <p>So now you have some background, I guess you're probably wondering what er, the inside of Zidore's brain looks like? Well, good news! You can find out below, in this exclusive stream of the video for 'OT VII':</p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/GzgPPjMyr3Q?rel=0&controls=0&showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

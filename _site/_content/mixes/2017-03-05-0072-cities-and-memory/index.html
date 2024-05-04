@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The stated purpose of the ‘Cities and Memory’ project is to explore, “The relationships between sound and memory, and between places and their sounds”. Last year, we wrote about their <a href="http://straylandings.co.uk/articles/cities-and-memory-dada-100-years-on">‘Dada sounds’ collection</a>, celebrating the centenary of Cabaret Voltaire’s opening, and thus the beginning of the Dada movement. Here, contributors “remixed the world,&quot; applying Dadaist cut-up techniques to field-recordings, forming a global interactive map. You could hear Dada interpretations of a Canadian football stadium, a Thailand airport, or the street outside Cabaret Voltaire itself.</p>
 <p>Their latest collection, ‘Sacred Spaces’, examines “the crucial role sound has played in our spiritual and religious lives,” exploring the “sonic similarities between different religions, and different types of sacred space from across the world”. But what do these spaces have in common? A recurrent theme in places of worship is the sense of relative scale. Reverb and space are often manipulated to extremities. Think, for example, of Bach’s rich organ Masses echoing off the walls of Leipzig’s Thomaskirche. Or the seductive simplicity of a Tibetan gong, embodying the sonic philosophy that influenced the meditative drones of Eliane Radigue and many others. The spatial character of religious places take on a metaphorical meaning from the infinitely large to the infinitely small.</p>
@@ -35,8 +33,7 @@
 <p>To pinpoint that which makes a space ‘religious’ or unique is largely a redundant exercise. ‘Sacred spaces’ is a broad church. Time would be better spent away from definitions and in the places themselves. This collection comprises field recordings from 48 sources, spanning 34 counties, making it the biggest in the project’s history. Artists processed these recordings to reimagine and recontextualise their sacred sources. Within the archive, you can find the church bells of Northern Italy, Turkish call to prayer and the bells of Burma. Find out more about the project and their religious archive <a href="http://citiesandmemory.com/sacredspaces/">here</a>. And below, find a curated playlist of these ‘Sacred Spaces’ from Stuart Fowkes, creative director of Cities and Memory.</p>
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fstraylandings%2F0072-cities-and-memory%2F&hide_cover=1&light=1" frameborder="0"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

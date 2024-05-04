@@ -5,6 +5,7 @@ image_upload: ""
 image: http://c7.staticflickr.com/6/5575/31234516966_641df08e95_h.jpg
 blockquote: blah
 author: Georgie_McVicar
+eleventyExcludeFromCollections: true
 ---
 Spidery
 Cascading/falling down the stairs  Tolkachev’s third LP forms his most exploratory yet. 

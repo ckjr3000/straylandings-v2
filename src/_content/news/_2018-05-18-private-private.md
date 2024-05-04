@@ -5,6 +5,7 @@ image: https://c1.staticflickr.com/1/907/28281439958_f1e3974279_h.jpg
 blockquote: "The newly formed Lowlife Cartel imprint have returned with another compilation, this time featuring an impressive roster including Buttechno, Fmy, Sammy T Thompson, Machine Woman, PRESENTE and Voyd. In an exclusive for Stray Landings, we can share a stream of Machine Woman's 'Mr Hodge Appreciation Society'. "
 author: Georgie_McVicar
 who: Machine Woman on Lowlife Cartel
+eleventyExcludeFromCollections: true
 ---
 _Photo by Imogen Flynn._
 

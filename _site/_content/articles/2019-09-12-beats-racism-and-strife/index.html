@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo © Matthew Smith</em></p>
 <p>It’s 1994. The city feels as if it’s at boiling point. It’s been a tumultuous year so far, one marked by recession, political upset and violent clashes. Now, as the summer months roll in, a blanket of oppressive heat settles on the nation, stifling breaths and shortening tempers. In Autumn 1994, after 18 years of Conservative rule, the arrival of the Criminal Justice Act finally pushes people over the edge. A vindictive response to UK’s burgeoning illegal rave scene, section 63 of the bill set out to ban parties featuring music ‘characterized by the emission of a succession of repetitive beats’. This bizarre act aimed to stamp out drug-fuelled youth gatherings, like those culminating in the 30,000-strong crowd assembled at the Castlemorton Common Festival in May 1992. More than that, the clause sought to suppress the solidarity which these spaces represented.</p>
@@ -55,8 +53,7 @@ May all people be happy</em> <br></p>
 <p>Stripped down to <em>‘music itself / And to the highest spirit’</em>, <em>Beats</em> too stands as a timely reminder of the sacred space of rave in the 1990s and the current socio-political moment. For millions born in the 80s, acid house and rave united myriad causes through a passion for electronic music, regardless of race and class. The Prodigy’s ‘Wind It Up’, featured on the film’s soundtrack, samples Anthony Johnson’s ‘Equal Rights’ – capturing the ethos of rave that still seeps into people’s lives today. But it’s also important to address the factors that are pushing marginalised communities out of this vibrant club culture – to embolden the movement with our shared wisdom, to learn from the energy, the ideas and the excitement of those involved; to work together to make a more inclusive, stronger movement. In that way, rave becomes as much a form of escapism as a means of sparking real change.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

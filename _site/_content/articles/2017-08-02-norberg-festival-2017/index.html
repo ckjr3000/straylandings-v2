@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Anna Drvnik.</em></p>
 <p>Entering the town of Norberg can be a surreal experience. Not least because it carries some of the enigmatic mystique of David Lynch's fictional town, <em>Twin Peaks</em>. Like Twin Peaks, Norberg is sat in the middle of a forgotten municipality, surrounded by fir trees, silent lakes and humdrum local businesses. Where the automatic lawnmowers outnumber residents and everything seems to be permanently closed. Its location is also remote enough to deter any softcore fans. If you're not lucky enough to hitch a ride in Maria W Horn's famous Volvo, it typically takes two buses and two trains to arrive from Stockholm. Reflecting on the creation of his fictional setting, Lynch once explained that, &quot;in a town like Twin Peaks, no-one is innocent&quot;. That certainly feels true at Norberg. Beneath its sleepy suburbia, there is a mischievous underbelly. And once a year, Norberg reveals its alter-ego with strobes, gabba and lolz.</p>
@@ -48,8 +46,7 @@
 <p><img src="http://c1.staticflickr.com/5/4308/36278646146_94ce5d270d_h.jpg" alt="b"></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

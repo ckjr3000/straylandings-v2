@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Wunmi Onibudo</em></p>
 <p>In the late Renaissance, the once ethereal spacing of chords became suddenly earthen and aurally muddied with the invention of the harpsichord. Choirs were automated by a single playing hand, and onlookers lucky enough to see this instrument up close discovered that harmony was in fact clearer than ever, visually mapped out by the movements of fingers carving shapes upon keys. For those who tried to theorise the ways in which music might be a prayer for the future, the harpsichord was an ascetic hymn to connect being with heaven. Gaping mouths were replaced by delicate fingers parsing wooden notes and the eyes not the ears were newly tasked with trying to understand what sacredness sounded like.</p>
@@ -75,8 +73,7 @@
 <p><em>Emile Frankel's forthcoming book, 'Hearing the Cloud', will be out with <a href="http://www.zero-books.net/">Zero Books</a> later this year.</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

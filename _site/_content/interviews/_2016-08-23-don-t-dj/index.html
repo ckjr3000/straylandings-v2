@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>My introduction to Florian Meyer came from the recent Authentic Exoticism EP under his Don’t DJ alias. The EP, released on his new label SEXES, explores ideas of exoticism and hybridization of culture through sound, imagery and text. Meyer himself confesses that his work dwells in problematic territory, risking both misappropriation and offence by discussing the history of exoticism in a modern context. But it's important not to confuse plagiarism for pastiche. His music isn't written to repackage and recontextualise any existing culture. Rather, it pokes fun at the utter obsession electronic music has with <em>the exotic</em>, from 'tribal beats' to 'tropical house'. Ahead of his appearance at Meakusma Festival in Eupen, Belgium, we caught up with Florian to discuss the record, his label, and their theoretical underpinnings.</p>
 <p><strong>You recently formed your new label, SEXES. Can you tell us a little bit about the label and why you decided to start it?</strong></p>
@@ -54,8 +52,7 @@
 <p>If you’d like to get in touch with Florian to discuss his music and the concepts behind it, feel free to get in touch at askaskask@gmx.net</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

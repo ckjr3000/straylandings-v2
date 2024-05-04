@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The defining triad of this year’s CTM festival was FEAR, ANGER, LOVE. A theme appropriately broad, as the festival has enormous scope, though it may at first glance appear to be too all-encompassing to carry any real meaning. Doesn't all art express some form of fear, anger or love? Then again, the festival is decidedly pluralistic. It tries not to push a message home, but allows the artists to do their thing. It can be a daunting task to see even a fraction of the events on at CTM. You can find music, films, exhibitions, talks and workshops stretching out over 10-days, 15 venues and 173 acts. Any review of the festival will thus be a mere snapshot. But here are some of our highlights.</p>
 <p>A welcoming introduction featured an exhibition exploring the past and present of experimental music and sound art in Mexico. Entitled ‘Critical Constellations of the Audio-Machine in Mexico’, the exhibition explored the musical styles and sound experiments that have emerged in the country since the beginning of the 20th Century. It followed the role of machines in modernisation and the logics of rupture in resisting a neo-liberal takeover of the country. There were sculptures made of magnetic cassette tape, non(or anti)-conventional musical scores and instruments made with ‘unstable tunings’, that shifted up and down into a nauseating trance. Artists also argued for Mexico City as a place of futurism. Not a futurism forged through a series of well-organised efforts, but one which emerged through a bustling rhythm of contradictions. It’s a city that maintains a difficult mix of technical and industrial modernism with pre-Hispanic indigenous cultural identity. Whether intentional or not, it worked as a forceful ‘fuck you’ to the Trump-laced racism of our present moment.</p>
@@ -43,8 +41,7 @@
 <em>Kunsthaus Bethanien. Photo by Udo Siegfriedt.</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

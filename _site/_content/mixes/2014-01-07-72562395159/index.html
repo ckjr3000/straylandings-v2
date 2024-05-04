@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>DJ and producer Paul Cottam is something of an unlikely hero in the House scene, first gathering a rather impressive level of recognition back in 2009 with a run of three 12”s, melding a plethora of Deep House, Hip Hop, Afrobeat and Disco influences. That each record was released devoid of press campaigns, information about the artist, or artwork, seemed not to hinder their success: all three ended up in Phonica’s ‘Top 50 Singles of 2009’.</p>
 <p>Whilst at first Cottam’s press-shy tendencies may have been interpreted as a calculated effort to present himself as a mysterious entity, a 2010 interview with RA revealed Cottam as a surprisingly open, humble, Preston-based individual who had in fact kept his identity hidden due to concerns over sample clearance.</p>
@@ -37,8 +35,7 @@
 <p><a href="https://itunes.apple.com/gb/podcast/stray-landings-mix-series/id556425050?mt=2">Subscribe in iTunes</a></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

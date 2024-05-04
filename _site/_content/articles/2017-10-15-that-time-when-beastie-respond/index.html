@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Tobias Pedersen aka Beastie Respond is an artist who has undergone plenty of change over the years. His early releases followed a relatively straightforward dancefloor trajectory; albeit always with a heavy focus on melody and instrumentation. Stylistically they often centered around UK dance genres, taking heavy influence from D&amp;B, dubstep and jungle.</p>
 <p>In the last few years however, the Danish artist's palette has grown to include a much wider range of references. September's Foul-Up released <em>Information City</em> took on the problems of the information age, seeking to fragment and reassemble sample material from Pedersen's day-to-day online consumption. Snapchat videos, YouTube clips and newsreel segments all made it on to the album in a visceral, full-throttle explosion of ideas and textures.</p>
@@ -48,8 +46,7 @@
 <p>My friend, and roommate, is heavily into Hardcore. Not hardcore as in warehouse rave hardcore, but hardcore as Terror, Expire and Code Orange. The latter has turned into a huge influence for me. I’m not sure you can hear it in my music though. But it’s music full of passion and energy. I saw Code Orange when they were warming up for the French metal band Gojira. It was a funny experience because the metal audience in Denmark is very grown up and mature, kind and sweet middle aged men, but a little bit boring. The energy coming from the stage when Code Orange went on exceeded the energy the audience gave back tenfold. The band didn’t seem to care and continued tirelessly for a good 45 minutes. It was one of the best shows I had seen for a while but I’d really like to see them with a more engaged audience sometime.</p>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339834126&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

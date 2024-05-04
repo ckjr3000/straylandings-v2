@@ -8,11 +8,11 @@ eleventyExcludeFromCollections: true
             <section class="latest">
                 <figure>
                     <a href="{{ post.url }}">
-                        {% if post.image_url %}
-                            <img src="{{ post.data.image_upload }}" alt="{{ post.data.title }}">
-                        {% else %}
-                            <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
-                        {% endif %}
+                        {% if post.data.image_upload and post.data.image_upload != "" %}
+                            <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}" width="200px">
+                        {% else %}    
+                            <img src="{{ post.data.image}}" alt="{{ post.data.title }}" width="200px">
+                        {% endif %}    
                     </a>
                 </figure> 
                 <div class="latest-aside">
@@ -45,11 +45,11 @@ eleventyExcludeFromCollections: true
                     </aside>
                     <a href="{{ post.url }}">
                         <figure>
-                            {% if post.data.image_upload %}
-                                <img src="{{ post.data.image_upload }}" alt="{{ post.data.title }}">
-                            {% else %}
-                                <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
-                            {% endif %}
+                            {% if post.data.image_upload and post.data.image_upload != "" %}
+                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                            {% else %}    
+                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                            {% endif %}      
                             <div class="overlay-circle"></div>
                         </figure> 
                         <aside class="details">
@@ -71,11 +71,11 @@ eleventyExcludeFromCollections: true
                 <div class="single">
                     <figure>
                         <a href="{{ post.url }}">
-                            {% if post.data.image_upload %}
-                                <img src="{{ post.data.image_upload }}" alt="{{ post.data.title }}">
-                            {% else %}
-                                <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
-                            {% endif %}
+                            {% if post.data.image_upload and post.data.image_upload != "" %}
+                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                            {% else %}    
+                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                            {% endif %}    
                             <div class="overlay"></div>
                             <h2>
                                 {{ post.data.title }}

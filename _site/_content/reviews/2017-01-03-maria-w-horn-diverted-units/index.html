@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>I recently watched the new Werner Herzog film, <em>Into the Inferno</em>. Across a multitude of landscapes, Herzog and Clive Oppenheimer explore the cultural traditions of communities living close to volcanoes. Expectedly they encounter fear and high levels of pressure in these groups, but also intense spirituality, and some cosmic reflections on our own place in the universe. Listening to <em>Diverted Units</em>, the latest release from Maria W Horn shortly after, I couldn't help but think there are some parallel themes at play.</p>
 <p>Take the formidable distortions of 'Unit I', or tectonic rumblings of 'Unit V'. Sounds like these conjure themes of destruction and apocalypse readily, yet other elements tell a different story. There is something transcendental in the ascending dial tones of 'Unit III', or the reflective ambience of closer 'Unit XXX'. 'Unit IV' makes a strong example, swaying this way and that between twinkling, discordant melodies and jackhammer blasts of noise and static.</p>
@@ -34,8 +32,7 @@
 <p>As I discussed in an interview with Sote a few weeks ago, noise and glitch music today often feels overly formulated, confined to structures which have worked previously. Horn's <em>Diverted Units</em> escapes falling into those traps - it feels freeform and original in a way that captures the energy of early Sähkö or Mille Plateaux records. There is a depth of expression that feels lacking with a lot of Horn's contemporaries, and <em>Diverted Units</em> is all the more welcome for bridging the gap.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/283534225&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

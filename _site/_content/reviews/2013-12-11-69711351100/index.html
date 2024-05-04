@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><img src="http://farm6.staticflickr.com/5478/11253849104_fc7d255470_t.jpg" alt="Punters Step Out"></p>
 <p><strong>Label:</strong> <a href="http://www.hemlockrecordings.co.uk/">Hemlock Recordings</a><br>
@@ -39,8 +37,7 @@
 <p>In a recent interview exchange with Call Super, Joe mentioned how he has recently committed to taking music seriously as a full-time pursuit. If I had been to second guess this I’d probably argue it’d be likely this would lead to a rationalisation, and watering down of his sound so as not to jeopardise any pre-established credibility. In fact what Joe has done with this record is quite the opposite, showing he is still just as happy to challenge perceptions as to what dancefloor music “should be” as ever.</p>
 <iframe frameborder="no" height="300" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/16369303&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -4,6 +4,7 @@ who: Hmurd
 image_upload: /assets/img/22791827_1491150464286996_8823610725060750804_o.jpg
 blockquote: "I know hmurd best for their work as a curator at Music Hackspace, and as the DJ that played Faithless tunes in the small hours at the now defunct and possibly legendary Crabs nights. I always thought of Crabs like as a bit like that Sex Pistols gig in Manchester where there were supposedly only 40 or so people there, but among them individuals who would go on to start bands like The Fall, Joy Division and so on. Whether hmurd classifies as Johnny Rotten or Tony Wilson in this analogy I'm not sure, but his _Boycott Ethical Consumption_ EP on Tobago Tracks certainly feels like a salient moment."
 author: Theo Darton-Moore
+eleventyExcludeFromCollections: true
 ---
 I know hmurd best for their work as a curator at Music Hackspace, and as the DJ that played Faithless tunes in the small hours at the now defunct and possibly legendary Crabs nights. I always thought of Crabs like as a bit like that Sex Pistols gig in Manchester where there were supposedly only 40 or so people there, but among them individuals who would go on to start bands like The Fall, Joy Division and so on. Whether hmurd classifies as Johnny Rotten or Tony Wilson in this analogy I'm not sure, but his _Boycott Ethical Consumption_ EP on Tobago Tracks certainly feels like a salient moment.
 

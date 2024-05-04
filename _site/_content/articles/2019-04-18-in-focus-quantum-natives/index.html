@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Quantum Natives, an alliance of experimental artists, is often defined in relation to its video game aesthetics and digital world-building philosophy. The participants use avatars instead of the media-friendly portraits and its website resembles a map of an imaginary world, rather than a traditional distribution channel. In part, this ideology is what brought the UK-conceived collective international attention. In 2017, the group premiered in the US, where members of the group including Rosen, DeForrest Brown Jr., Brood Ma and Yearning Kru, presented an installation and software programme Grace Nexus. Later on, a second software performance was commissioned by the Netherlands’ avant-garde festival Rewire, featuring recsund, White Goblin, Yan Keen and Yeongrak. The group's affiliates performed at such venues as the ICA in London and were featured on the cover of the Wire, receiving the stamp of approval from one of the most acclaimed gate-keepers there is.</p>
 <p>With the recognition of such sort came a certain type of image: the collective seemed artsy, intellectual, intimidating. But it isn’t the impression I’m left with today. The clarity of what Quantum Natives represents as a project came with a realisation of the virtual realm being not an emulation, but an alternative. I’ve found it curiously suitable to think of Quantum Natives as being like another planet: a place we look to for something that offers another way of life.</p>
@@ -35,8 +33,7 @@
 <iframe width=100% height="1000px" src="https://docs.google.com/document/d/e/2PACX-1vT4RTe3dG_EigfWZBgFHZG4JrKTnoWVJoj3Lhs_HKcrmdTOjcvUyPRTwv9x7fuetB3GbHsO5SwcW4DZ/pub?embedded=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

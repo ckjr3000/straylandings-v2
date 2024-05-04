@@ -3,38 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Earlier this year, we saw the release of an unexpected debut from Maze &amp; Lindholm, <em><a href="https://auroraborealisrecordings.bandcamp.com/album/where-the-wolf-has-been-seen?fbclid=IwAR2-L14ROgGydJzBm7QUJI-ckhJyzceiuPqcH_6cIeJivN3zizuuskj4Skg">Where The Wolf Has Been Seen</a></em>. Combining the power electronics of P.Maze and the contrabass of Otto Lindholm, this record is packed with surprising juxtapositions of tone. These textures are punctuated by four separate movements, presenting a narrative arc that bends and creaks like the branches of a tree.</p>
 <p>To help introduce an audience to this music, and to bring a fresh perspective to its unusual timbres, Stefan Rubber has created an algorithmically-contingent mandala which contorts in response to its shifting sound. Rubber writes that the technological abstractions in the video below are meant to work as an analogy to the archetype of the wolf as a symbol of fascination and terror. But for me, these shapeshifting contortions have more in common with the wolf's unnatural cousin: the werewolf. Watch below as an exclusive for Stray Landings.</p>
 <p>Also see <a href="https://www.instagram.com/stefan_rubber/">Stefan Rubber's Instagram account</a> for more of his work.</p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/OXS_xlUM6sw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

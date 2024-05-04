@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Our ‘In Focus’ series looks at the role of record labels today. Although a lot of music journalism explores the creative process of individual artists, little time is actually spent on the structural mechanisms by which artists release their material. In this edition, we spoke to TT (formerly known as Tobago Tracks). The TT roster is somewhat hard to summarise due to its internal variance. You can hear everything from grime to ambient here, yet the TT watermark is always audible. Part of this variance is down to the structure of the imprint itself. Formed by DJ Pitch in 2013, it is now run by two heads instead of one, with Gribs joining the imprint last year.</p>
 <p>DJ Pitch and Gribs have very different backgrounds. “Dance was the thing I believed I was going to do forever until I was about 20”, Gribs begins, “...so my main knowledge of art, theory, history and training came from that field. I read this book by George Balanchine that basically said a strong knowledge of music is a requirement to become a great dancer and I took it to heart. When I was going to dance classes, they would play the weirdest shit. Sometimes it would just be someone reading a poem, people breathing into microphones and so on. Other times you get a pianist playing these really corny versions of classic songs like…”, Pitch intercepts, “…My Heart Will Go On?” Gribs confirms: “Literally”.</p>
@@ -46,8 +44,7 @@
 <p><em>The latest TT release from Litter Frog is available to stream now on <a href="https://tobagotracks.bandcamp.com">their Bandcamp page</a>.</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>- Bob Bhamra in the WNCL Studios, West Norwood</em></p>
 <p>West Norwood Cassette Library is a good example of how broad a label can be without losing consistency. From the oddball, rave-era psychedelia of Ekoplekz to the jacking box-drum techno of Bobby Champs or dial-tone rhythmic experiments of Girls of The Internet, the label has kept a common thread, somehow or another. The range of styles covered by the label has differentiated WNCL exceedingly successfully, keeping your sonic palette fresh by bucking the trend with each release.</p>
@@ -59,8 +57,7 @@
 <p>WNCL025 is available now via the WNCL Recordings Bandcamp page below:</p>
 <iframe style="border: 0; width: 570px; height: 690px;" src="https://bandcamp.com/EmbeddedPlayer/album=1294708743/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="http://wnclrecordings.bandcamp.com/album/wncl025">WNCL025 by WEST NORWOOD CASSETTE LIBRARY</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The latest in our mix series comes Wolfgang Röttger, perhaps better known as Morgen Wurde. Röttger has had a prolific career over the last few years, releasing three records of intense dark-ambient jazz experiments. The term 'ambient-jazz' is maybe the sort of thing to turn many stomachs. Bringing to mind pot-smoking, ponytails and polo necks. <a href="https://www.youtube.com/watch?v=-jHzdMo-YCc">Niiiice</a>.</p>
 <p>But there has been some major contributions from the genre. Miles Davis' <em>Bitches Brew</em> arguably started it all, and remember the dark soundscapes of Bohren &amp; Der Club of Gore and Angelo Badalamenti's decade-defining soundtrack to <em>Twin Peaks</em>. Moreover, not all of it is sappy or sentimental. Wolf Eyes and Okkyung Lee have been fusing noise and improv to make jazz transgressive again.</p>
@@ -51,8 +49,7 @@ Seven Saturdays - Love in the Time of Anticipated Defeat <br>
 Morgen Wurde feat. Tetsuroh Konishi - Schreitet fort <br></p>
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fstraylandings%2F0079-morgen-wurde%2F" frameborder="0" ></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

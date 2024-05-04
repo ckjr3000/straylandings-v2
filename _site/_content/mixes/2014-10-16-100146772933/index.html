@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The word Acharné comes from the French word for ‘fierce’, ‘obstinate’ or ‘intense’. Speaking with the anonymous artist who has adopted the word as his moniker, it becomes clear rather quickly the tag fits; interviewing Acharné sees more questions asked than answered. ”If ‘Berlin techno’ is reduced to white-noise washes and 40Hkz drones, where does that leave the story of the GDR? If hip-hop producers en mass are emulating Timbaland’s sampling of tabla-loops, where does that place the roll of Sufi music in our collective imagination? If half the top-selling ‘house’ tracks on beatport are marked by an ‘afro-Americanised’ male voice talking about ‘back in the day’ and ‘real Detroit techno’, where does that place the Detroit of today in our imaginations? What does that say about our relationship to gender, authority and the Black Male body?”</p>
 <p>Although currently based in Berlin, Acharné travels extensively, and he explains his views on the idea of a ‘home city’ with a degree of scepticism. ”I’ve always felt ‘disconnected from any ‘dirt space’ in a fundamental way. This isn’t necessarily something I view as ‘negative’, but rather an inevitable part of a de-centralised work environment, and something I find really valuable to explore and embrace. Ultimately, its the human condition we all share - the challenge of forming identity and purpose beyond boundaries, which I guess are all ultimately just imagined.”</p>
@@ -37,8 +35,7 @@
 <p><strong><a href="https://itunes.apple.com/gb/podcast/stray-landings-mix-series/id556425050?mt=2">Subscribe in iTunes</a></strong></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

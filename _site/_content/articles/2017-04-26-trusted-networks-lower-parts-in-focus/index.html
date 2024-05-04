@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>One of the things that has always appealed to me about Fasma Festival is the emphasis they put on supporting local talent as well as welcoming acts and DJs from abroad. This year, the festival will be showcasing  Athenian label Lower Parts, which also takes this approach with the curation of its releases.</p>
 <p>Founded by Panajiotis Vaxevanakis in 2011, Lower Parts ostensibly began its life as an outlet for nomadic electronics, constantly exploring new directions. &quot;The label came naturally after years of involvement in Greek electronic music from the late '90s&quot; Vaxevanakis tells me when we caught up recently to talk about his experiences running Lower Parts. &quot;It was after a period in which I was working with my buddy George as Urbanoise and got involved in the <a href="http://www.netaudioberlin.de/">NetAudio Festival</a> in Berlin. It was really inspiring and brought us close with people in the 'business'. That was the time I thought it would be a good idea to make something like Lower Parts in the future. The truth is I was very optimist and wanted to make something more than a record label; a network of people collaborating. But that was not going to work in the long term, so after a while I just focussed on the music part.&quot;</p>
@@ -48,8 +46,7 @@
 <p><em>Catch the Hypermedium X Lower Parts showcase at <a href="https://fasmafestival.com/programme">Fasma</a> on Friday, May 5.</em></p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/309196273&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

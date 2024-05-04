@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>It has always frustrated me how often discussions of music become discussions of technology. You see it a lot on forums, with endless debate over the merits of this or that hardware. There is a sense in which, as a listener, you are expected to respectfully doff one's cap to the great machines of our era: 303, 808 and so on. The gear, I am told, <em>really</em> matters. That poor tunes are the product of poor tools. I’ve even heard that analogue sound has an <a href="https://www.youtube.com/watch?v=SwXayHbUQ2o&amp;feature=youtu.be&amp;t=3m54s">objective superiority</a> because of its frequency range. This is meant to be the bread and butter of electronic music: a genre built on gear.</p>
 <p>I’m sure I am not alone in thinking that this is a dull way to approach music. For one thing, a lot of great music uses primitive technology. DIY punk, noise, hauntological ambient, hypnagogic pop and so on. It’s hard to imagine that Grouper, Daniel Johnson, Guided by Voices, Jandek, Boards of Canada, William Basinski or Harry Pussy would sound ‘better’ if only they had access to a plush studio and expensive equipment. Besides, there was a time when modern electronic music attempted to cleanse sound of its imperfections (tape hiss, vinyl pops). But now, some producers introduce those elements when they don’t occur naturally. You could call it 'retromania' or merely nostalgia. Clearly though, the alleged superiority of hardware and analogue is a judgement based in values, and values change.</p>
@@ -74,8 +72,7 @@
 <p><em>Caterina Barbieri will perform at the Barbican with Colin Stetson on 13th May at the Barbican. Tickets can be purchased <a href="https://www.barbican.org.uk/whats-on/2018/event/sounds-and-visions-ex-eye-caterina-barbieri">here</a>.</em></p>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/x4aH1HGzCUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

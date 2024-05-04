@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Simon Pomery aka Blood Music's live shows are a visceral experience to say the least. Twisted electronics and contact mic abstractions crumple beneath Pomery's crushing rhythms, in an onslaught which leaves your bones rattling.  Where bands setups tend to push drummers to the back, in response to an &quot;unspoken and repressive hierarchy&quot; as he put to us during an interview last year, Blood Music shows put them back in focus.</p>
 <p>This is due to the fact his style if drumming is far from ordinary. Rather than sitting behind a kit, Pomery stands - wielding something between orchestral mallets and traditional sticks. His approach to drumming takes influence from everything from Japanese Taiko drumming to Singaporean martial arts. His recorded works capture this energy perfectly - his 'Chicks' 12&quot; for Diagonal last year alternating between chugging motorik abstractions and pensive droning interludes.</p>
@@ -52,8 +50,7 @@
 <p>I had spent the night in a karaoke bar and found out the morning after that Haino was in town. My set included Iggy Pop, Bowie, and several tracks by Steely Dan. There was some sort of glitch which meant every Steely Dan track came on twice. I didn’t complain. Sometimes it’s better to go for the fun option.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/210731802&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

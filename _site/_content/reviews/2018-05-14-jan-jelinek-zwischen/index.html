@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Jan Jelinek's releases have always been about exploring subtlety and nuance. Perhaps none more so than on his latest album, <em>Zwischen</em>, which translates as 'between'. The album is about magnifying the sounds between words, layering and manipulating gentle stammers, nervous laughter and pauses for breath.</p>
 <p>Jelinek's source material comes from 12 interviews with public figures, ranging from the likes of Lady Gaga to Marcel Duchamp or Max Ernst. The vocal collages are linked to a synthesiser, triggering discordant reverberations, cloud-minded atmospheres and free-jazz style incarnations of glitch.</p>
@@ -35,8 +33,7 @@
 <p>Across each offering, Jelinek has managed to distill something of the character of each of his subjects, with typical style and poise. He is one of the few composers able to present considerably abstract, conceptual work, and make it a joy, rather than a chore to listen to.</p>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/403098258&color=%23919191&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Almost all music is said to 'sound better live'. Whether its for sing-along choruses or sheer volume, music seems best heard in the here-and-now. Of course, this is the 'original context' for music. The notion of recorded sound is an historical anomaly. The first sound recording was made in 1878 but up until then, music was an ephemeral experience. There was no possibility of re-playing or re-living a beloved performance other than through the channels of memory. Before recorded music, you may only hear your favourite symphonic piece once or twice in a lifetime. But then, part of the beauty of live performance is that it doesn't last.</p>
 <p>I've often thought that techno is one of the few genres for which this is really true. Techno itself is known for its anonymity. DJs play 'tracks', not 'songs'. They play to facilitate a vibe, not a karaoke backing track. In the case of techno, the emphasis on live experience is so important that it has almost become pastiche. The common lived experience of techno involves a good E, shared water-bottles, and good old fashioned skin-on-skin bonding. It is music to be heard in a shared space, with a democracy of dancers.</p>
@@ -49,8 +47,7 @@ of that, from what I remember and from what people have told me.</p>
 <p><em>'The Residue' is out now on <a href="https://www.beatport.com/release/the-residue/2319662">Tresor</a>.</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

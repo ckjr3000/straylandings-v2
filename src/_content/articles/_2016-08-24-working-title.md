@@ -4,6 +4,7 @@ who: "BBC Three's PJDN"
 image_upload: ""
 blockquote: This month...
 author: Theo Darton-Moore
+eleventyExcludeFromCollections: true
 ---
 This month, the latest series of the BBC Three adopted _People Just Do Nothing_ began broadcasting. Its origins lie in mimicking a BBC documentary made about Southend pirate radio, 'Tower Block Dreams'. The original programme followed the exploits of 'Killer' - a self-professed _ running local station Y2K. Amongst the ideas explored in the original documentary were serious issues related to drugs and crime, as well as the vilifying of young black men by local police forces. Unsurprisingly given the theme, the series has gained a lot of attention in the dance/electronic music world - publications like Vice, _ & _ keen to jump on the bandwagon.
 

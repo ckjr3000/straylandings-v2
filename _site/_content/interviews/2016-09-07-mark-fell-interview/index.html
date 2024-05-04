@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>You’d be forgiven for assuming there are several Mark Fell’s performing music, making films and exhibiting at galleries. There probably are other Mark Fell’s, but the one we spoke to is quite a prolific one, and quite hard to define too. Across a variety of aliases and collaborations, he operates somewhere between dance music and the visual arts. From the almost-house of his Sensate Focus project and SND collaboration with Mat Steel, to his spatial sonic arrangements with FM synthesis pioneer John Chowning, the Sheffield based artist is forever blurring boundaries and raising questions.</p>
 <p>With Adrian Sherwood at the controls in the background, we spoke to Mark at Terraforma Festival in Italy, the morning after a brutally loud performance as Sensate Focus. A look around the audience during the set showed half elated and the other half looking confused. We chatted about this project, as well as covering his compositional techniques, his collaborations, his recent engagement with radical feminism and finally, the influence that Sherwood’s own productions have had on him.</p>
@@ -107,8 +105,7 @@
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/206473553&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

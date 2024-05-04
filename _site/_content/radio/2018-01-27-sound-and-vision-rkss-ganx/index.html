@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>There’s a received wisdom that visual elements of music production (the artwork, light shows and fashion) are merely auxiliary. Music should be appreciated in an almost Platonic way: wrenched from context and understood in terms of sound only. After all, why should your listening be coloured by a dazzling light-show or a flashy press shot?</p>
 <p>Indeed, there are some artists who have tried to negate this by 'anonymising' themselves. Zomby, Burial, Klaus are famous for it. There are degrees of consistency here, from the near-entire invisibility of Klaus to the pseudo-disguise of Zomby. With Zomby, the anonymity <em>is</em> the look. He is always half-hidden behind a coat or a mask, but dressed in designer clothes. His press-shots both hide his identity and confirm it. Even the man who conceals himself nonetheless reveals himself as a self-concealer.</p>
@@ -43,8 +41,7 @@ Data.Matrix // Ryoji Ikeda <br></p>
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2FResonance%2Fstray-landings-25th-january-2018%2F" frameborder="0" ></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

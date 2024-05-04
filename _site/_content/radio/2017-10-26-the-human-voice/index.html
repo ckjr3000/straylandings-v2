@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The human voice has had a curious history with electronic music. In many ways, electronic music has been one of the most popular musical movements <em>not</em> to have vocals at the foreground. Sure you have the fabled garage R&amp;B cut-ups and house tracks with voiceovers talking about ‘back in the day’ and ‘<em>real</em> Detroit techno’. But the voice was used more like a musical instrument: a texture or sound rather the carrier of meaning. This is partly down to the context in which electronic music arose. Many of the early electronic pioneers were fascinating with robotics, AI and 'the singularity'. Hence the voice, arguably the most human of sounds, became mechanised alongside the drum machines and Sci-Fi synthesisers. Music was the future, was instrumental.</p>
 <p>But the voice-as-instrument is nothing new. Scat works as with non-semantic vocals delivery. Think of the passion in an Ella Fitzgerald freestyle solo or Shooby Taylor's nonsensical ramblings. Here, it's almost like words never mattered. We can derive just as much pleasure in the plosives and fricatives of the human voice without semantic content. In David Byrne's book <em>How Music Works</em>, he describes a technique he uses known as 'Emergent Storytelling' in which he would sing emotive phonetics along to a backing-track, with the hope of capturing some instinctive vocal sounds or rhythms that he could later layer lyrics on top of. There are even (amusing) recordings of half-finished Talking Heads songs which never made it to the 'lyric edit', such as <a href="https://www.youtube.com/watch?v=tL-SDVrOFkk">this</a>.</p>
@@ -42,8 +40,7 @@ Shooby Taylor // Lift Every Voice and Sing <br/>
 Kalimankou Denkou // Yanka Rupkina <br/></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

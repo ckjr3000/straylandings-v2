@@ -6,7 +6,34 @@ body {
     font-size: 17px;
     line-height: 25px; 
 }
-
+  
+  p {
+    margin-bottom: 25px; 
+}
+  
+  p.small, .second p.small {
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 0; 
+}
+  
+  .small a {
+    font-weight: 400; 
+}
+  
+  .second p {
+    font-size: 14px;
+    line-height: 20px; 
+}
+  
+  b, strong {
+    font-weight: 600; 
+}
+  
+  i, em {
+    font-style: italic; 
+}
+  
 h1 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 23px;
@@ -15,7 +42,11 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 6.25px; 
 }
-    
+  
+.post h1, .collection h1 {
+    margin-bottom: 6.25px; 
+}
+  
 h2 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 16px;
@@ -26,10 +57,187 @@ h2 {
     font-weight: 700; 
 }
   
+.second h2 {
+    letter-spacing: 0;
+    margin-bottom: 6.25px; 
+}
+  
+aside h2 {
+    color: #333; 
+}
+  
+p + h3 {
+    margin-top: 37.5px; 
+}
+  
 h3 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     line-height: 20px;
     margin-bottom: 10px;
     font-weight: 700; 
+}
+  
+ul {
+margin: 25px 0; 
+}
+
+ul li {
+    color: #4a4a4a; 
+}
+
+ul li:last-child {
+    margin-bottom: 6.25px; 
+}
+
+.latest {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    background: rgba(210, 210, 210, 0.9);
+    position: relative;
+    overflow: hidden; 
+}
+
+.latest .bottom p, a {
+    color: #fff; 
+}
+
+.latest .bottom, a:hover {
+    color: #333; 
+}
+
+.latest a + img {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    z-index: -100; 
+}
+
+.latest a img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+
+.latest figure {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 56.9583333333%;
+    clear: none;
+    float: left;
+    margin-left: 0;
+    margin-right: 3.3%; 
+}
+
+.latest figure + .latest-aside {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 31.1333333333%;
+    clear: none;
+    float: left;
+    margin-left: 0;
+    margin-right: 3.3%; 
+}
+
+.latest aside {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    clear: none;
+    float: left;
+    margin-left: 0;
+    margin-right: 3.3%;
+    margin: 37.5px 0 0 0; 
+}
+
+.latest aside p.blockquote {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff; 
+}
+
+.latest aside p.small {
+    color: #fff; 
+}
+
+.latest aside a {
+    color: #fff; 
+}
+ 
+.latest aside a:hover {
+    color: #333; 
+}
+
+.latest aside h1 a {
+    color: #fff; 
+}
+
+.latest aside h1 a:hover {
+      color: #333; 
+}
+
+.latest .social, .latest .bottom {
+  position: absolute;
+  bottom: 25px; 
+} 
+
+.recent {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; 
+}
+    
+.recent .single {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 48.30729165%;
+    clear: none;
+    float: left;
+    margin-left: 0;
+    margin-right: 3.3%; 
+}
+
+.recent .single figure, .recent .single aside {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; 
+}
+
+.older {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%; 
+}
+
+.older .single {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 31.1048611%;
+    clear: none;
+    float: left;
+    margin-left: 0;
+    margin-right: 3.3%; 
+}
+
+.older .single:nth-child(3n) {
+    margin-right: 0; 
 }

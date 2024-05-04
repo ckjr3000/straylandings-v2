@@ -4,6 +4,7 @@ who: AudioBoyz
 image_upload: ""
 blockquote: AudioBoyz
 author: Theo Darton-Moore
+eleventyExcludeFromCollections: true
 ---
 AudioBoyz
 

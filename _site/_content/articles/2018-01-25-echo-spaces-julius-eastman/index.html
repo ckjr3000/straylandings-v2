@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>In 1975, the University of Buffalo hosted a performance of John Cage’s ‘Song Books’, a collection of Cage’s experiments in musical notation, facilitated by Morton Feldman and with Cage present in the audience. These ‘songs’ are notated in wild experimental style, from standard notation to Cage’s special brand of dots and lines to merely text highlighted in different sizes and fonts. Some of these pieces with more abstract notation give only a simple instruction, like &quot;perform a disciplined action&quot; or “give a lecture”. One performer, Julius Eastman, performed Cage’s instruction to give a lecture, inviting a young man on stage to undress him and make sexual gestures. Cage was furious with the performance, explaining that the instructions are not intended to allow the performer to “do whatever you want”, adding that Eastman's &quot;[ego]... is closed in on homosexuality. And we know this because he has no other ideas.&quot;</p>
 <p>Cage was both right and wrong. It’s true that Eastman’s sexuality was central to his work. In the late 70s, New York’s burgeoning gay scene became a welcome home to Eastman (well, before he was evicted for falling behind on rent). In the Lower East Side, Eastman made historic connections, becoming the first male vocalist in Meredith Monk’s ensemble and conducting the orchestras for Arthur Russell’s instrumentals. In this sense, Eastman had a unique experience in that he came from both the academic minimalism of upstate New York, and the swinging hedonism of downtown Manhattan. But what Cage failed to see was the sprawling, searching mind of Eastman. His music is ‘out-there’, even for modern ears. And he takes minimalist ideas further, and into more dangerous territory, than Cage, Glass and Reich were willing to go. Even in his rendition of Cage’s songbook, Eastman attempted to disrupt the perceived acceptability of so-called avant-garde experimentalism, holding the radical aims of the project to its word.</p>
@@ -44,8 +42,7 @@
 <iframe src="https://player.vimeo.com/video/68442341?byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

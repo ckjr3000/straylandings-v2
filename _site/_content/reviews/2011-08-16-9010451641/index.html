@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Judging from his Soundcloud, it would seem that London-based Sam Walker (AKA Palace) perhaps feels more comfortable doing remixes than his own tunes. But don’t be fooled - the new track released by Palace last monday is of its own kind.</p>
 <p>The opening dry clicks and claps almost sound like the start of James Blake’s ‘Maybes’ remix, which perhaps shouldn’t be too surprising as Walker’s remix of “I’ll stay”, his most popular tune so far, can boast over 7000 plays. However, instead of sinking into the murky realms of dark dubstep, Palace keeps it bright and frisky with a warbling set of wonky jazz chords. Arguably, much of what makes this track unique is how the dreaded middle-frequencies have been occupied. Palace could have easily slapped on shit-loads of reverb to fill space and left it at that, but by leaving the glowing synth-pad dry and centralised, he manages to keep a succinct and yet ethereal sound.</p>
@@ -35,8 +33,7 @@
 <p><a href="http://soundcloud.com/palacepalace/down-with-you">Palace - Down With You</a> by <a href="http://soundcloud.com/palacepalace">PALACE</a></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

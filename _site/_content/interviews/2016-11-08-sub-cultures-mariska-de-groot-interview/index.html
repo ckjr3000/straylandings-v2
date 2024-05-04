@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>For many artists operating in the avante-garde electronic music sphere, audiovisual performances or installation art seem to be something of a graduation point. Dasha Rush's recent <em>Dark Hearts of Space</em> performance at Unsound, or Peder Mannerfelt's technicolour acid trip displayed at  Atonal 2015 are case in point, as are the installation  pieces developed by the likes of Alva Noto or Ryoji Ikeda.</p>
 <p>One artist who has never separated the link between audio and visual performance is Dutch artist Mariska de Groot. Earlier this year I was lucky enough to catch one of her projects at Newhaven's Fort Process Festival. The billing saw de Groot operating a light and sound instrument she has created, which attempts to trace the orbit of 'Nibiru' - a planet which is said to pass our solar system once every 3000 years. Granular itches and grating drones soundtracked the swinging pendulums and spirograph like projections,  adding to the surreal, otherworldly quality of the piece.</p>
@@ -66,8 +64,7 @@
 <p>Sometimes we get the chance to create collaborative work. In 2015 we created a kind of 'gesamtkunstwerk' for a big church in The Hague, called 'Rites for a New Utopia'. We used the building for a series of new works melted together to become one long evening filling piece. Starting with a piece of 'our' Lars Kynde for the carillon at the top, bringing overtones of the bells to the belly of the church with a piece of Angel Faraldo. Slowly we worked through an installation of Matteo Marangoni and a light and sound performance by me, Dieter Vandoren and Matteo Marangoni towards the altar where Horst Rickels played his beautifully made Mercurius Wagen. Different pieces became one whole concept and experience.</p>
 <iframe src="https://player.vimeo.com/video/138447062?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Founded in 1958, the BBC Radiophonic Workshop has left a legacy difficult to rival. A year prior to its establishment, composer and sound engineer Desmond Briscoe had worked alongside Daphne Oram - another composer and later creator of the 'Oramics' machine - on a number of radio plays. These included Samuel Beckett's <em>All That Fall</em> and  Frederick Bradnum's <em>Private Dreams and Public Nightmares</em>.</p>
 <p>Such was the public interest in the so called 'radiophonic' sounds Briscoe and Oram created for these plays, the workshop was established by the BBC with the expressed interest of creating both new music and sound effects for radio. By the time it's legacy was complete however, the Radiophonic Workshop had exceeded these goals tenfold, tagging, either directly or indirectly, some of the most notable advancements in British electronic music.</p>
@@ -60,8 +58,7 @@ ___________________________________________________________<br>
 <p><em>Words by Theo Darton-Moore</em></p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/147243281&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

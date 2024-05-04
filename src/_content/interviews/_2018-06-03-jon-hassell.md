@@ -4,6 +4,7 @@ image_upload: ""
 image: https://c1.staticflickr.com/2/1733/41631986885_254b7ba1c4_h.jpg
 blockquote: blah
 author: Georgie_McVicar
+eleventyExcludeFromCollections: true
 ---
 _Photo by Roman Koval._
 

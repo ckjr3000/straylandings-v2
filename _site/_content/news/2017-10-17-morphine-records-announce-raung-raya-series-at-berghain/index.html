@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Berlin-based label Morphine Records have always had an ear for the eclectic. Founded by Rabih Beaini (aka Morphosis) in 2005, the label has released all manner of experimental extremities, from the psyched-out hip-hop of Madteo's <em>Memoria</em>, to more academic leaning releases from figureheads like Pierre Bastien or Pauline Oliveros.</p>
 <p>Most recently however, Beaini has been tackling Indonesian Gamelan, releasing some fascinatingly rich and intricate works from the likes of Wukir Suryadi, Senyawa and Rully Shabara.</p>
@@ -50,8 +48,7 @@ Tuesday 16 January 2018</p>
 <p>The Planet Harmonik Ensemble is comprised of 22 musicians, playing traditional Gamelan instruments. They will close the Raung Raya series with a performance led by Al Suwardi, one of the most notable figures in contemporary Indonesian Gamelan.</p>
 <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/yKTwrJNhZCk?rel=0&controls=0&showinfo=0?ecver=2" width="100%" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

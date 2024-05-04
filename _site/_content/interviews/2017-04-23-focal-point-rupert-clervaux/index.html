@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>“The inspiration of Leopardi resonated for me around the idea that you have your finished work and then your process, your backdrop [...] your research - and all of his research is available, it’s free to view. And 'Zibaldone' in a way was me saying, well, mine’s also free to view if you care to view it”</em></p>
 <p>Rupert Clervaux’s new ongoing series takes its name from the notebooks of nineteenth century poet Giacomo Leopardi – these <em>Zibaldone</em>, the original <em>Zibaldone</em>, were a comprehensive collection of notes; personal impressions, ideas, observations, sketches for later, more developed work - published posthumously and just recently translated.</p>
@@ -66,8 +64,7 @@
 <p><em>“CVX represents a different side to me than - in the terminology we’ve been using with Leopardi – my stylised side. When I think about how I want to write a poem, or make a piece of music that’s expressive, it generally doesn’t have the sense of humour that I feel I have, as a person [...] As CVX, and in the 'Zibaldone' particularly, sense of humour has a natural role. And it’s all... and this is where the inspiration of Leopardi comes in - it’s all notes, it’s just notes. It’s not to be taken that seriously. They flow off the tongue, they just happen. And for the most part they represent pieces of music that would never have come seen the light otherwise. So in a way it was a decision to actually follow those whimsical thoughts that you have about a piece of music, or to retrieve that curious section that was discarded a few months ago - to do it and not to labour the point at all. Not to think about how it fits next to something else, and that’s it. Just like taking notes, like scribbling marginalia, but in a music studio instead of in a library...”</em></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

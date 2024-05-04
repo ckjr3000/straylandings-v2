@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>In thinking about my own obsession with sound, nothing resonates with me more than Pauline Oliveros’ offering in Dissolving your Ear Plugs (2016): ‘Take some time—no matter where you are—sit down and close your eyes for a while and just listen - When you open your eyes consider what you heard as the “music”. Later try to remember what you heard and express it with your instrument or voice.’</p>
 <p>‘Do this practice often until you begin to hear the world as music.’</p>
@@ -41,8 +39,7 @@
 <p>‘Tuning Meditation’ is another set of thoughtful, simple instructions for a vocal performance. The participants begin by listening to their surroundings; they inhale deeply, then begin exhaling at a note of their choice, eventually choosing a pitch of another and joining in. At the next exhale, they sing a pitch no one else is singing. These two steps are repeated for a duration of anywhere from three minutes to twenty; the piece has been performed at concerts, museums, classrooms, symposiums, often with the onlookers being encouraged to join in themselves. The resulting sound is organic, alive: pitches congregate then fall away from each other, again and again, full of intent. The unconstrained yet unifying nature of this piece, perhaps, is the best way to enter Oliveros’ world, where boundaries between ‘musician’ and ‘non-musician’ are blurred. Though the music world was eager to glorify her as as an experimental pioneer, Oliveros repeatedly reminded us: music is for everyone.</p>
 <iframe src="https://player.vimeo.com/video/34795408" width="100%" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

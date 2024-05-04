@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>I remember hearing Andrea Parker's work for the first time, picking up a copy of the 'Melodius Thunk' 12&quot; on impulse. It sounded like some dark-as-fuck alternative Goldeneye soundtrack, sweat drenched rhythms and feverish melodies shuddering between Parker's impenetrable blasts of crater-dwelling low-end. Delving deeper, I discovered her discography is rife with twisted electro gems - a genre with which I was had never expressed much interested in before. Listening to the earth-rumbing swagger of 'The Swamp' cemented her as an artist with whom I'd be dedicating a rather large amount of listening time to.</p>
 <p>Alongside her solo productions, Parker has worked extensively with Dave Morley and also finds the time to run two labels - Touchin' Bass and Aperture. While the former focuses on boundary-nudging dancefloor music, Aperture enjoys a far wider repertoire, releasing the wonderfully fractured collection of noise experiments, <em>No.3. Obliate</em>, by T.e.s.o recently for example.</p>
@@ -62,8 +60,7 @@
 <p>Next year will be an exciting one. I’m 45 and I’m going to Dungeness to see power stations in the desert... It’s the 50th release on Touchin’ Bass, the 10th release on Aperture and I will also be releasing some more collaborations with Daz Quayle. Hopefully I will finish my album… if I can stop having accidents and injuring myself! Other than that I’m hoping to visit my adopted polar bear in Svalbard and get some more honey from my bee hive in Shropshire.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/161050362&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

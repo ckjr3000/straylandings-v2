@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>One of the most positive aspects of the re-emergence of techno in the UK is a deeper and more concentrated effort on textural merit and sound design.</p>
 <p>One producer exploiting this concentration on the more detailed aspects of the genre is  Sam Iliffe aka ‘Ill Life’. The Cambridge based producer builds his music from the foundations of classic house and techno, whilst retaining a forward-thinking perspective. Iliffe appears to have a positive future ahead of him after churning out four brilliant productions in just a few months.</p>
@@ -34,8 +32,7 @@
 <p>Overall, the track feels welcomely detached from the usual generic synthesized sounds and presets, instead exploring deeper, more rugged textures, often put to use by the likes of Lucy, Perc or Tommy Four Seven. Techno of this nature, where the sounds used are fresh, new and original are doing a great deal to sustain a genre that has been running for well over twenty years.</p>
 <iframe frameborder="no" height="166" scrolling="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F58270409&show_artwork=true" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

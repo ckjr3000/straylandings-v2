@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Alida Bea.</em></p>
 <p>Having contributed our fifth ever mix all the way back in 2011, it's been rather special to see Zak Brashill, aka Etch's career unfold. The mix provided an  insightful look at the history of hardcore and jungle, featuring tunes plenty of seasoned ravers would struggle to list, let alone a first year uni student. But Zak's knowledge of music always seemed to have defied his years. Perhaps this is due to the fact he inherited his uncle's entire record collection in his early teens, the magic of labels like Moving Shadow and Reinforced instilled during his formative years.</p>
@@ -74,8 +72,7 @@
 <p>I'm also continuing to work with Jamie on stuff for Sneaker Social Club. I've got a grime record coming out with Nico Lindsay on Sneaker Social Club, and am also on a compilation they are doing. The track I just put up on Soundcloud also caught his attention and he's basically just asked for three more of those! It's basically the tune I've been trying to make since I was 15. I don't know how I did it. It made itself!</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571207494&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

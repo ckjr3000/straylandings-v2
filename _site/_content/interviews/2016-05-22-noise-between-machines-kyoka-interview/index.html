@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Berlin-based Kyoka was one of the first Raster-Noton artists I heard to really challenge the imprint’s sonic stereotype. Her 2014 album <em>Is (Is Superpowered</em>) featured an idiosyncratic and whimsical use of her own vocals, in contrast to the rather serious poly-rhythmic glitch that defined previous releases (aside perhaps from Atom™’s wickedly satirical muse on pop-culture, <em>HD</em>). Using her voice in an improvised and non-lyrical style, her vocal samples were spliced and resampled in a method that mirrors Dada-ist cut-up techniques.</p>
 <p>Years before her affiliation with Raster-Noton however, Kyoka was already obsessed with machine-generated sound. In her early years she used tape recorders to manipulate audio and the obsession grew from there. Picked up by Mitte Musique sub-label Onpa))))) in 2008, her releases have evolved slowly; the chaotic, adrenaline-charged feel of her early tracks slowly refined, maturing in sound.</p>
@@ -76,8 +74,7 @@
 <p>I just think about sound itself when I compose. I should not be swayed by the reception. To keep throwing people fresh and pure ideas is more important.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244594664&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

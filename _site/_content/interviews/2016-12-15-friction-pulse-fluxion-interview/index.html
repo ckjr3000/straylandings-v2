@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>It's fair to say the work of Fluxion, aka Kostas Soublis, has had a fairly large impact on my thinking about electronic music. I first encountered the Greek artist through his <em>Vibrant Forms</em> LP a few years ago, around the time it was reissued on Type. Before the U.S. based label saw fit to reissue the LP, copies of the assorted 12&quot;s that make up the Chain Reactions original would have been considered Discogs gold-dust.</p>
 <p>Considering how uncharted the release felt to me just a few years ago, it's difficult to comprehend it's impact back in the late '90s when it was first released. These days at least, it is considered a milestone of the dub-techno genre. Furthermore, Soublis followed up with <em>Vibrant Forms II</em> just a few years later. Despite the demise of Chain Reaction in the early 2000s, he has maintained a steady string of 12&quot;s and LPs over the years, setting up his own label 'Vibrant Music' for a spell and becoming a regular on Kenneth Christiansen's Echocord.</p>
@@ -63,8 +61,7 @@
 <p>It’s sound and images interacting in a unique space we created for them... In such an environment, nothing is absolute.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/264888186&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Shota Hirama</em></p>
 <p>100 years on from the opening of Cabaret Voltaire, Dadaism continues to influence. SIGNAL_DADA, a label based in Tokyo and New York, have been taking the notion of Dadaism to dizzying new heights. Typically, their releases create collages of found sounds and samples. However, unlike much of the current trajectory of modern industrial techno and noise, SIGNAL_DADA's music is very high definition, with a pristine clarity of production. Their themes arguably express the hyperactivity and alienation of modern digital culture. It therefore carries with it many of the same concerns of Post-Internet, but it's sharper, darker and more precise. As past of our ‘In Focus’ series, we caught up with label-boss Shota Hirama to talk about the ethos and aesthetic of this fresh and exciting project.</p>
@@ -47,8 +45,7 @@ Hannah Höch, <em>Cut with the Dada Kitchen Knife through the Last Weimar Beer-B
 <p>We will.</p>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=134619944/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://shotahirama.bandcamp.com/album/nice-doll-to-talk">NICE DOLL TO TALK by shotahirama</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

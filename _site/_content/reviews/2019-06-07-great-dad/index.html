@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>My favourite band just released their debut album. Great Dad are perhaps best known from the South London band circuit, playing ramshackle shows in venues like Brixton’s <em>Windmill</em> and Deptford’s <em>Sister Midnight</em>, which is where I first heard them. Watching Great Dad play for the first time, I didn’t really understand what was going on. Packed into an overheated basement with some basic live equipment, I couldn’t work out if the indiscriminate nature of their sound was intentional or circumstantial. To be honest, this ambiguity remains unsolved for me. But this is precisely why I have become such a super-fan.</p>
 <p>Unpicking the Great Dad enigma necessitates a close look at their instrumental set up. Their original line-up consisted of a laptop backing track, stand-up drumming, and the occasional flurry of flute. This jarring juxtaposition of tone remains forever at the forefront of their sound. The backing track blares MIDI strings, horns, and percussion: every element is fully present, and every note of their weird harmonic configurations can be heard. Their drumming style is leant back far enough that it is wrong-footing at every step. The choice to play stand-up puts the beat at a different pace from the quantised samples, thudding just behind the beat. Their live flute flurries offer more strangeness to their sound. The flutes appear, in almost cartoonish fashion, at the end of a phrase or line: a little trill to conclude a statement, like laughter following a joke.</p>
@@ -38,8 +36,7 @@
 <p>Great Dad’s eponymous debut lasts only 23 minutes. But this album has more to offer in that time than most have in an hour. At almost every turn there is a novel texture, a different mood, some clever wordplay. They continue to evade easy categorisation by simply refusing to be anything in particular. Indeed, their album launch show last week saw a complete overhaul of their original set-up, losing the samples to introduce bass, guitars, synthesisers, and backing vocals. This commitment to deviancy can make their music difficult, chaotic, and at times utterly infuriating. But those able to withstand the racket are greatly rewarded.</p>
 <iframe style="border: 0; width: 100%; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1583605338/size=large/bgcol=ffffff/linkcol=de270f/artwork=small/transparent=true/" seamless><a href="http://greatdad.bandcamp.com/album/great-dad">Great Dad by great dad</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Short run vinyl is a tricky business. In our own endeavours, we've often been advised pressings of less than 200 is a pointless excursion, financially speaking. One workaround is lathe cutting. In this process, each individual disc is cut separately, rather than cutting a master plate, which all the other records are pressed from. New York founded ICM, or 'In Context Music' learnt this lesson early on, limiting their releases to lathe cut series numbering just 25 from the very first release, as label owner Angus Tarnawsky explains.</p>
 <p>&quot;I first encountered lathe cutting through the work of Peter King&quot; he begins. &quot;I immediately liked that by default, lathe cuts are produced on transparent discs.  At first, cutting on lathes seemed like a smart financial decision but I soon realised that compared to vinyl, it isn’t necessarily that much cheaper.&quot;</p>
@@ -59,8 +57,7 @@
 <p>&quot;From the beginning, I’ve viewed ICM as a collective, and events have been a big part of building that community. Wherever I go, ICM comes along with me.&quot;</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/151859822&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

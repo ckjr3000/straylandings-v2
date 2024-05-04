@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Exium are a Spanish techno duo consisting of Valentín Corujo and Héctor Sandoval. Having released records for over 11 years, as well as starting their own label, Nheoma, it’s fair to say that Exium are now a powerhouse in the world of electronic music.</p>
 <p>Their latest album, _A Sensible Alternative to Emotion, _stands out for me as one of the best releases of 2013 so far. The whole thing is incredibly strong from start to finish - blending the guttural, muscular club sound that Exium are so deservedly well-known for, with some fascinating abstract pieces littered along the way. Unlike many attempts made by techno producers to move to the album format, <em>A Sensible Alternative to Emotion</em> really feels like a considered, complete piece of work. There are plenty of nuggets here to keep you hooked; from the jaw-clenching <em>Absolute Magnitude</em> to the glorious closer _The 12th Planet _to name but two.</p>
@@ -55,8 +53,7 @@
 <p>The new Nheoma release is ready and is a split EP with Kwartz, a young producer from Madrid. We also have some remixes and collaborations lined up with Pfirter, Developer and Perc Trax. By the end of year there will be a new Polegroup with remixes of the album.</p>
 <iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F84823608" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

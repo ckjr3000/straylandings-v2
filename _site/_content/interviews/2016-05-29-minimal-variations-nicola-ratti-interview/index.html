@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Based in Milan, Italy, Nicola Ratti is a figure well-regarded in the world of avante-electronics. Since his debut release in 2006, Ratti has explored rough-edged granular sampling, subtle experiments in micro-tonality and abstracted dancefloor themes. His Where To Now? released <em>Pressure Loss</em> LP earlier this year showcased a bewilderingly complex and creative use of limited tools. Ratti composed the work using just a Serge Modular and an ARP2500 Synthesiser at Rotterdam's WORM Studios creating a rich tapestry of pulsing rhythmic tones.</p>
 <p>Although his music has plenty in common with the rather stoic world of experimental sonic study, he also gives nods to other, more accessible genres.  His releases with lifelong friend Giuseppe Ielasi as 'Bellows' for example, gives plenty of hints to lo-fi post-rock and shoegaze electronica, while his 2015 'Wounded Boys' cassette has moments of plodding dub and itching hi-end grooves.</p>
@@ -61,8 +59,7 @@
 <p>I'm currently working on some new material that I'd like to become my next album and, as I told you before, I've started a collaboration with Jake Meginsky so we're recording and sharing sessions. I'm awaiting along with Giuseppe, the release of a Bellows' EP and LP from two different labels, hopefully before the end of the year. I'm also curating/promoting a series of events in Milan concerning sound and space such as concerts and sound installations with an art organization I founded with other artists and curators. That's all so far.</p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245085234&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

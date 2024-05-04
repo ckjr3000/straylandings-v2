@@ -5,6 +5,7 @@ blockquote: '2016 saw many horrific political currents globally (or perhaps just
 author: Lawrence_Uziell
 image: http://c1.staticflickr.com/1/650/32187698290_edfef6f2a1_b.jpg
 who: Elysia Crampton
+eleventyExcludeFromCollections: true
 ---
 _Photo by boychild_
 

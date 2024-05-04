@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Reshaft is a collaborative project from Mizkami Ryuta (a.k.a Motoro Faam, mulllr) and Yui Onodera.Their debut record <em>Decon</em> (released last month on Comfortzone music), is a mesmeric bundle of brilliance that expands and contracts as it plays, creating new sonic forms within forms, and subtle, rhythmic patterns that cause tiny chain reactions in your ears. Ryuta and Onodera have made music that is, in a way, paradoxical - it fades into, but also enhances background noise. Their blend of organic and electronic sound is complex and craftily arranged, and presents the listener with unanticipated breaks and shifts in direction.</p>
 <p>Stray Landings talk to Onodera and Ryuta about rebellious crows, famous stone gardens in Japan and drifting from the path most travelled.</p>
@@ -57,8 +55,7 @@
 <p>Mizkami: Reshaft is unpredictable and we don’t know where it will go… but we are working on an exciting project for the next step - please keep an eye out for what’s coming.</p>
 <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179192014&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%" height="450" frameborder="no"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

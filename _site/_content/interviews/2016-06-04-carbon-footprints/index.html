@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Tonje Thilesen</em></p>
 <p>This year saw the release of <em>AFTRYK</em>, the debut 12&quot; from SØS Gunver Ryberg. <em>AFTRYK</em> brought together elements of sound art and techno, creating a record that was too weird for dance-floors, yet too lively for an art exhibition. Given her musical genealogy, this ought not to come as a surprise. Indeed, this 12&quot; was but an anomaly amongst a litany of other projects that she describes as the &quot;ephemeral expression of music&quot;. Her past projects include concerts, computer game soundtracks, and sound installations. A background in arts such as these has been consequently crucial in the formation of her sound. ‘1170 Siva (Bare Bones)’ in particular stands out as a landmark piece. Having existed in various forms for at least two years, this oddball sound experiment was meticulously designed to induce panic attacks and nightmares.</p>
@@ -62,8 +60,7 @@
 <p>I have some concerts around Europe this summer. Hopefully I will also be able to work on the next release. Right now I have a theater performance in Denmark. I’m on stage as a normal performer and also creating and performing the music. We are staging “Story of the Eye” by Georges Bataille which explores eroticism, mysticism, surrealism, and transgression. Then I’m looking forward to the release of  two video games: ‘INSIDE’ by Playdead and ‘THOTH’ by Carlsen Games. The ‘THOTH’ sound design and music are created by SGR^CAV, the collaboration I have with Cristian Vogel. Both games are worth checking out <em>even</em> if you are not a gamer...</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/35111178&color=0f0e0e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

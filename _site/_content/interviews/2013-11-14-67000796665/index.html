@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>With only a handful of releases, Margaret Dygas has made an astonishing impression on the world of Techno over the last few years. In particular, her brilliant ‘Invisible Circles’ 12” as well as her 2011 self-titled album wowed critiques with their unique simplicity and haunting undertones.</p>
 <p>With a performance in Fabric’s Room 1 scheduled for this coming Saturday, we caught up with Margaret earlier in the week to discuss her history with the club, Michael Jackson, and the ‘minimal’ tag.</p>
@@ -54,8 +52,7 @@
 <p>**Catch Margaret Dygas at Fabric on Saturday 16<strong><strong>th</strong></strong> November along with Craig Richards, Ben Sims and Planetary Assault Systems. **</p>
 <iframe frameborder="no" height="40" src="http://official.fm/player?width=100%25&amp;height=40&amp;skin_bg=000000&amp;skin_fg=FFFFFF&amp;aspect=flat&amp;control=1&amp;feed=http%3A%2F%2Fofficial.fm%2Ffeed%2Ftracks%2F2hlN.json" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

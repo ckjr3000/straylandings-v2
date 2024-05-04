@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>&quot;Like a modern day folk musician, he's passing on the message of good ol' fashioned, proper House music through generations&quot; Bob Bhamra, the man behind the West Norwood Cassette Library label posits when talking of his latest release from James Duncan. 'Brooklyn Beats Vol. 1' covers four soulful House offerings with the grit left in - as Bhamra mentions, showing little regard for the gimmicks of 'revivalists'.</p>
 <p>As the title may suggest, Duncan has used New York as a very specific geographic marker point for the release. Each track is titled after a different Brooklyn subway stop - a fitting tribute to the city given the rather impressive stamp he has left on the NYC House scene. Since his debut in the late '90s, he has managed to contribute to some of the most influential Metro Area releases, as well as seeing collaborations with Morgan Geist and  releasing a long slew of 12&quot;s on esteemed labels such as Le Systeme and Real Soon.</p>
@@ -50,8 +48,7 @@
 <p><em>'Brooklyn Beats Vol.1' will be available on the 18 March from the <a href="http://wnclrecordings.bandcamp.com/">WNCL Webstore</a>.</em></p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244584470&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Growing up on a diet of early Jungle &amp; Drum &amp; Bass, East London residing producer and DJ Dax J has been making a serious impression on the UK techno scene over the last few years, having released with labels such as Sleaze, Deeply Rooted &amp; Affin, not to mention his own label, EarToGround. Co-founded in 2010, the multi-faceted project has released works from the likes of Secluded, Markus Suckut &amp; Truncate, alongside providing interviews, events and podcasts.</p>
 <p>Following our review of his Unknown Territory release earlier in the week, we decided to catch up with Dax to discuss the record, his formative years listening to Kool FM, and the future plans for EarToGround, as well as his recently founded solo-run imprint Monnom Black.</p>
@@ -62,8 +60,7 @@
 </ol>
 <iframe frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119126765&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

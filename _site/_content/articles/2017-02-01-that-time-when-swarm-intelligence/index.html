@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by Carsten Stiller.</em></p>
 <p>Swarm Intelligence takes a hammer to the usual techno blueprint, reassembling it in haphazard fashion. Since his early releases in 2011/12, the Berlin-based Simon Hayes has developed a knack for crafting broken-beat 4/4 and downcast melodics which add a little more depth to the dancefloor than the usual format. His albums on Nicolas Chevraux's Ad Noiseam might be a good first reference in attempting to pinpoint his sound; he has as much in common with the label's earlier forays into savage noise and breakcore as the more contemplative recent offerings.</p>
@@ -54,8 +52,7 @@
 <p><em>Tickets for February 17 are available via the Towards Collapse Bandcamp, <a href="https://towardscollapse.bandcamp.com/merch/towards-collapse-3-17th-february-2017-vfd-swarm-intelligence-deadfader-vorrs-nolan-dialta-codex-europa">here</a>.</em></p>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/202389808&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

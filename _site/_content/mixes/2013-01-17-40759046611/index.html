@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The fifteenth mix on our series comes from Sydney based Mannheim Rocket, an artist we have written about previously following the release of his collaborative EP with Magnetic Northwest. Released on Mannheim Rocket’s own label 3BS Records, the EP tied the sounds of the burgeoning techno scene with more melodic flavours, something all too often lacking in the genre.</p>
 <p>The fact that Mannheim Rocket’s projects are often heavily melodically led is not surprising since the initial aim of the project was to bring contemporary classical music to a wider audience. The ensuing forty-seven minute mix he has concocted for us is reflective of this, featuring tracks from a variety of artists who seem to look for something more in a track than just its rhythmic elements.</p>
@@ -54,8 +52,7 @@
 <p><a href="denied:denied:denied:denied:denied:itpc://straylandings.jellycast.com/podcast/feed/2">Subscribe in iTunes</a></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The Voyder released <em>XXXXX</em> LP is one of the loudest things I've ever heard. I remember a discussion with one of the collective, who was saying they'd initially thought about pressing it to vinyl, only to realise it was so loud any stylus would jump straight off the wax as soon as you started playing.</p>
 <p>Written by Cornwall-based VORRS, <em>XXXXX</em> saw it's release in 2015, but as he explains the album had been in the making for a number of years previously. &quot;The album started in 2010 while I was living in New Zealand&quot; he begins. &quot;The first track I completed was actually the final track on the album, 'GAME OVER'. It was probably the muddiest track I had made up to that point but it's the only track that actually made me want to write an album. I basically spent the next five years trying to expand on that sound.&quot;</p>
@@ -36,8 +34,7 @@
 <p>No tracklist available.</p>
 <iframe width="100%" height="100" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fstraylandings%2F0075-vorrs%2F&light=1" frameborder="0"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

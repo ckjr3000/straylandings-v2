@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>At its best ambient music can gaze outwards and evoke the great unknown of the cosmos, and simultaneously provide the stimulus for an inwards journey into the psyche - an exploration of the notion that in each mind is contained the whole universe. It's greatest leaps occurred in the early 1970s, acts like Popul Vuh, Tangerine Dream and Klaus Schulze all venturing into the beatless electronic unknown before the actual term 'ambient' was widely popularised by Brian Eno after some lengthy sessions with Cluster's Deiter Moebius and Hans-Joachim Roedelius.</p>
 <p>Throughout the genre's many developments, the 1990s was arguably one of the most pivotal. Through a period of widespread sonic experimentation in electronic music, improving/cheapening electronics led to all manner of stylistic combinations, some terrible, some genius. The latter half of the decade saw techno begin to branch out into ambient, acts like Gas, Fluxion and Vainqueur incorporating heat-soaked soundscapes into the infinite march of 4/4 drums. An interest in the genre was similarly shown by some of the biggest pinups of British electronic music, such as Aphex Twin or The Orb.</p>
@@ -46,8 +44,7 @@
 <p>Words by George McVicar</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

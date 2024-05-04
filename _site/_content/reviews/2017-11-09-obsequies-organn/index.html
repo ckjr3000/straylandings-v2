@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The first thing that struck me about this release was the artwork. It could be a Man Ray portrait; in some ways cinematic and evocative of times gone by, yet it also has this densely oversaturated texture which gives it a surreal, alien quality. A film noir classic that’s been played on VHS one too many times, churning up the image until you’re not sure whether you’re looking at a real face or some kind of synthetic reimagining.</p>
 <p>Released on Knives, an imprint run collaboratively by Planet Mu's Kuedo and Joe Shakespeare, 'Organn' is a tumultuous release. It takes inspiration from Isidore-Lucien Ducasse's <em>Les Chants de Maldoror</em>, a poetic novel which was the only text released under his pseudonym, 'Comte de Lautréamont'. Despite this it went on to be a major influence on the surrealist movement, cited by artists like Salvador Dalí, Marcel Duchamp as well as Man Ray.</p>
@@ -36,8 +34,7 @@
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/342865402&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

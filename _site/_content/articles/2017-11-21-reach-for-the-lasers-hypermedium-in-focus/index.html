@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>It’s rare for a label to make such a strong impression in so short a time frame as Athenian outfit Hypermedium, especially considering that they have had just three releases to date. The imprint was founded in 2015 by Akis Sinos and Timos Alexandropoulous, after the pair met at a festival they were both working on at the time.</p>
 <p>After discovering they had common musical and artistic interests, they started to collaborate, working on gigs and playing together. When asked about the label’s founding, they elaborate on how the project developed: “A couple of years ago we started having more concrete ideas about the music we would like to release, focusing on contemporary electronic music; whether this be computer music, noise collages, more club-oriented sounds or excursions into futurism. At that point, Roc [Jiménez de Cisneros] and Steve [Sharp] from EVOL were kind enough to give us some of their new material. We were more than happy to make a 12” out of it, so this became HMDM001, ‘Melting Pinkness’. This is how Hypermedium came into being.”</p>
@@ -51,8 +49,7 @@
 <iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/347087014&color=%238a8a8a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

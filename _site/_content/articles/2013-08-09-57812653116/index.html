@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Ten years ago it would have been near impossible to gain entry to the monumental power station on Köpenicker Strasse in Berlin’s Mitte, as the building originally created to power East Berlin after the installation of the Berlin Wall stood abandoned for many years. In 2007 however, Dimitri Hegemann, founder of Berlin’s world famous Tresor club and label, re-awakened part of the building as the new home for Tresor, after the club was forced out of its original dwelling on Leipziger Strasse, where it had been an international Mecca for techno since the early 90s. Since then, the rest of the space has been opened up as ‘Kraftwerk Berlin’, and used for a multitude of artistic events; one of these being Hegemann’s own Atonal Festival, which returned to the city this year after a 23 year absence.</p>
 <p>Originally held in Kreuzberg’s legendary club and venue SO36, Atonal hosted industrial and experimental music, as well as being a cornerstone of Berlin’s underground arts scene, with acts such as Einstürzende Neubauten and Test Department playing at the festival before it ended in 1990 with the fall of the Wall. Needless to say, Kraftwerk provides a more than adequate environment for Atonal’s resurrection – the cavernous building being perfectly suited to the blend of industrial edged experimental music and gritty warehouse techno taking up the bulk of Atonal 2013’s bill. Coming more than two decades since the last edition, it was only fitting that some updates be made to the festival’s sound, with organiser Paulo Reacho describing the re-booted festival as being “not so much about confrontation, but rather about exploration”. The hallmarks of industrial and post-punk which characterised the festival’s original billings were still present however, despite re-contextualisation from the somewhat dank surrounds of SO36 to a jaw-droppingly vast power plant.</p>
@@ -42,8 +40,7 @@
 <p>Given Atonal’s stated mission to explore ideas and to challenge, Sunday’s proceedings were largely successful; and even the moments that didn’t quite reach such lofty ambitions still made great use of the extraordinary space chosen to host the re-booted event. With the collapse of Bloc after last year’s crisis, festivals which make use of challenging lineups in unconventional spaces are in short supply, making Atonal’s revival all the more welcome.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

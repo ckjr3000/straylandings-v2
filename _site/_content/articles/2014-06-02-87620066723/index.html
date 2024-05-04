@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Even from the plane it’s quite an impressive sight. The four monolithic pillars of the Øresund Bridge stand seven hundred feet tall, gradually eclipsing one another as the perspective shifts. In length, the structure runs just shy of twenty-six thousand feet, connecting the Swedish city Malmö with Denmark’s capital, Copenhagen - two locations central to the operations SonuoS Records co-ordinator Finn Albertsson.</p>
 <p>“Malmö has a very creative scene when it comes to new and interesting labels and artists” he responds when asked about the music scene of his hometown. “It’s buzzing with talented people making wicked music, and this has been going on for quite a while with artists like Rivet, Minilogue, KAB, Bauri, S.D.L, or Düsseldorf by Night just to name a few. The audience in Malmö however is a tad more afraid of what’s new and experimental compared to the artists and the labels in this town, but then again neither artists nor labels want to make it big in Malmö alone.”</p>
@@ -46,8 +44,7 @@
 <p>With the next seven releases already finalised, it looks like this formula is working well, the fourth in the series written by a personal friend of Albertsson’s. “Fredrik Nilsson aka A.O.T is from Malmö too, living just a block away from me. I have known him for quite a while now; he’s always been making music but it’s only been two or three years now that he has decided to be serious about it. He’s not only very talented but also very productive having just released ‘The Echo’ on Vosnos Records, he’s going to release his Rundgång EP on SonuoS shortly, and he’s also got yet another 12” coming up on the new label ill. Not bad for a totally new artist I must say!”</p>
 <iframe frameborder="no" height="450" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/99905543&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

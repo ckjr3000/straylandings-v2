@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo by boychild</em></p>
 <p>Between maniacal laughter, MIDI horns and aggressive bursts of noise, a voice is heard proclaiming, as if from the trailer for the latest Michael Bay blockbuster: 'the darkest hour'. This trope which appears throughout Elysia Crampton's oeuvre is a strangely ominous sign for an artist who takes a major influence from Jose Muñoz, one of the central theorists of queer optimism. But as Crampton explains, such contradictions don't present a problem to her. And in fact, forcing such apparent antagonisms between optimism and pessimism, past and future to come to the fore is a central tenet of Crampton's creative practice, which in many ways is an attempt to decolonise the club. An attempt which, as she explains, is sorely needed in the present moment.</p>
@@ -58,8 +56,7 @@ But there’s so many ways of relating to what we call spacetime and what has be
 <p><em>Elysia Crampton will perform at <a href="http://www.ctm-festival.de/festival2017/2017/02/04/festsaal_kberg">Festsaal Kreuzberg on February 4th</a>, as part of CTM Festival.</em></p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290481074&color=0b0b0b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

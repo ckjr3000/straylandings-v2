@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Several months ago we quizzed a relatively unknown producer, regarding his battle to gain credits for a track he wrote entitled <em>Natalia’s Song</em>. Incidentally, the track had been one of the best received tunes of last year, put out by 4AD with the production credited exclusively to Zomby.</p>
 <p>Since receiving his dues, half Russian producer Reark has been slowly but surely working on a follow up to his unexpected first release, and has plans to release <em>Rukai</em> with Vresh, and a following two track single with Filigran Records. Reark, will also be performing live at the Dimensions Variable festival in Vienna, accompanying the abstract art on display at the exhibition with abstract, ambient music. Following this he will also be DJing Saturday’s events, playing a more dance-floor centric set.</p>
@@ -56,8 +54,7 @@
 <p><a href="itpc://straylandings.jellycast.com/podcast/feed/2">Subscribe in iTunes</a></p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

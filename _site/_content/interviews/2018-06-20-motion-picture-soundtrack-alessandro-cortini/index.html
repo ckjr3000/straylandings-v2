@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Many people will have heard Alessandro Cortini without knowing his name. As a touring member of Nine Inch Nails since 2005, Cortini contributes some of the band’s most jaw-dropping sonic pyrotechnics, as well as writing fresh material such as on their five-part instrumental album, <em>Ghosts</em>. Just listen to the lumbering industrialism of ‘<a href="https://www.youtube.com/watch?v=qYqXYbyON0Q">19 Ghosts III</a>’ or the Lynchian ambience of ‘<a href="https://www.youtube.com/watch?v=oTYb5XwJ7Ss">25 Ghosts III</a>’, for example.</p>
 <p>But to understand Cortini’s music in terms only of NIN would be to ghettoise a great artist. This has been patently clear through the development of his solo career, under a range of different monikers: SONOIO, Blindoldfreak and Modwheelmood. But under his birth name, Cortini has established himself with seven albums to date, including releases on both Hospital Records and Important Records. I first became of his solo work from 2014’s brilliant <em>Sonno</em> (Italian for ‘sleep’), a somnambulistic meditation on time, dreams and memory.</p>
@@ -60,8 +58,7 @@
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/s8iS2CuMYQw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

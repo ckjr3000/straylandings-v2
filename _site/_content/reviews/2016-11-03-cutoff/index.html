@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>The label name 'Alien Jams' has never felt more fitting than for it's latest release, rkss' 'Cutoff' EP.  Making up the fifth in the catalogue on Chloe Frieda's radio station-come-record label, the 12&quot; takes you on a cosmic voyage, floating past distant planets with a child-like awe at the unknown.</p>
 <p>For previous releases, the London-based Robin Buckley has taken a rather conceptual approach. Their 'Tunnel' EP experimented with sampling randomly generated YouTube videos, while the Where To Now? released <em>Top Charted</em> abstracted well-worn EDM presets to create an experience like visiting Coachella on a heavy dose of LSD.</p>
@@ -35,8 +33,7 @@
 <p>Having been a follower of Buckley's work since their early releases, it is satisfying to see where their journey has taken them. As mentioned, the last few releases have seen Buckley move in a perhaps more conceptual direction, so in many ways 'Cutoff' feels like a return to his early 'Basement' and 'Submerged' EPs, but with refined purpose and sensibilities.</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281463103&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

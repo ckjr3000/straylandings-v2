@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p><em>Photo Credit: Madison Dinelle, 2014</em></p>
 <p>Despite his fairly concise release history, Grischa Lichtenberger is an artist who somewhat defines Carsten Nicolai's Raster-Noton imprint for me. His work is both intriguing and beguiling in equal measure, feeling as much about process as it is results. Having been brought up in Bielefeld, Lichtenberger’s compositions are often referenced in the context of artists like Autechre or Aphex Twin, yet have a sense of being developed in isolation, without too much care for what is popular in the wider world of electronic music.</p>
@@ -66,8 +64,7 @@
 <p><em>The Spielraum EP will be released on Raster-Noton in December.</em></p>
 <iframe src="https://player.vimeo.com/video/138709448?color=ffffff&title=0&byline=0&portrait=0" width="570" height="259" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

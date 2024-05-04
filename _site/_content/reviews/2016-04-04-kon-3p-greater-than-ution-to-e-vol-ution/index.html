@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>In 1972, Ingo Rechenberg applied methods of evolutionary biology and Darwinism to algorithmic programming, spawning theories of ‘artificial evolution’ and ‘evolutionary computation’. These algorithms mimic the natural world; reproducing, mutating, selecting and recombining data. Such methods were successful in solving difficult technical problems, such as the aerodynamics of wing design. In 1983, an artificial intelligence programme generated <em>The Policeman’s Beard is Half Constructed</em>, a text cautiously hailed as the first book of poetry ever written by a computer. In one part, it seems to suggest a startling sentience, as it writes:</p>
 <p><em>More than iron, more than lead, more than gold I need electricity.
@@ -38,8 +36,7 @@ I need it for my dreams.</em></p>
 <p>Throughout, the sociopolitical context of her work is, as ever, at its forefront. Whether that is a dedication to Edward Snowden, or a spliced monologue from radical feminist thinker Angela Dimitrakaki, on ‘capita-lis-monster’. At one point, she states; “capitalism at present I would say produces all positions, even the opposition to itself. It can’t exist without the opposition to itself because it needs the task of transcending, it needs the struggle, it feeds it.” There is also a contribution from Kubra Khademi, an Afghani performance artist who walked through Kabul in steel armour to protest harassment. AGF has also hinted that this may be the final CD she will ever press, because, as she writes, “digital times are seriously coming…”</p>
 <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=2717932456/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://agf-poemproducer.bandcamp.com/album/kon-3p-ution-to-e-vol-ution">Kon:3p>UTION to: e[VOL]ution by AGF</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

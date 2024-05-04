@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>In Zürich on February 5th, 1916, Cabaret Voltaire opened its doors. It is here that we associate the birth of Dada, an artistic and political movement set squarely at the helm of the European Avant-Garde. The Dadaist’s eight soirees at Cabaret Voltaire between 1916-18 hosted evenings of surreal and bizarre performances, from costume theatre to poetry read in a made-up language. The name ‘Dada’ itself tells us a lot about this movement from the outset. Linguist Roman Jakobson has noted the universality of children’s first babble words. No matter what language your parents or community speak, the first sounds that come out of your mouth are going to be ‘mama’, ‘papa’ or something very similar. Dada was therefore a childlike expression of primordial vitality that we all share. A kind of primal scream that sought artistic progress through a psychological regress. It was a nonsensical statement, but one full to the brim with life and zest.</p>
 <p>Dada also represented an urge to start from scratch, to hit ‘reset’ on culture, and begin building again uncontaminated by the language and culture of Europe. Perhaps the technique most associated with Dada is 'cut-up'; an aleatoric method of jumbling text to create an assemblage of linguistic permutations. The idea was not so much to create something random, but to free the unconcious from the shackles of reason and syntax. As Tristan Tzara put it in 1920, &quot;the poem will resemble you&quot;. But once Dada had moved to the bustling rhizome of Berlin, it had become far more pointed in its critiques. Now it took aim at depicting the brutal reality of life, not just its naïve innocence. Cut-ups of newspaper articles, photographs and paintings showed culture as a simultaneous muddle, in all its messy complexity, at a time when the future was wholly unpredicable, especially for those living in the Weimar Republic. But what is the status of Dada today? Cities and Memory's new project, celebrating the centenary of Dada, hopes to answer that question.</p>
@@ -41,8 +39,7 @@
 <p>You can listen to the entire Cities and Memory archive of Dada sound <a href="http://citiesandmemory.com/dadasounds/">here</a>.</p>
 <iframe style="background-color: transparent; display: block; max-width: 700px;" title="audioBoom player" src="//audioboom.com/boos/4117840-amsterdam-assemblage/embed/v4?eid=AQAAAJ-yclaeVScA&wmode=transparent" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

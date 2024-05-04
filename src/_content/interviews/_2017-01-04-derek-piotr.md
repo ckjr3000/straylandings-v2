@@ -3,6 +3,7 @@ title: Derek Piotr
 image_upload: ""
 blockquote: ee
 author: Georgie_McVicar
+eleventyExcludeFromCollections: true
 ---
 1) A lot of your recent work has taken your voice as the central instrument. Can you explain the kinds of vocal processing that is going on? 
 

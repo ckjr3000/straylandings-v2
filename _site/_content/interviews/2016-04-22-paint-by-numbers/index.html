@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Morton Subotnick is one of those names that will always have a historic resonance. In 1962, along with Terry Riley, Pauline Oliveros and Steve Reich, Subotnick founded 'The San Francisco Tape Music Centre', a collective of musicians working with the medium of tape and improvisational electronic music. In particular, their legendary 'Sonics' concerts became a crucial point of reference for many working in the Avant-Garde. Perhaps most fruitfully, Subotnick (along with Donald Buchla) helped to create the Buchla 100: regarded by many as the first analogue synthesiser ever constructed. Shortly thereafter, his first record, <em>Silver Apples on the Moon</em>, became the first piece of electronic music ever commissioned by a record label. As such, his influence is truly immeasurable.</p>
 <p>Despite a background in classical music, Subotnick has always been staunchly antithetical to traditional modes of music production. One of the important distinctions made between Buchla/Subotnick and Moog was their philosophy on the use of keyboards within this revolutionary music. As Subotnick tells us in <em>I Dream Of Wires</em>, &quot;I said right from the get-go: I don't want a black &amp; white keyboard, because I knew what that was going to be. If I had a keyboard, I was going to produce regular music and that's not what I wanted to do.&quot; But to concentrate simply on Subotnick's historical significance would be to ghettoise a great artist. Written in 1967, <em>Silver Apples</em> indeed gave some their first taste of synthesized music, but the novelty and freshness that spawned that record continues galvanise musicians to this day. It is not simply an intriguing historical artefact, but an imaginative and entrancing work.</p>
@@ -54,8 +52,7 @@
 <p><em>You can catch Morton Subotnick at <a href="http://www.intonalfestival.com/">Intonal festival</a> this Saturday.</em></p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/214819933&color=000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

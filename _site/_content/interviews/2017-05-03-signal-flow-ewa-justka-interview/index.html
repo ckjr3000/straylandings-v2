@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Ewa Justka live is like watching a scientist from a late-90s thriller at work. A giant bulb strobes and fizzes as oscilloscopes present flickering blue lines, occasionally jumping into mountain range formations. It's almost possible to imagine sparks flying from her machines as she conjures climax upon climax of crushing, atonal noise in a mesmerising symphony of redlining.</p>
 <p>This said, sparks are probably unlikely to actually start flying, as Justka is handy with a soldering iron. A number of the instruments she uses live she makes herself, also selling her creations online. Her Etsy store, 'Optotronics' is a trove of the weird and wonderful, from her spider-like 'JarSynth's to the 'MotherFucker' delay/reverb units. Each artefact is labelled with embossing tape, as if they've just been retrieved from a WWII submarine.</p>
@@ -67,8 +65,7 @@
 <p>I'm working on the neon bulb synthesiser too (the basic principle is that rather than using chips, I will be using vintage neon bulbs, which work as logic gates, running on 100V). I have an exhibition coming up at Goldsmiths. I'm planning to do this as a multi-channel, multi-light, multi-sensory, (multi-uhh, multi-something) installation.  I also want to build some random sequencers with drums built in and acid-ish things. Strange FM radio sequencers... The list is long!</p>
 <iframe style="border: 0; width: 100%; height: 700px;" src="https://bandcamp.com/EmbeddedPlayer/album=2710835004/size=large/bgcol=ffffff/linkcol=333333/minimal=true/transparent=true/" seamless><a href="http://fractalmeat.bandcamp.com/album/acid-smut">Acid Smut by Ewa Justka</a></iframe>
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

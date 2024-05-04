@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <title>Straylandings</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    <link rel="stylesheet" href="/assets/css/header.css">
-<header>
+    <header>
+    <a class="logo" href="/">logo</a>
     <nav>
-        <div class="logo">
-            <a href="/"><img src="/assets/img/logo.png" class="logo" alt="logo"></a>
-        </div>
-        
-        <div class="nav-menu">
+        <div id="nav-links">
             <a href="#">articles</a>
             <a href="#">reviews</a>
             <a href="#">interviews</a>
             <a href="#">podcasts</a>
-            <a href="#">releases</a>
-            <input type="search">
+            <a href="#">releases</a>  
         </div>
+        <form id="search-form" action="/search" method="get">
+            <input type="text" name="query" autocomplete="off">
+            <button type="submit"><i class="icon-search"></i></button>
+        </form>
     </nav>
 </header>
-
     <main>
         <p>Few acts manage to remain so unrestrained in their explorations of electronic music as Italian duo Retina.it. Comprised of Lino Monaco &amp; Nicola Buono, the pair have spent over two decades mastering the capabilities of their bewildering array of hardware, producing music which touches on drone, ambient, glitch, house and techno in equal measure.</p>
 <p>Having released one of our standout EPs of the year, the brooding, dubbed-out ‘Ops-ci’ tape, we decided to invite the Pompeii based duo to provide the final ‘That Time When’ of 2014, discussing five of their most memorable live music experiences.</p>
@@ -52,8 +50,7 @@
 <p>After our performance we were about to move our equipment from the wings, when in the corner of my eye I saw Ralf Hütter approach Nicola extending his hand, and he was astonished. It was amazing, and the fact that we’d performed as part of a historic Neapolitan event with one of the groups that have been key in the evolution of electronic music, made our experience metaphysical.</p>
 
     </main>
-    <link rel="stylesheet" href="/assets/css/footer.css">
-<footer>
+    <footer>
     <nav>
         <div class="social">
             <a href="https://www.facebook.com/pages/Stray-Landings/134449156630905" target="_blank">facebook</a>

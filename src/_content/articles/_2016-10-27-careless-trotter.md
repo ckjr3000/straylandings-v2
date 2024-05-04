@@ -4,6 +4,7 @@ who: V/vm Test Records In Focus
 image_upload: ""
 blockquote: V/vm
 author: Theo Darton-Moore
+eleventyExcludeFromCollections: true
 ---
 "It was always going to end in tears, whose tears? Probably my own. Ten years of mouldy old dough has left me in this position where I can no longer move. Trapped by debt accumulated over that time as a result of running a no win label. There has never been a plan afoot at V/Vm it's all been about instincts from day one. V/Vm 365 will be the last project I undertake. As it's time to move on once this recycled audio slab is finally completed."
 
