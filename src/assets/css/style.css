@@ -576,13 +576,13 @@ figure a:hover h2 {
 a:hover .overlay {
   opacity: 0; }
 
-.overlay.circle.article {
+.overlay.circle.articles {
   background: #16d6ef; }
-.overlay.circle.review {
+.overlay.circle.reviews {
   background: #ef163f; }
-.overlay.circle.interview {
+.overlay.circle.interviews {
   background: #efe216; }
-.overlay.circle.mix {
+.overlay.circle.mixes {
   background: #ef1686; }
 .overlay.circle.news {
   background: #ef7e16; }
@@ -882,8 +882,8 @@ iframe + p {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?fm5qr1");
-  src: url("../fonts/icomoon.eot?fm5qr1#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?fm5qr1") format("truetype"), url("../fonts/icomoon.woff?fm5qr1") format("woff"), url("../fonts/icomoon.svg?fm5qr1#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -1566,3 +1566,5 @@ iframe + p {
       margin-right: 6.6%; }
       .older .single:nth-child(2n) {
         margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */
