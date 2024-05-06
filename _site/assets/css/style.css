@@ -576,13 +576,13 @@ figure a:hover h2 {
 a:hover .overlay {
   opacity: 0; }
 
-.overlay.circle.articles {
+.overlay.circle.article {
   background: #16d6ef; }
-.overlay.circle.reviews {
+.overlay.circle.review {
   background: #ef163f; }
-.overlay.circle.interviews {
+.overlay.circle.interview {
   background: #efe216; }
-.overlay.circle.mixes {
+.overlay.circle.mix {
   background: #ef1686; }
 .overlay.circle.news {
   background: #ef7e16; }
@@ -1566,4 +1566,3 @@ iframe + p {
       margin-right: 6.6%; }
       .older .single:nth-child(2n) {
         margin-right: 0; } }
-

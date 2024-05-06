@@ -2,89 +2,86 @@
 layout: default.html
 eleventyExcludeFromCollections: true
 ---
+<div class="container">    
+    <section class="latest news">
+        {% assign reversedNews = collections.news | reverse %}
+        {% for post in reversedNews limit:1 %}
+        <figure>
+            <a href="{{ post.url }}">
+                {% if post.data.image_upload and post.data.image_upload != "" %}
+                    <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                {% else %}    
+                    <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                {% endif %}    
+            </a>
+        </figure>
+        <div class="latest-aside">
+            <aside>
+                <h1><a href="{{ post.url }}">{{ post.data.title }}<br></a></h1>
+                <p class="blockquote blockquote-desktop">{{ post.data.blockquote | truncate: 300 }}</p>
+                <p class="blockquote blockquote-mobile">{{ post.data.blockquote | truncate: 100 }}</p>
+                <div class="fb-share-button" data-href="{{ post.url }}" data-layout="button_count"></div>
+            </aside>
+            <div class="bottom">
+                <p class="small">{{ post.date | postDate }}</p>
+                <p class="small">by <a href="author/Theo Darton-Moore">{{ post.data.author }}</a> in <a href="{{ post.url }}">news</a></p>
+                <div class="button">
+                    <a href="{{ post.url }}">read more</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    
     {% assign reversedPosts = collections.all | reverse %}
-        <!-- featured post section -->
-        {% for post in reversedPosts limit:1 %}
-            <section class="latest">
+    <section class="recent">
+        {% for post in reversedPosts limit:20 %}
+        <div class="single">
+            <aside class="date">
+                <p class="small">{{ post.date | postDate }}<span class="cat"><a href="{{ post.url }}">{{ post.data.tags }}</a></span></p>
+            </aside>
+            <a href="{{ post.url }}">
                 <figure>
-                    <a href="{{ post.url }}">
-                        {% if post.data.image_upload and post.data.image_upload != "" %}
-                            <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}" width="200px">
-                        {% else %}    
-                            <img src="{{ post.data.image}}" alt="{{ post.data.title }}" width="200px">
-                        {% endif %}    
-                    </a>
-                </figure> 
-                <div class="latest-aside">
-                    <aside>
-                        <h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
-                        <p class="blockquote blockquote-desktop">{{ post.data.blockquote | truncate: 300 }}</p>
-                        <p class="blockquote blockquote-mobile">{{ post.data.blockquote | truncate: 100 }}</p>
-                        <div class="fb-share-button"></div>
-                    </aside>
-                </div>
-                <div class="bottom">
-                    <p class="small">{{ post.date | postDate }}</p>
-                    <!-- need to set up users, loop through authors to make this bit -->
-                    <p><a href=""></a></p>
-                    <div class="button">
-                        <a href="{{ post.url }}">read more</a>
-                    </div>
-                </div>
-            </section>
-        {%- endfor -%}
+                    {% if post.data.image_upload and post.data.image_upload != "" %}
+                        <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                    {% else %}    
+                        <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                    {% endif %}        
+                    <div class="overlay circle {{ post.data.tags }}"></div>
+                </figure>
+                <aside class="details">
+                    <h2> {{ post.data.title }}
+                        {% if post.data.who %}
+                            <br>{{ post.data.who }}
+                        {% endif %}
+                    </h2>
+                    <p>{{ post.data.blockquote | truncate: 100 }}</p>
+                </aside>
+             </a>
+        </div>    
+        {% endfor %}
+    </section>
 
-        <!-- recent posts -->
-        <section class="recent">
-            {% for post in reversedPosts limit:20 %}
-                <div class="single">
-                    <aside class="date">
-                        <p class="small">
-                            {{ post.date | postDate }}<span class="cat"><a href="{{ post.url }}">{{ post.url }}</a></span>
-                        </p>
-                    </aside>
-                    <a href="{{ post.url }}">
-                        <figure>
-                            {% if post.data.image_upload and post.data.image_upload != "" %}
-                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
-                            {% else %}    
-                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
-                            {% endif %}      
-                            <div class="overlay-circle"></div>
-                        </figure> 
-                        <aside class="details">
-                            <h2>
-                                {{ post.data.title }}
-                                {% if post.data.who %}
-                                <br>{{ post.data.who }}
-                                {% endif %}
-                            </h2>
-                        </aside>
-                    </a>
-                </div>
-            {% endfor %}
-        </section>    
-        
-        <!-- older -->
-        <section class="older">
-            {% for post in reversedPosts offset:20 limit:20 %}
-                <div class="single">
-                    <figure>
-                        <a href="{{ post.url }}">
-                            {% if post.data.image_upload and post.data.image_upload != "" %}
-                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
-                            {% else %}    
-                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
-                            {% endif %}    
-                            <div class="overlay"></div>
-                            <h2>
-                                {{ post.data.title }}
-                                {% if post.data.who %}
-                                <br>{{ post.data.who }}
-                                {% endif %}
-                            </h2>
-                        </a>
-                    </figure>
-                </div>
-            {% endfor %}
-        </section>
+    <section class="older">
+        {% for post in reversedPosts offset:20 limit:20 %}
+        <div class="single">
+            <figure>
+                <a href="{{ post.url }}">
+                    {% if post.data.image_upload and post.data.image_upload != "" %}
+                        <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                    {% else %}    
+                        <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                    {% endif %}  
+                    <div class="overlay"></div>
+                    <h2>
+                        {{ post.data.title }}
+                        {% if post.data.who %}
+                        <br>{{ post.data.who }}
+                        {% endif %}
+                    </h2>
+                </a>
+            </figure>
+        </div>   
+        {% endfor %} 
+    </section>
+</div>
