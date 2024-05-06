@@ -2,52 +2,57 @@
 layout: default.html
 eleventyExcludeFromCollections: true
 ---
-
-<div class="container">
-                  
+<div class="container">        
     <section>
         <div class="bread-crumbs">
-            <a href="/">home</a><span class="interviews">/</span>News
+            <a href="/">home</a><span class="news">/</span>News
         </div>
     </section>
     
     <section>
         <div class="collection">
-            <section class="sidebar">        
+            <section class="sidebar">            
                 <div class="single">
                     <h2>Recommended</h2>
-                        <figure>
-                            <a href="/interviews">
-                            <img src="" alt="Interviews">
-                            <div class="overlay"></div>
-                            <h2>News</h2>
-                             </a>
-                        </figure>   
-                    </div>    
+                    <figure>
+                        <a href="/news"><img src="" alt="News">
+                        <div class="overlay"></div>
+                        <h2>News</h2>
+                        </a>
+                    </figure>   
+                </div>
             </section>
         </div>
-
         <div class="collection">
             <h1>News</h1>
             <div class="collect">
+                {% assign reversedNews = collections.news | reverse %}
+                {% for post in reversedNews limit:20 %}
                 <div class="single">
-                    <a href="/interviews/machine-woman-interview">
+                    <a href="{{ post.url }}">
                         <figure>
-                            <img src="https://i.ibb.co/wRG0ZWV/thumbnail-bt-machine-woman-1-1.jpg" alt="Salford Shopping Centre">
-                            <div class="overlay circle interviews"></div>
+                            {% if post.data.image_upload and post.data.image_upload != "" %}
+                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                            {% else %}    
+                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                            {% endif %}    
+                            <div class="overlay circle news"></div>
                         </figure>
                         <aside class="details">
-                            <h2>Machine Woman</h2>
+                            <h2> {{ post.data.title }}
+                                {% if post.data.who %}
+                                    <br>{{ post.data.who }}
+                                {% endif %}
+                            </h2>
                         </aside>
                     </a>
-                </div>                
+                </div>   
+                {% endfor %}             
             </div>
             <div class="pagination">
-                <p>1 of 6</p>
-                <a href="?page=2">Next</a>
-            </div>
-    
+            <p>1 of 5</p>
+            <a href="?page=2">Next</a>
+        </div>
         </div>
     </section>
-
 </div>

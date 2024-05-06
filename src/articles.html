@@ -26,17 +26,28 @@ eleventyExcludeFromCollections: true
         <div class="collection">
             <h1>Articles</h1>
             <div class="collect">
+                {% assign reversedArticles = collections.article | reverse %}
+                {% for post in reversedArticles limit:20 %}
                 <div class="single">
-                    <a href="/articles/beats-racism-and-strife">
+                    <a href="{{ post.url }}">
                         <figure>
-                            <img src="https://live.staticflickr.com/65535/48698070036_e8f64d9e42_b.jpg" alt="Rave is Revolution">
-                            <div class="overlay circle articles"></div>
+                            {% if post.data.image_upload and post.data.image_upload != "" %}
+                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                            {% else %}    
+                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                            {% endif %}    
+                            <div class="overlay circle article"></div>
                         </figure>
                         <aside class="details">
-                            <h2>Beats, Racism, Strife</h2>
+                            <h2> {{ post.data.title }}
+                                {% if post.data.who %}
+                                    <br>{{ post.data.who }}
+                                {% endif %}
+                            </h2>
                         </aside>
                     </a>
-                </div>                
+                </div>   
+                {% endfor %}             
             </div>
             <div class="pagination">
             <p>1 of 5</p>
