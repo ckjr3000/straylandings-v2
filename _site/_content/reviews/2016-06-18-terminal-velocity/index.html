@@ -35,44 +35,29 @@
         </script>
         <script async="" type="text/javascript" src="//smlllabel.disqus.com/count.js"></script>
 
+        <!-- search -->
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
         <script>
             (function (axios, Fuse) {
             'use strict';
-        
+            
             axios = axios && Object.prototype.hasOwnProperty.call(axios, 'default') ? axios['default'] : axios;
             Fuse = Fuse && Object.prototype.hasOwnProperty.call(Fuse, 'default') ? Fuse['default'] : Fuse;
-        
+            
             async function search(pattern) {
-                try {
-                    const res = await axios.get("../searchIndex.json");
-                    const index = res.data;
-        
-                    // Ensure index is an array
-                    if (!Array.isArray(index)) {
-                        throw new Error('Search index should be an array');
-                    }
-        
-                    const options = {
-                        keys: ["title", "content"],
-                    };
-        
-                    const fuse = new Fuse(index, options);
-        
-                    return fuse.search(pattern);
-                } catch (error) {
-                    console.error('Error fetching search index:', error);
-                    return [];
-                }
+                const res = await axios.get("../searchIndex.json");
+                const index = res.data;
+                const options = {
+                keys: ["title", "content"],
+                };
+                const fuse = new Fuse(index, options);
+            
+                return fuse.search(pattern);
             }
-        
-            search('second').then(results => {
-                console.log(results);
-            });
+            search(`second`);
             }(axios, Fuse));
         </script>
-        
     </head>
 
     <body>

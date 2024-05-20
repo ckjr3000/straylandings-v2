@@ -18,27 +18,30 @@ eleventyExcludeFromCollections: true
         return response.json();
     })
     .then(data => {
-        console.log('Data:', data);
-
         // Ensure data is an array
         if (!Array.isArray(data)) {
             throw new Error('Search index should be an array');
         }
 
         const fuse = new Fuse(data, {
-            keys: ['title', 'content'],
+            keys: ['title', 'content', 'author'],
             includeScore: true
         });
 
         const result = fuse.search(query);
 
-        if (result.length > 0) {
-            result.forEach(({ item, score }) => {
+        // Filter results to include only those with scores between 0.9 and 1
+        const filteredResults = result.filter(({ score }) => score >= 0.97 && score <= 1);
+       
+        filteredResults.sort((a, b) => b.score - a.score);
+
+        if (filteredResults.length > 0) {
+            filteredResults.forEach(({ item, score }) => {
                 const searchResult = document.createElement('div');
                 searchResult.innerHTML = `
                     <h3>${item.title}</h3>
                     <p>Score: ${score.toFixed(2)}</p>
-                    <p>${item.url}</p>
+                    <p><a href="${item.url}">${item.url}</a></p>
                 `;
                 searchResultsDiv.appendChild(searchResult);
             });
@@ -49,3 +52,4 @@ eleventyExcludeFromCollections: true
     .catch(error => console.error('Error fetching search index:', error));
 });
 </script>
+
