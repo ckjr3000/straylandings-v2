@@ -29,17 +29,19 @@ eleventyExcludeFromCollections: true
         }
 
         const fuse = new Fuse(data, {
-            keys: ['title', 'content', 'author'],
-            includeScore: true
+            keys: ['title', 'author'],
+            includeScore: true,
+            ignoreLocation: true,
         });
 
         const result = fuse.search(query);
 
         // Filter results to include only those with scores between 0.9 and 1
-        const filteredResults = result.filter(({ score }) => score >= 0.97 && score <= 1);
-       
-        filteredResults.sort((a, b) => b.score - a.score);
+        const filteredResults = result.filter(({ score }) => score >= 0 && score <= 1);
 
+        console.log(query);
+        console.log(results.length)
+       
         if (filteredResults.length > 0) {
             filteredResults.forEach(({ item, score }) => {
                 console.log(item)
@@ -61,7 +63,7 @@ eleventyExcludeFromCollections: true
             });
         } else {
             searchResultsDiv.innerHTML = `
-                <h1>Sorry</h1>
+                <h1>Sorry</h1><br>
                 <p>Nothing here!</p>
             `;
         }
