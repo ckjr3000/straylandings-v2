@@ -7,6 +7,32 @@ eleventyExcludeFromCollections: true
 <br>
 <br>
 <br>
+<div class="collection">
+    <section class="sidebar">   
+        <h2>Recommended</h2>
+        {% for post in collections.all random limit:1 %}         
+        <div class="single">
+            <a href="{{ post.url }}">
+                <figure>
+                    {% if post.data.image_upload and post.data.image_upload != "" %}
+                        <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                    {% else %}    
+                        <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                    {% endif %}    
+                    <div class="overlay circle review"></div>
+                </figure>
+                <aside class="details">
+                    <h2> {{ post.data.title }}
+                        {% if post.data.who %}
+                            <br>{{ post.data.who }}
+                        {% endif %}
+                    </h2>
+                </aside>
+            </a>
+        </div>   
+        {% endfor %}
+    </section>
+</div>
 <div class="collect" id="search-results"></div>
 
 <script>
@@ -60,8 +86,7 @@ eleventyExcludeFromCollections: true
             });
         } else {
             searchResultsDiv.innerHTML = `
-                <h1>Sorry</h1><br>
-                <p>Nothing here!</p>
+                <h1>Sorry - Nothing here!</h1>
             `;
         }
     })

@@ -13,17 +13,29 @@ layout: default.html
     
     <section>
         <div class="collection">
-            <section class="sidebar">        
+            <section class="sidebar">   
+                <h2>Recommended</h2>
+                {% for post in collections.all limit:1 random %}         
                 <div class="single">
-                    <h2>Recommended</h2>
+                    <a href="{{ post.url }}">
                         <figure>
-                            <a href="/radio/where-s-the-fucking-noise-alien-jams-fluf-holodisc-sm-ll">
-                            <img src="https://live.staticflickr.com/65535/48374136842_f16982136d_h.jpg" alt="Where's The Fucking Noise?">
-                            <div class="overlay"></div>
-                            <h2>Panel Discussion with Alien Jams, FLUF, Holodisc, SM-LL</h2>
-                            </a>
-                        </figure>   
-                    </div>
+                            {% if post.data.image_upload and post.data.image_upload != "" %}
+                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                            {% else %}    
+                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                            {% endif %}    
+                            <div class="overlay circle review"></div>
+                        </figure>
+                        <aside class="details">
+                            <h2> {{ post.data.title }}
+                                {% if post.data.who %}
+                                    <br>{{ post.data.who }}
+                                {% endif %}
+                            </h2>
+                        </aside>
+                    </a>
+                </div>   
+                {% endfor %}
             </section>
         </div>
         <div class="single background {{ tags }}">
