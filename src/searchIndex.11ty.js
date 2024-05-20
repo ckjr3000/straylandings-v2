@@ -11,6 +11,9 @@ module.exports.data = {
             url: item.url,
             date: item.date,
             content: item.templateContent,
+            who: item.data.who,
+            image_upload: item.data.image_upload,
+            image: item.data.image
         }));
 
     return JSON.stringify(items, null, 2);

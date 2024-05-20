@@ -92,7 +92,12 @@
   });
 </script>
     
-            <div id="search-results"></div>
+            <br>
+<br>
+<br>
+<br>
+<br>
+<div class="collect" id="search-results"></div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -127,16 +132,28 @@
 
         if (filteredResults.length > 0) {
             filteredResults.forEach(({ item, score }) => {
+                console.log(item)
                 const searchResult = document.createElement('div');
+                searchResult.classList.add('single');
                 searchResult.innerHTML = `
-                    <h3>${item.title}</h3>
-                    <p>Score: ${score.toFixed(2)}</p>
-                    <p><a href="${item.url}">${item.url}</a></p>
+                    <div class="single">
+                        <a href="${ item.url }">
+                            <figure>
+                                <img src="${item.hasOwnProperty('image_upload') && item.image_upload !== "" ? item.image_upload : item.image ? item.image : "Image not found"}" alt="${item.title}">                                    <div class="overlay circle"></div>
+                            </figure>
+                            <aside class="details">
+                                <h2>${ item.who ? item.title : ""}</h2>
+                            </aside>
+                        </a>
+                    </div>
                 `;
                 searchResultsDiv.appendChild(searchResult);
             });
         } else {
-            searchResultsDiv.textContent = 'No results found';
+            searchResultsDiv.innerHTML = `
+                <h1>Sorry</h1>
+                <p>Nothing here!</p>
+            `;
         }
     })
     .catch(error => console.error('Error fetching search index:', error));
