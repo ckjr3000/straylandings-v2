@@ -39,9 +39,6 @@ eleventyExcludeFromCollections: true
         // Filter results to include only those with scores between 0.9 and 1
         const filteredResults = result.filter(({ score }) => score >= 0 && score <= 1);
 
-        console.log(query);
-        console.log(filteredResults.length)
-       
         if (filteredResults.length > 0) {
             filteredResults.forEach(({ item, score }) => {
                 console.log(item)
