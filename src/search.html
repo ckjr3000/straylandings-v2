@@ -40,7 +40,7 @@ eleventyExcludeFromCollections: true
         const filteredResults = result.filter(({ score }) => score >= 0 && score <= 1);
 
         console.log(query);
-        console.log(results.length)
+        console.log(filteredResults.length)
        
         if (filteredResults.length > 0) {
             filteredResults.forEach(({ item, score }) => {
