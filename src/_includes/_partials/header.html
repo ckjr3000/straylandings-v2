@@ -1,16 +1,29 @@
 <header>
-    <a class="logo" href="/">logo</a>
-    <nav>
-        <a href="/news">News</a>
-        <a href="/reviews">Reviews</a>
-        <a href="/articles">Articles</a>
-        <a href="/interviews">Interviews</a>
-        <a href="/mixes">Mixes</a>
-        <a href="/radio">Radio</a>
+  <a class="logo" href="/">logo</a>
+  <nav>
+      <a href="/news">News</a>
+      <a href="/reviews">Reviews</a>
+      <a href="/articles">Articles</a>
+      <a href="/interviews">Interviews</a>
+      <a href="/mixes">Mixes</a>
+      <a href="/radio">Radio</a>
       
-        <form id="search-form" action="/search" method="get">
-            <input type="text" name="query" value="" autocomplete="off">
-            <button type="submit"><i class="icon-search"></i></button>
-        </form>
-    </nav>
+      <form id="search-form" action="/search" method="get">
+          <input type="text" id="search-query" name="query" value="" autocomplete="off">
+          <button type="submit"><i class="icon-search"></i></button>
+      </form>
+  </nav>
 </header>
+
+{% block content %}{% endblock %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById('search-form').addEventListener('submit', function(event) {
+  
+          const query = document.getElementById('search-query').value.trim();
+  
+          window.location.href = `/search?query=${encodeURIComponent(query)}`;
+      });
+  });
+</script>

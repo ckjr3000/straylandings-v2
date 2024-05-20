@@ -34,25 +34,64 @@
         ga('send', 'pageview');
         </script>
         <script async="" type="text/javascript" src="//smlllabel.disqus.com/count.js"></script>
+
+        <!-- search -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+        <script>
+            (function (axios, Fuse) {
+            'use strict';
+            
+            axios = axios && Object.prototype.hasOwnProperty.call(axios, 'default') ? axios['default'] : axios;
+            Fuse = Fuse && Object.prototype.hasOwnProperty.call(Fuse, 'default') ? Fuse['default'] : Fuse;
+            
+            async function search(pattern) {
+                const res = await axios.get("/searchIndex.json");
+                const index = res.data;
+                const options = {
+                keys: ["title", "content"],
+                };
+                const fuse = new Fuse(index, options);
+            
+                return fuse.search(pattern);
+            }
+            search(`second`);
+            }(axios, Fuse));
+        </script>
     </head>
+
     <body>
         <div class="wrapper">
         <header>
-    <a class="logo" href="/">logo</a>
-    <nav>
-        <a href="/news">News</a>
-        <a href="/reviews">Reviews</a>
-        <a href="/articles">Articles</a>
-        <a href="/interviews">Interviews</a>
-        <a href="/mixes">Mixes</a>
-        <a href="/radio">Radio</a>
+  <a class="logo" href="/">logo</a>
+  <nav>
+      <a href="/news">News</a>
+      <a href="/reviews">Reviews</a>
+      <a href="/articles">Articles</a>
+      <a href="/interviews">Interviews</a>
+      <a href="/mixes">Mixes</a>
+      <a href="/radio">Radio</a>
       
-        <form id="search-form" action="/search" method="get">
-            <input type="text" name="query" value="" autocomplete="off">
-            <button type="submit"><i class="icon-search"></i></button>
-        </form>
-    </nav>
-</header>    
+      <form id="search-form" action="/search" method="get">
+          <input type="text" id="search-query" name="query" value="" autocomplete="off">
+          <button type="submit"><i class="icon-search"></i></button>
+      </form>
+  </nav>
+</header>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById('search-form').addEventListener('submit', function(event) {
+  
+          const query = document.getElementById('search-query').value.trim();
+  
+          window.location.href = `/search?query=${encodeURIComponent(query)}`;
+      });
+  });
+</script>
+    
             <div class="container">    
     <section class="latest news">
         

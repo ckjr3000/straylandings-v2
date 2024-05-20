@@ -9,6 +9,8 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     })
 
+    eleventyConfig.setTemplateFormats(["11ty.js","html", "md"]);
+
     return {
       dir: {
           input: "src",
