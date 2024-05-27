@@ -1,0 +1,37 @@
+---
+layout: default.html
+eleventyExcludeFromCollections: true
+---
+
+<section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="author">
+        <h1>Rob Heath</h1>
+    </div>
+    <section class="recent">
+        {% assign reversedPosts = collections.all | reverse %}
+        {% for post in reversedPosts %}
+        {% if post.data.author == 'Rob Heath' or post.data.author == 'Rob_Heath'%}
+            <div class="single">
+                <a href="{{ post.url }}">
+                    <figure>
+                        {% if post.data.image_upload and post.data.image_upload != "" %}
+                        <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                        {% else %}    
+                        <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                        {% endif %}        
+                        <div class="overlay circle news"></div>
+                    </figure>
+                    <aside class="details">
+                        <h2>{{ post.data.title }}<br></h2>
+                    </aside>
+                </a>
+            </div>
+        {% endif %}
+        {% endfor %}
+    </section>
+</section>

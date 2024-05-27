@@ -9,6 +9,12 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     })
 
+    // Get authors collection
+    eleventyConfig.addCollection('authors', function(collection) {
+      const authorsData = require('./src/_data/authors.json');
+      return authorsData.authors;
+    });
+
     eleventyConfig.setTemplateFormats(["11ty.js","html", "md"]);
 
     return {
