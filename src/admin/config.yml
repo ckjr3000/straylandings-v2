@@ -30,7 +30,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "mixes"
     label: "Mixes"
-    folder: "src/_content/interviews"
+    folder: "src/_content/mixes"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -42,7 +42,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "news"
     label: "News"
-    folder: "src/_content/interviews"
+    folder: "src/_content/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
