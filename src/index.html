@@ -14,6 +14,11 @@ eleventyExcludeFromCollections: true
                     <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
                 {% endif %}    
             </a>
+            {% if post.data.image_upload and post.data.image_upload != "" %}
+            <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+        {% else %}    
+            <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+        {% endif %}   
         </figure>
         <div class="latest-aside">
             <aside>
