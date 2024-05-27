@@ -14,7 +14,7 @@ The latest in our mix series comes from newly-formed French imprint, Quanta Reco
 
 In anticipation of their new release from ＧＡＭＥＳＨＡＲＫ™, Quanta Records have provided the latest installment of our mix series. Listen below: 
 
-###Tracklist:
+### Tracklist:
 
 Luc Ferrari – Hétérozygote (GRM, 1964) <br>
 Kassel Jaeger – Ner (Editions Mego, 2017)<br>
