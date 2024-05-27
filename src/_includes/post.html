@@ -6,7 +6,8 @@ layout: default.html
           
     <section>
         <div class="bread-crumbs">
-            <a href="/">home</a><span class="{{ tags }}">/</span><a href="/radio">{{ tags }}</a><span class="{{ tags }}">/</span>
+            {% assign tag = post.tag %}
+            <a href="/">home</a><span class="{{ tags }}"> / </span><a href="/{{ tags }}">{{ tags }}</a><span class="{{ tags }}">/</span>
             <span class="title">{{ title }}<span> {% if who %}</span>{{ who }}</span>{% endif %}   
         </div>
     </section>
@@ -70,9 +71,6 @@ layout: default.html
                 <li>Words by <a href="/author/{{ author }}">{{ author }}</a></li>    
             </ul>
         </div>
-        <div class="entries">
-            Prev in radio: <a href="/radio/video-game-music-etch-lucia-chung">Video Game Music // ETCH and Lucia H Chung on Resonance FM</a>
-        </div>            
     </section>
 
 </div>
