@@ -15,7 +15,11 @@ layout: default.html
         <div class="collection">
             <section class="sidebar">   
                 <h2>Recommended</h2>
-                {% for post in collections.all random limit:1 %}         
+                {% assign min = 1 %}
+                {% assign max = 20 %}
+                {% assign diff = max | minus: min %}
+                {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+                {% for post in collections[tags] offset:randomNumber limit:1 %}         
                 <div class="single">
                     <a href="{{ post.url }}">
                         <figure>
