@@ -13,7 +13,8 @@ module.exports.data = {
             content: item.templateContent,
             who: item.data.who,
             image_upload: item.data.image_upload,
-            image: item.data.image
+            image: item.data.image,
+            tags: item.data.tags
         }));
 
     return JSON.stringify(items, null, 2);

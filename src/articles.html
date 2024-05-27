@@ -11,16 +11,29 @@ eleventyExcludeFromCollections: true
     
     <section>
         <div class="collection">
-            <section class="sidebar">            
+            <section class="sidebar">   
+                <h2>Recommended</h2>
+                {% for post in collections.articles random limit:1 %}         
                 <div class="single">
-                    <h2>Recommended</h2>
-                    <figure>
-                        <a href="/articles"><img src="" alt="Articles">
-                        <div class="overlay"></div>
-                        <h2>Articles</h2>
-                        </a>
-                    </figure>   
-                </div>
+                    <a href="{{ post.url }}">
+                        <figure>
+                            {% if post.data.image_upload and post.data.image_upload != "" %}
+                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                            {% else %}    
+                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                            {% endif %} 
+                            <div class="overlay circle articles"></div>   
+                        </figure>
+                        <aside class="details">
+                            <h2> {{ post.data.title }}
+                                {% if post.data.who %}
+                                    <br>{{ post.data.who }}
+                                {% endif %}
+                            </h2>
+                        </aside>
+                    </a>
+                </div>   
+                {% endfor %}
             </section>
         </div>
         <div class="collection">
@@ -36,7 +49,7 @@ eleventyExcludeFromCollections: true
                             {% else %}    
                                 <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
                             {% endif %}    
-                            <div class="overlay circle article"></div>
+                            <div class="overlay circle articles"></div>
                         </figure>
                         <aside class="details">
                             <h2> {{ post.data.title }}

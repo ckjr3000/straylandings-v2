@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
         <div class="collection">
             <section class="sidebar">   
                 <h2>Recommended</h2>
-                {% for post in collections.review random limit:1 %}         
+                {% for post in collections.reviews random limit:1 %}         
                 <div class="single">
                     <a href="{{ post.url }}">
                         <figure>
@@ -21,8 +21,8 @@ eleventyExcludeFromCollections: true
                                 <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
                             {% else %}    
                                 <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
-                            {% endif %}    
-                            <div class="overlay circle review"></div>
+                            {% endif %} 
+                            <div class="overlay circle reviews"></div>   
                         </figure>
                         <aside class="details">
                             <h2> {{ post.data.title }}
@@ -49,7 +49,7 @@ eleventyExcludeFromCollections: true
                             {% else %}    
                                 <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
                             {% endif %}    
-                            <div class="overlay circle review"></div>
+                            <div class="overlay circle reviews"></div>
                         </figure>
                         <aside class="details">
                             <h2> {{ post.data.title }}

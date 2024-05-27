@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
                     {% else %}    
                         <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
                     {% endif %}    
-                    <div class="overlay circle review"></div>
+                    <div class="overlay circle {{ post.data.tags }}"></div>
                 </figure>
                 <aside class="details">
                     <h2> {{ post.data.title }}
@@ -74,7 +74,7 @@ eleventyExcludeFromCollections: true
                     <div class="single">
                         <a href="${ item.url }">
                             <figure>
-                                <img src="${item.hasOwnProperty('image_upload') && item.image_upload !== "" ? item.image_upload : item.image ? item.image : "Image not found"}" alt="${item.title}">                                    <div class="overlay circle"></div>
+                                <img src="${item.hasOwnProperty('image_upload') && item.image_upload !== "" ? item.image_upload : item.image ? item.image : "Image not found"}" alt="${item.title}"><div class="overlay circle ${ item.tags }"></div>
                             </figure>
                             <aside class="details">
                                 <h2>${ item.who ? item.title : ""}</h2>

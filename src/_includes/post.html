@@ -15,25 +15,27 @@ layout: default.html
         <div class="collection">
             <section class="sidebar">   
                 <h2>Recommended</h2>
+                {% for post in collections.all random limit:1 %}         
                 <div class="single">
-                    <a href="{{ collections.all[3].url }}">
+                    <a href="{{ post.url }}">
                         <figure>
                             {% if post.data.image_upload and post.data.image_upload != "" %}
-                                <img src="{{ collections.all[9].data.image_upload}}" alt="{{ collections.all[9].data.title }}">
+                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
                             {% else %}    
-                                <img src="{{ collections.all[9].data.image}}" alt="{{ collections.all[9].data.title }}">
+                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
                             {% endif %}    
-                            <div class="overlay circle review"></div>
+                            <div class="overlay circle {{ post.data.tags }}"></div>
                         </figure>
                         <aside class="details">
-                            <h2> {{ collections.all[9].data.title }}
+                            <h2> {{ post.data.title }}
                                 {% if post.data.who %}
-                                    <br>{{ collections.all[9].data.who }}
+                                    <br>{{ post.data.who }}
                                 {% endif %}
                             </h2>
                         </aside>
                     </a>
                 </div>   
+                {% endfor %}
             </section>
         </div>
         <div class="single background {{ tags }}">

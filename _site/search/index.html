@@ -87,7 +87,7 @@
                         
                         <img src="http://farm9.staticflickr.com/8286/7872864656_c264446963_z.jpg" alt="0001">
                         
-                    <div class="overlay circle review"></div>
+                    <div class="overlay circle mixes"></div>
                 </figure>
                 <aside class="details">
                     <h2> 0001
@@ -142,7 +142,7 @@
                     <div class="single">
                         <a href="${ item.url }">
                             <figure>
-                                <img src="${item.hasOwnProperty('image_upload') && item.image_upload !== "" ? item.image_upload : item.image ? item.image : "Image not found"}" alt="${item.title}">                                    <div class="overlay circle"></div>
+                                <img src="${item.hasOwnProperty('image_upload') && item.image_upload !== "" ? item.image_upload : item.image ? item.image : "Image not found"}" alt="${item.title}"><div class="overlay circle ${ item.tags }"></div>
                             </figure>
                             <aside class="details">
                                 <h2>${ item.who ? item.title : ""}</h2>
