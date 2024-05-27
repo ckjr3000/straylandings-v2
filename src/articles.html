@@ -40,7 +40,7 @@ eleventyExcludeFromCollections: true
             <h1>Articles</h1>
             <div class="collect">
                 {% assign reversedArticles = collections.articles | reverse %}
-                {% for post in reversedArticles limit:20 %}
+                {% for post in reversedArticles %}
                 <div class="single">
                     <a href="{{ post.url }}">
                         <figure>

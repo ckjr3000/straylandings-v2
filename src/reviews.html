@@ -40,7 +40,7 @@ eleventyExcludeFromCollections: true
             <h1>Reviews</h1>
             <div class="collect">
                 {% assign reversedReviews = collections.reviews | reverse %}
-                {% for post in reversedReviews limit:20 %}
+                {% for post in reversedReviews %}
                 <div class="single">
                     <a href="{{ post.url }}">
                         <figure>

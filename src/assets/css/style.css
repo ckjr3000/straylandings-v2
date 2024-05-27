@@ -936,10 +936,10 @@ iframe + p {
 /* >>>>>>>>>>>>>>>>>>>> tablet <<<<<<<<<<<<<<<<<<<< */
 @media only screen and (min-width: 401px) and (max-width: 1039px) {
   .blockquote-mobile {
-    display: block; }
+    display: none; }
 
   .blockquote-desktop {
-    display: none; }
+    display: block; }
 
   .container {
     margin-top: 0; }
@@ -1244,6 +1244,13 @@ iframe + p {
         margin-right: 0; } }
 /* >>>>>>>>>>>>>>>>>>>> mobile <<<<<<<<<<<<<<<<<<<< */
 @media only screen and (max-width: 400px) {
+  p.blockquote-desktop {
+    display: none !important; }
+
+  .latest .bottom p {
+    margin-left: 10px;
+  }
+
   .container {
     margin-top: 0; }
 
