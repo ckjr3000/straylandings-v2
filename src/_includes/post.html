@@ -39,7 +39,7 @@ layout: default.html
             </section>
         </div>
         <div class="single background {{ tags }}">
-            <h1 class="title">{{ title }}{% if who %}</span>{{ who }}</span>{% endif %}</h1>
+            <h1 class="title">{{ title }}{% if who %}</span> {{ who }}</span>{% endif %}</h1>
                 <figure>
                     {% if image_upload and image_upload != "" %}
                         <img src="{{ image_upload}}" alt="{{ title }}">
