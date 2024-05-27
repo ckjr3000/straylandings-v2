@@ -15,32 +15,29 @@ layout: default.html
         <div class="collection">
             <section class="sidebar">   
                 <h2>Recommended</h2>
-                {% for post in collections.all limit:1 random %}         
                 <div class="single">
-                    <a href="{{ post.url }}">
+                    <a href="{{ collections.all[3].url }}">
                         <figure>
                             {% if post.data.image_upload and post.data.image_upload != "" %}
-                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
+                                <img src="{{ collections.all[9].data.image_upload}}" alt="{{ collections.all[9].data.title }}">
                             {% else %}    
-                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
+                                <img src="{{ collections.all[9].data.image}}" alt="{{ collections.all[9].data.title }}">
                             {% endif %}    
                             <div class="overlay circle review"></div>
                         </figure>
                         <aside class="details">
-                            <h2> {{ post.data.title }}
+                            <h2> {{ collections.all[9].data.title }}
                                 {% if post.data.who %}
-                                    <br>{{ post.data.who }}
+                                    <br>{{ collections.all[9].data.who }}
                                 {% endif %}
                             </h2>
                         </aside>
                     </a>
                 </div>   
-                {% endfor %}
             </section>
         </div>
         <div class="single background {{ tags }}">
             <h1 class="title">{{ title }}{% if who %}</span>{{ who }}</span>{% endif %}</h1>
-            <figure>
                 <figure>
                     {% if image_upload and image_upload != "" %}
                         <img src="{{ image_upload}}" alt="{{ title }}">
@@ -48,7 +45,6 @@ layout: default.html
                         <img src="{{ image }}" alt="{{ title }}">
                     {% endif %}        
                 </figure>
-            </figure>
             
             {{ content }}
     
