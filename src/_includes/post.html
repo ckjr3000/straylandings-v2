@@ -6,7 +6,6 @@ layout: default.html
           
     <section>
         <div class="bread-crumbs">
-            {% assign tag = post.tag %}
             <a href="/">home</a><span class="{{ tags }}"> / </span><a href="/{{ tags }}">{{ tags }}</a><span class="{{ tags }}">/</span>
             <span class="title">{{ title }}<span> {% if who %}</span>{{ who }}</span>{% endif %}   
         </div>
@@ -64,7 +63,7 @@ layout: default.html
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             <ul>
                 <li>Published</li>
-                <li>Jul 25, 2019</li>
+                <li>{{ date }}</li>
             </ul>
             <ul>
                 <li>Credits</li>
@@ -72,6 +71,26 @@ layout: default.html
             </ul>
         </div>
     </section>
-
+    {% assign currentUrl = page.url %}
+    {% assign currentCollection = collections[tags] %}
+    {% assign prevPost = false %}
+    {% assign foundCurrent = false %}
+    
+    {% for post in currentCollection %}
+        {% if post.url == currentUrl %}
+            {% assign foundCurrent = true %}
+            {% break %}
+        {% endif %}
+        {% assign prevPost = post %}
+    {% endfor %}
+    
+    {% if foundCurrent and prevPost %}
+    <div class="entries">
+        Prev in {{ tags }}: <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+    </div>
+    {% endif %}
+    
+    
+         
 </div>
         
