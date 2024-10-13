@@ -36,7 +36,7 @@ Indeed, Bang Face puts all other festivals to shame in how fun it is. Between se
 
 **I’VE FAILED MY FAMILY**
 
-The spirit of fun, hedonism, and openness also brings with it an important queerness. But this year there were also infamous reports of security guards physically abusing and ejecting trans attendees from toilets. The Bang Face organisers may want to brush this off as an issue with Butlin’s third party security team, or just an inevitable consequence of the rampant scaremongering around trans people in toilets today. The incident has now ballooned to the point that even JK Rowling has chimed in. Bang Face needs to reckon with this if it wants to maintain the inclusive renown it enjoys. The "opposite of a safe space” can ring true in every sense. 
+The spirit of fun, hedonism, and openness also brings with it an important queerness. But this year there were also infamous reports of security guards physically abusing and ejecting trans attendees from toilets. The Bang Face organisers may want to brush this off as an issue with Butlin’s third party security team, or just an inevitable consequence of the rampant scaremongering around trans people in toilets today. The incident has now ballooned to the point that [even JK Rowling has chimed in](https://x.com/pulpy_fiction/status/1844407756125766038). Bang Face needs to reckon with this if it wants to maintain the inclusive renown it enjoys. The "opposite of a safe space” can ring true in every sense. 
 
 **WE MUST IMAGINE SISYPHUS BANGING** 
 
@@ -49,3 +49,5 @@ This is an element of Bang Face that I admit to struggling with. Through its pur
 **WHY AM I CRYING?**  
 
 The art critic Robert Hughes once critiqued Russian Constructivist art by asking, “What does one prefer? An art that struggles to change the social contract, but fails? Or one that seeks to please and amuse, and succeeds?” Bang Face gives precedence of entertainment over any falsely lofty aspirations other festivals may want to signal. At its core, Bang Face promises no less than to offer a space full of noises, sounds and sweet airs, that give delight, and hurt not. And isn’t that all we can really ask of a festival? At its worst moments, I want to grab it by the collar and tell it to grow up. But at its best, Bang Face succeeds in pleasing and amusing on an unparalleled scale.
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/mnODuVBtHt0?si=-U4OlBE6mA08h9W9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
