@@ -10,11 +10,11 @@ blockquote: This was my first Bang Face, so you’ll have to forgive me if this
   to festival crowds. But this music is internationally popular, and its
   followers take this annual pilgrimage very seriously.
 ---
-**WHAT IS HAPPENING?**  
+**MUM THINKS IM AT A YOGA RETREAT**
 
 This was my first Bang Face, so you’ll have to forgive me if this reads like one of Louis Theroux’s *Weird Weekends*. It is hard not to feel like a tourist when a festival’s culture is so notorious and heralded. In a way, it’s hard to believe that Bang Face can be popular enough to sell out entire to festival crowds. But this music is internationally popular, and its followers take this annual pilgrimage very seriously. The weekend prior, I was at London’s techno day festival, Transmissions, where it felt, ironically, like nothing really happened. A progressive stream of trippy rollers, but no hype, no drops, and no gun fingers. I am assured that Bang Face is the antithesis. I take the ticket on a whim, and whimsy feels like the right impulse to follow.  
 
-**I’M DIFFICULT TO LOVE**
+**WHAT IS HAPPENING?**  
 
 Writing a review of Bang Face feels perverse because any attempt at analysis seems to miss the point. The most concise description I have heard for the frenetic, anarchic energy of Bang Face is as “the opposite of a safe space”. There is something dangerous about Bang Face, and a good litmus test for any counterculture is considering who *wouldn’t* feel comfortable there. I liked imagining a bemused Brendan O’Neill or Mark Corrigan trying to make sense of it (I’m Louis Theroux, I’m Louis Theroux…). So the crowd is a mix of people who feel like they belong nowhere else, with adult babies, gimps, and the clientele in general who can make the festival feel as bizarro as a comic book convention. I see goblins and aliens and a man attempting to attack people if it wasn’t for the leash round his neck held by a cosplaying anime school girl. 
 
