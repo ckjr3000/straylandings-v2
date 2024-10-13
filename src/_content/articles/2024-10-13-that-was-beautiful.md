@@ -10,11 +10,11 @@ blockquote: This was my first Bang Face, so you’ll have to forgive me if this
   to festival crowds. But this music is internationally popular, and its
   followers take this annual pilgrimage very seriously.
 ---
+**MUM THINKS I'M AT A YOGA RETREAT**
+
+This was my first Bang Face, so you’ll have to forgive me if this reads like one of Louis Theroux’s *Weird Weekends*. It is hard not to feel like a tourist when a festival’s culture is so notorious and heralded. In a way, it’s hard to believe that Bang Face can be popular enough to sell out entire to festival crowds. But this music is internationally popular, and its followers take this annual pilgrimage very seriously. The weekend prior, I was at London’s techno festival, *Transmissions*, where it felt, ironically, like nothing really happened. A progressive stream of trippy rollers, but no hype, no drops, and no gun fingers. I am assured that Bang Face is the antithesis. I take the ticket on a whim, and whimsy feels like the right impulse to follow.  
+
 **WHAT IS HAPPENING?**  
-
-This was my first Bang Face, so you’ll have to forgive me if this reads like one of Louis Theroux’s *Weird Weekends*. It is hard not to feel like a tourist when a festival’s culture is so notorious and heralded. In a way, it’s hard to believe that Bang Face can be popular enough to sell out entire to festival crowds. But this music is internationally popular, and its followers take this annual pilgrimage very seriously. The weekend prior, I was at London’s techno day festival, Transmissions, where it felt, ironically, like nothing really happened. A progressive stream of trippy rollers, but no hype, no drops, and no gun fingers. I am assured that Bang Face is the antithesis. I take the ticket on a whim, and whimsy feels like the right impulse to follow.  
-
-**I’M DIFFICULT TO LOVE**
 
 Writing a review of Bang Face feels perverse because any attempt at analysis seems to miss the point. The most concise description I have heard for the frenetic, anarchic energy of Bang Face is as “the opposite of a safe space”. There is something dangerous about Bang Face, and a good litmus test for any counterculture is considering who *wouldn’t* feel comfortable there. I liked imagining a bemused Brendan O’Neill or Mark Corrigan trying to make sense of it (I’m Louis Theroux, I’m Louis Theroux…). So the crowd is a mix of people who feel like they belong nowhere else, with adult babies, gimps, and the clientele in general who can make the festival feel as bizarro as a comic book convention. I see goblins and aliens and a man attempting to attack people if it wasn’t for the leash round his neck held by a cosplaying anime school girl. 
 
@@ -40,7 +40,7 @@ The spirit of fun, hedonism, and openness also brings with it an important queer
 
 **WE MUST IMAGINE SISYPHUS BANGING** 
 
-Bang Face’s music exaggerates in volume and speed, and crucially its ability to fuse as many genres together as possible. One pundit tells me that Bang Face is the best festival because it contains all music, either in pastiche or earnest. There is a history of appreciating extremity in all its forms here — they even once hosted Napalm Death. I couldn’t help but compare my last experience at a music festival at Butlins, Bloc 2015, where I saw Dean Blunt perform a melon-twisting theatrical show of strobes, saxophones, smoke machines and noise. I would have loved a Sunn 0))) or a NAILS on the bill: to contain the festival’s own anomaly. Bang Face is a festival that takes fun very seriously, but it doesn’t always take itself seriously enough. But with this year’s theme as ‘myths and legends’, if you can't handle the festival at its most Dionysian, do you really deserve it at its most Apollonian?
+Bang Face’s music exaggerates in volume and speed, and crucially its ability to fuse as many genres together as possible. One pundit tells me that Bang Face is the best festival because it contains all music, either in pastiche or earnest. There is a history of appreciating extremity in all its forms here — they even once hosted Napalm Death. I couldn’t help but compare my last experience at a music festival at Butlins, Bloc 2015, where I saw Dean Blunt perform a melon-twisting theatrical show of strobes, saxophones, smoke machines and noise. I would have loved a Sunn 0))) or a NAILS on the bill: to contain the festival’s own anomaly. Bang Face is a festival that takes fun very seriously, but it doesn’t always take itself seriously enough. But with this year’s theme as ‘myths and legends’, if you can't handle the festival at its most Dionysian, do you deserve it at its most Apollonian?
 
 **WHAT WE DO IN LIFE ECHOES IN ETERNITY**
 
