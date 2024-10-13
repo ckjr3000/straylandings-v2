@@ -24,7 +24,7 @@ eleventyExcludeFromCollections: true
                         {% else %}    
                         <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
                         {% endif %}        
-                        <div class="overlay circle news"></div>
+                        <div class="overlay circle {{ post.data.tags }}"></div>
                     </figure>
                     <aside class="details">
                         <h2>{{ post.data.title }}<br></h2>
