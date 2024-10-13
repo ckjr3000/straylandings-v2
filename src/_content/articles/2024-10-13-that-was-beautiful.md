@@ -12,7 +12,7 @@ blockquote: This was my first Bang Face, so you’ll have to forgive me if this
 ---
 **MUM THINKS I'M AT A YOGA RETREAT**
 
-This was my first Bang Face, so you’ll have to forgive me if this reads like one of Louis Theroux’s *Weird Weekends*. It is hard not to feel like a tourist when a festival’s culture is so notorious and heralded. In a way, it’s hard to believe that Bang Face can be popular enough to sell out entire to festival crowds. But this music is internationally popular, and its followers take this annual pilgrimage very seriously. The weekend prior, I was at London’s techno day festival, *Transmissions*, where it felt, ironically, like nothing really happened. A progressive stream of trippy rollers, but no hype, no drops, and no gun fingers. I am assured that Bang Face is the antithesis. I take the ticket on a whim, and whimsy feels like the right impulse to follow.  
+This was my first Bang Face, so you’ll have to forgive me if this reads like one of Louis Theroux’s *Weird Weekends*. It is hard not to feel like a tourist when a festival’s culture is so notorious and heralded. In a way, it’s hard to believe that Bang Face can be popular enough to sell out entire to festival crowds. But this music is internationally popular, and its followers take this annual pilgrimage very seriously. The weekend prior, I was at London’s techno festival, *Transmissions*, where it felt, ironically, like nothing really happened. A progressive stream of trippy rollers, but no hype, no drops, and no gun fingers. I am assured that Bang Face is the antithesis. I take the ticket on a whim, and whimsy feels like the right impulse to follow.  
 
 **WHAT IS HAPPENING?**  
 
