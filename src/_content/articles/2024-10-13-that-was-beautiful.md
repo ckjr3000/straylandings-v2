@@ -1,5 +1,5 @@
 ---
-title: MAGIC IS REAL
+title: THAT WAS BEAUTIFUL
 who: BANGFACE 2024
 image_upload: /assets/img/rectangle_example.svg.png
 author: Georgie McVicar
