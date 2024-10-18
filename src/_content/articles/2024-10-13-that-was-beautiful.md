@@ -1,5 +1,5 @@
 ---
-title: THAT WAS BEAUTIFUL
+title: MAGIC IS REAL
 who: BANGFACE 2024
 image_upload: /assets/img/rectangle_example.svg.png
 author: Georgie McVicar
@@ -16,7 +16,7 @@ This was my first Bang Face, so you’ll have to forgive me if this reads like o
 
 **WHAT IS HAPPENING?**  
 
-Writing a review of Bang Face feels perverse because any attempt at analysis seems to miss the point. The most concise description I have heard for the frenetic, anarchic energy of Bang Face is as “the opposite of a safe space”. There is something dangerous about Bang Face, and a good litmus test for any counterculture is considering who *wouldn’t* feel comfortable there. I liked imagining a bemused Brendan O’Neill or Mark Corrigan trying to make sense of it (I’m Louis Theroux, I’m Louis Theroux…). So the crowd is a mix of people who feel like they belong nowhere else, with adult babies, gimps, and the clientele in general who can make the festival feel as bizarro as a comic book convention. I see goblins and aliens and a man attempting to attack people if it wasn’t for the leash round his neck held by a cosplaying anime school girl. 
+Writing a review of Bang Face feels perverse because any attempt at analysis seems to miss the point. The most concise description I have heard for the frenetic, anarchic energy of Bang Face is as “the opposite of a safe space”. There is something dangerous about Bang Face, and a good litmus test for any counterculture is considering who *wouldn’t* feel comfortable there. I liked imagining a bemused Brendan O’Neill or Mark Corrigan trying to make sense of it (*I’m Louis Theroux, I’m Louis Theroux…*). So the crowd is a mix of people who feel like they belong nowhere else, with adult babies, gimps, and the clientele in general who can make the festival feel as bizarro as a comic book convention. I see goblins and aliens and a man attempting to attack people if it wasn’t for the leash round his neck held by a cosplaying anime school girl. 
 
 **BANGUS MAXIMUS**
 
