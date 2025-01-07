@@ -1,6 +1,6 @@
 ---
 title: Empty Vessels Make Most Noise
-who: paf, Visa, and pisspots
+who: paf, Ripatti, and pisspots
 image_upload: /assets/img/348235288_801571311597954_6327327615731495443_n.jpg
 author: Georgie McVicar
 blockquote: "I am writing this on the Eurostar back from paf (performing arts
@@ -48,4 +48,4 @@ The chamber pot also makes an appearance in *Ulysses*’ celebrated final chapte
 
 For Joyce, Jenny’s trivial tinkling found its way into a pun on Baroque music. For Bloom, Molly’s tinkling elevates to the status of Liszt's rhapsodies. Through these transmogrifications, the chamber pot becomes a body that sings. Its emptiness amplifies its resonance. An object vacant of meaning finds resonant promises pulsing with life.
 
-I was asked to write on whatever I desire most when I think of a liberatory future. But I am nearly back in London. So I guess I failed again. All I want for 2025 is to dance with ghosts, break the valves that confine us, strike the empty vessels until they resonate, and for the pisspots of our lives to overflow with what we make of them.
+I had planned to write about what I wanted from the future. But I am nearly back in London. So I guess I failed again. All I want for 2025 is to dance with ghosts, break the valves that confine us, strike the empty vessels until they resonate, and for the pisspots of our lives to overflow with what we make of them.
