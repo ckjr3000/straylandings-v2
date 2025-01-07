@@ -26,10 +26,14 @@ On this journey back I am listening to Vladislav Delay’s *Visa*, which has its
 
 Instrumental music can be hard to narrativise. But the track titles follow a (mostly Finnish) orthographic logic that tell the tale, even without the biographic context: 
 
-*Visaton* – a company that specialises in loudspeakers and audio systems 
-*Viaton* – “Innocent”
-*Viisari*  – “Hand" (as in the hand of a clock, like the hour hand or minute hand)
-*Vihollinen* – “Enemy”
+*Visaton* – a company that specialises in loudspeakers and audio systems \
+
+*Viaton* – “Innocent”\
+
+*Viisari*  – “Hand" (as in the hand of a clock, like the hour hand or minute hand)\
+
+*Vihollinen* – “Enemy”\
+
 *Viimeinen* – "Last" or “Final." 
 
 Ripatti wrote *Visa* not in the absence of obstructions, but through the will to transcend them. And we find that what runs through these titles is that morpheme of power and life: *vi.* The syllable that gives vitality, vigour, *vida* and *vita*, vividness, vivacity, and virtue. In a word, everything that a border cannot.
