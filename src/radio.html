@@ -2,66 +2,71 @@
 layout: default.html
 eleventyExcludeFromCollections: true
 ---
-<div class="container">        
-    <section>
-        <div class="bread-crumbs">
-            <a href="/">home</a><span class="articles">/</span>Radio
+
+<div class="container">
+  <section>
+    <div class="bread-crumbs">
+      <a href="/">home</a><span class="articles">/</span>Radio
+    </div>
+  </section>
+
+  <section>
+    <div class="collection">
+      <section class="sidebar">
+        <h2>Recommended</h2>
+        {% for post in collections.radio random limit:1 %}
+        <div class="single">
+          <a href="{{ post.url }}">
+            <figure>
+              {% if post.data.image_upload and post.data.image_upload != "" %}
+              <img
+                src="{{ post.data.image_upload}}"
+                alt="{{ post.data.title }}"
+              />
+              {% else %}
+              <img src="{{ post.data.image}}" alt="{{ post.data.title }}" />
+              {% endif %}
+              <div class="overlay circle radio"></div>
+            </figure>
+            <aside class="details">
+              <h2>
+                {{ post.data.title }} {% if post.data.who %} <br />{{
+                post.data.who }} {% endif %}
+              </h2>
+            </aside>
+          </a>
         </div>
-    </section>
-    
-    <section>
-        <div class="collection">
-            <section class="sidebar">   
-                <h2>Recommended</h2>
-                {% for post in collections.radio random limit:1 %}         
-                <div class="single">
-                    <a href="{{ post.url }}">
-                        <figure>
-                            {% if post.data.image_upload and post.data.image_upload != "" %}
-                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
-                            {% else %}    
-                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
-                            {% endif %} 
-                            <div class="overlay circle radio"></div>   
-                        </figure>
-                        <aside class="details">
-                            <h2> {{ post.data.title }}
-                                {% if post.data.who %}
-                                    <br>{{ post.data.who }}
-                                {% endif %}
-                            </h2>
-                        </aside>
-                    </a>
-                </div>   
-                {% endfor %}
-            </section>
+        {% endfor %}
+      </section>
+    </div>
+    <div class="collection">
+      <h1>Radio</h1>
+      <div class="collect">
+        {% assign reversedRadio = collections.radio | reverse %} {% for post in
+        reversedRadio %}
+        <div class="single">
+          <a href="{{ post.url }}">
+            <figure>
+              {% if post.data.image_upload and post.data.image_upload != "" %}
+              <img
+                src="{{ post.data.image_upload}}"
+                alt="{{ post.data.title }}"
+              />
+              {% else %}
+              <img src="{{ post.data.image}}" alt="{{ post.data.title }}" />
+              {% endif %}
+              <div class="overlay circle radio"></div>
+            </figure>
+            <aside class="details">
+              <h2>
+                {{ post.data.title }} {% if post.data.who %} <br />{{
+                post.data.who }} {% endif %}
+              </h2>
+            </aside>
+          </a>
         </div>
-        <div class="collection">
-            <h1>Radio</h1>
-            <div class="collect">
-                {% assign reversedRadio = collections.radio | reverse %}
-                {% for post in reversedRadio limit:20 %}
-                <div class="single">
-                    <a href="{{ post.url }}">
-                        <figure>
-                            {% if post.data.image_upload and post.data.image_upload != "" %}
-                                <img src="{{ post.data.image_upload}}" alt="{{ post.data.title }}">
-                            {% else %}    
-                                <img src="{{ post.data.image}}" alt="{{ post.data.title }}">
-                            {% endif %}    
-                            <div class="overlay circle radio"></div>
-                        </figure>
-                        <aside class="details">
-                            <h2> {{ post.data.title }}
-                                {% if post.data.who %}
-                                    <br>{{ post.data.who }}
-                                {% endif %}
-                            </h2>
-                        </aside>
-                    </a>
-                </div>   
-                {% endfor %}             
-            </div>
-        </div>
-    </section>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 </div>
