@@ -1,9 +1,10 @@
 ---
 title: The London Housing Crisis
 who: Rumah on Resonance FM
-image_upload: ""
-blockquote: In this episode of Stray Landings FM, we spoke to Sean Hughes, AKA Rumah, about the housing crisis in London and its impact on music.
+image_upload: /assets/img/img_6266.jpg
 author: Georgie_McVicar
+blockquote: In this episode of Stray Landings FM, we spoke to Sean Hughes, AKA
+  Rumah, about the housing crisis in London and its impact on music.
 image: http://i.imgur.com/mp3Iag8.jpg
 ---
 In this episode of Stray Landings FM, we spoke to Sean Hughes, AKA Rumah, about the housing crisis in London and its impact on music.
