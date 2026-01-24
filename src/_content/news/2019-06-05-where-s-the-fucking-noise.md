@@ -1,10 +1,13 @@
 ---
-title: "Where's The Fucking Noise?"
+title: Where's The Fucking Noise?
 who: Panel Discussion with Alien Jams, Cherche Encore, FLUF, SM-LL
-image_upload: ""
+image_upload: /assets/img/where-the-noise.jpg
 image: http://i.imgur.com/bScDsBdr.jpg
-blockquote: 'The title of this discussion comes from Q Bass’ 1991 rave jam, ‘Hardcore Will Never Die’, in which a desperate voice asks the listener: well hardcore did die, so where’s the fucking noise? This is noise not in the sense of noise-music, but as...'
 author: Georgie_McVicar
+blockquote: "The title of this discussion comes from Q Bass’ 1991 rave jam,
+  ‘Hardcore Will Never Die’, in which a desperate voice asks the listener: well
+  hardcore did die, so where’s the fucking noise? This is noise not in the sense
+  of noise-music, but as..."
 ---
 _Please note that this is a matinee event – doors will open at 2pm._
 
