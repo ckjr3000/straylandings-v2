@@ -1,10 +1,14 @@
 ---
 title: Video Game Music
 who: ETCH and Lucia H Chung on Resonance FM
-image_upload: ""
+image_upload: /assets/img/images-5-.jpeg
 image: http://i.imgur.com/wAFskMir.jpg
-blockquote: In this episode of Resonance FM, we spoke to ETCH and Lucia H Chung about video game music. How many of our earliest experiences of music came from video games? How does that impact our taste on later music making? Is there a romanticisation of 8-bit sounds? What makes video game music distinct from film soundtracks? We discussed all this and more.
 author: Georgie_McVicar
+blockquote: In this episode of Resonance FM, we spoke to ETCH and Lucia H Chung
+  about video game music. How many of our earliest experiences of music came
+  from video games? How does that impact our taste on later music making? Is
+  there a romanticisation of 8-bit sounds? What makes video game music distinct
+  from film soundtracks? We discussed all this and more.
 ---
 In this episode of Resonance FM, we spoke to ETCH and Lucia H Chung about video game music. How many of our earliest experiences of music came from video games? How does that impact our taste on later music making? Is there a romanticisation of 8-bit sounds? What makes video game music distinct from film soundtracks? We discussed all this and more.
 
