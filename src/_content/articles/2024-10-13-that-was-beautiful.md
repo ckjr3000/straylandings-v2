@@ -1,7 +1,7 @@
 ---
 title: THAT WAS BEAUTIFUL
 who: BANGFACE 2024
-image_upload: /assets/img/rectangle_example.svg.png
+image_upload: /assets/img/rectangle_example.svg-1-1-.png
 author: Georgie McVicar
 blockquote: This was my first Bang Face, so you’ll have to forgive me if this
   reads like one of Louis Theroux’s Weird Weekends. It is hard not to feel like
